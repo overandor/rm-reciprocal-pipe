@@ -67,6 +67,6 @@ jobs:
             echo "No changes to runs.json"
           else
             git add ui/runs.json
-            git commit -m "chore: update runs.json [skip ci]"
+            git commit -m "chore: update runs.json"
             git push
           fi
