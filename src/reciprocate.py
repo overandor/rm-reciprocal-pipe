@@ -100,26 +100,31 @@ def login(page, email: str, password: str) -> bool:
         log("Login form selectors did not match — site markup may have changed.")
         return False
 
-    # Wait for redirect away from /login or logout link appearing
-    try:
-        page.wait_for_url("**/login**", wait_until="domcontentloaded", timeout=5000)
-        # If we're still on /login after 5s, check for logout link
-        log("Still on /login after submit — checking for errors")
-        return False
-    except PWTimeout:
-        pass  # URL changed — good
+    # Wait for either: URL changes away from /login, or logout link appears.
+    # The site is a SPA so the URL may not change immediately.
+    log("Waiting for login to complete...")
+    for attempt in range(20):  # up to ~20s
+        page.wait_for_timeout(1000)
+        current_url = page.url
+        if "/login" not in current_url:
+            log(f"URL changed to {current_url} — login likely succeeded")
+            # Double-check for logout link
+            try:
+                page.wait_for_selector(LOGOUT_LINK, timeout=5000)
+                log("Logged in successfully (logout link found)")
+            except PWTimeout:
+                log("URL changed but no logout link — assuming logged in")
+            return True
+        # Check if logout link appeared even though URL hasn't changed
+        try:
+            page.wait_for_selector(LOGOUT_LINK, timeout=500)
+            log("Logged in successfully (logout link found while on /login)")
+            return True
+        except PWTimeout:
+            pass
 
-    # Verify we're actually logged in by checking for logout link
-    try:
-        page.wait_for_selector(LOGOUT_LINK, timeout=15000)
-        log("Logged in successfully (logout link found)")
-        return True
-    except PWTimeout:
-        if "/login" in page.url:
-            log("Still on /login — credentials likely invalid.")
-            return False
-        log(f"Logged in (URL changed to {page.url})")
-        return True
+    log(f"Still on /login after 20s — credentials likely invalid.")
+    return False
 
 
 def collect_viewers(page) -> list[dict]:
