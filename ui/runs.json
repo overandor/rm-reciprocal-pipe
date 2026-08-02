@@ -619,5 +619,96 @@
         "error": ""
       }
     ]
+  },
+  {
+    "id": "20260802T224034Z-556",
+    "started_at": "2026-08-02T22:40:34+00:00",
+    "finished_at": "2026-08-02T22:41:43+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "Billinbklyn",
+        "Petebodyworks",
+        "Jtakesajourney",
+        "Soredude",
+        "Villageguynyc",
+        "Svendaring",
+        "Robbywestchester",
+        "Jackyg",
+        "Johnpan",
+        "Jt_nyc"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260802T224034Z-556.webm",
+    "visited": [
+      {
+        "name": "Billinbklyn",
+        "url": "https://rentmasseur.com/Billinbklyn",
+        "visited": true,
+        "error": ""
+      },
+      {
+        "name": "Petebodyworks",
+        "url": "https://rentmasseur.com/petebodyworks",
+        "visited": true,
+        "error": ""
+      },
+      {
+        "name": "Jtakesajourney",
+        "url": "https://rentmasseur.com/Jtakesajourney",
+        "visited": true,
+        "error": ""
+      },
+      {
+        "name": "Soredude",
+        "url": "https://rentmasseur.com/soredude",
+        "visited": true,
+        "error": ""
+      },
+      {
+        "name": "Villageguynyc",
+        "url": "https://rentmasseur.com/villageguynyc",
+        "visited": true,
+        "error": ""
+      },
+      {
+        "name": "Svendaring",
+        "url": "https://rentmasseur.com/svendaring",
+        "visited": true,
+        "error": ""
+      },
+      {
+        "name": "Robbywestchester",
+        "url": "https://rentmasseur.com/Robbywestchester",
+        "visited": true,
+        "error": ""
+      },
+      {
+        "name": "Jackyg",
+        "url": "https://rentmasseur.com/Jackyg",
+        "visited": true,
+        "error": ""
+      },
+      {
+        "name": "Johnpan",
+        "url": "https://rentmasseur.com/johnpan",
+        "visited": true,
+        "error": ""
+      },
+      {
+        "name": "Jt_nyc",
+        "url": "https://rentmasseur.com/jt_nyc",
+        "visited": true,
+        "error": ""
+      }
+    ]
   }
 ]
