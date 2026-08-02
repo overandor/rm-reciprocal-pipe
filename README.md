@@ -13,7 +13,7 @@ dashboard to monitor it.
 ## Architecture
 
 ```
-GitHub Actions cron (every 10 min, 24/7)
+GitHub Actions cron (every 10 min, 24/7)  ← runs in the cloud
    └─ src/reciprocate.py  (Playwright)
         ├─ login(email, password)
         ├─ open /settings/whosawme
@@ -21,31 +21,36 @@ GitHub Actions cron (every 10 min, 24/7)
         ├─ visit each one back (random delay, capped)
         └─ append run record to ui/runs.json
    └─ commit ui/runs.json back to main
-   └─ GitHub Pages serves ui/ as the dashboard
-        └─ index.html fetches runs.json and renders stats + history
+
+Local dashboard  ← runs on your machine
+   └─ src/sync-runs.sh pulls runs.json from the repo via gh CLI
+   └─ python -m http.server serves ui/ at http://127.0.0.1:8099
+   └─ index.html fetches runs.json and renders stats + history
 ```
+
+The pipeline runs entirely in GitHub Actions (no local execution needed).
+The dashboard is a static page served locally that reads the cloud-committed
+`runs.json`.
 
 ## Repo layout
 
 - `src/reciprocate.py` — the Playwright reciprocate script
 - `src/requirements.txt` — Python deps
+- `src/sync-runs.sh` — pulls latest runs.json from the repo for the local dashboard
 - `.github/workflows/reciprocate.yml` — 24/7 cron pipeline (also `workflow_dispatch` with a dry-run toggle)
-- `.github/workflows/pages.yml` — publishes `ui/` to GitHub Pages
 - `ui/index.html` — monitoring dashboard
 - `ui/runs.json` — run history (written by the pipeline, read by the dashboard)
 
 ## Setup
 
-1. **Create the repo** and push this project to it.
-2. **Add repository secrets** (Settings → Secrets and variables → Actions):
+1. **Add repository secrets** (Settings → Secrets and variables → Actions):
    - `RM_EMAIL` — your rentmasseur login email
    - `RM_PASSWORD` — your rentmasseur login password
-3. **Enable GitHub Pages** (Settings → Pages → Source: GitHub Actions). The
-   `pages.yml` workflow will publish `ui/` on push.
-4. **Run a dry run first.** Actions tab → "Reciprocal Visit Pipeline" → Run
+2. **Run a dry run first.** Actions tab → "Reciprocal Visit Pipeline" → Run
    workflow → tick "Dry run". This verifies login + collection without visiting
    anyone back.
-5. Once the dry run looks good, let the cron schedule take over (every 30 min).
+3. Once the dry run looks good, let the cron schedule take over (every 10 min).
+4. **View the dashboard locally** (see below).
 
 ## Configuration (env vars in the workflow)
 
@@ -58,7 +63,26 @@ GitHub Actions cron (every 10 min, 24/7)
 | `RUNS_FILE`  | `ui/runs.json` | Where the run record is appended        |
 | `HEADFUL`    | `0`         | `1` shows the browser (local only)        |
 
-## Local run
+## Local dashboard (cloud pipeline)
+
+The pipeline runs in GitHub Actions — no local execution needed. To view the
+dashboard, serve `ui/` locally and sync `runs.json` from the repo:
+
+```bash
+cd ~/projects/rm-reciprocal-pipe
+
+# Terminal 1: serve the dashboard
+python3 -m http.server 8099 --bind 127.0.0.1 --directory ui
+
+# Terminal 2: keep runs.json in sync with the cloud
+./src/sync-runs.sh --watch        # polls every 30s
+```
+
+Then open http://127.0.0.1:8099 in your browser.
+
+## Local run (optional, for testing)
+
+If you want to run the pipeline locally instead of in GitHub Actions:
 
 ```bash
 cd ~/projects/rm-reciprocal-pipe
@@ -70,9 +94,6 @@ export RM_PASSWORD="yourpassword"
 export DRY_RUN=1            # try dry first
 python src/reciprocate.py
 ```
-
-Then open `ui/index.html` in a browser (or `python -m http.server -d ui 8080`)
-to see the dashboard read `ui/runs.json`.
 
 ## Selectors
 
