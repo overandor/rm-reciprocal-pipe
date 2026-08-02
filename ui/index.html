@@ -1,154 +1,347 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>RM Reciprocal Visit Pipeline</title>
-<style>
-  :root {
-    --bg:#0d1117; --panel:#161b22; --border:#30363d; --text:#e6edf3;
-    --muted:#8b949e; --ok:#3fb950; --err:#f85149; --warn:#d29922; --accent:#58a6ff;
-  }
-  *{box-sizing:border-box}
-  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-    background:var(--bg);color:var(--text);line-height:1.5}
-  header{padding:20px 24px;border-bottom:1px solid var(--border);
-    display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
-  header h1{font-size:18px;margin:0;font-weight:600}
-  header .sub{color:var(--muted);font-size:13px}
-  main{max-width:1100px;margin:0 auto;padding:24px 16px 80px}
-  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-bottom:24px}
-  .card{background:var(--panel);border:1px solid var(--border);border-radius:8px;padding:16px}
-  .card .label{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.04em}
-  .card .value{font-size:26px;font-weight:600;margin-top:4px}
-  .ok{color:var(--ok)} .err{color:var(--err)} .warn{color:var(--warn)}
-  table{width:100%;border-collapse:collapse;font-size:13px}
-  th,td{padding:8px 10px;text-align:left;border-bottom:1px solid var(--border);vertical-align:top}
-  th{color:var(--muted);font-weight:500;font-size:12px;text-transform:uppercase;letter-spacing:.04em}
-  tr:hover td{background:#1c2128}
-  .badge{display:inline-block;padding:2px 8px;border-radius:12px;font-size:11px;font-weight:600}
-  .badge.ok{background:rgba(63,185,80,.15);color:var(--ok)}
-  .badge.err{background:rgba(248,81,73,.15);color:var(--err)}
-  .badge.warn{background:rgba(210,153,34,.15);color:var(--warn)}
-  .badge.dry{background:rgba(88,166,255,.15);color:var(--accent)}
-  details{margin-top:8px}
-  details summary{cursor:pointer;color:var(--muted);font-size:12px}
-  .muted{color:var(--muted)}
-  .actions{display:flex;gap:8px;align-items:center}
-  button{background:var(--panel);color:var(--text);border:1px solid var(--border);
-    border-radius:6px;padding:6px 12px;cursor:pointer;font-size:13px}
-  button:hover{border-color:var(--accent)}
-  .empty{color:var(--muted);text-align:center;padding:40px}
-  a{color:var(--accent);text-decoration:none}
-  a:hover{text-decoration:underline}
-  .spark{display:flex;gap:2px;align-items:flex-end;height:40px;margin-top:8px}
-  .spark span{flex:1;background:var(--accent);border-radius:2px 2px 0 0;min-width:3px}
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>RM Reciprocal Visit Pipeline</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --panel: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --muted: #8b949e;
+      --ok: #3fb950;
+      --err: #f85149;
+      --warn: #d29922;
+      --accent: #58a6ff;
+    }
+
+    * {
+      box-sizing: border-box
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5
+    }
+
+    header {
+      padding: 20px 24px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px
+    }
+
+    header h1 {
+      font-size: 18px;
+      margin: 0;
+      font-weight: 600
+    }
+
+    header .sub {
+      color: var(--muted);
+      font-size: 13px
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 24px 16px 80px
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+      margin-bottom: 24px
+    }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px
+    }
+
+    .card .label {
+      color: var(--muted);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .04em
+    }
+
+    .card .value {
+      font-size: 26px;
+      font-weight: 600;
+      margin-top: 4px
+    }
+
+    .ok {
+      color: var(--ok)
+    }
+
+    .err {
+      color: var(--err)
+    }
+
+    .warn {
+      color: var(--warn)
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px
+    }
+
+    th,
+    td {
+      padding: 8px 10px;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top
+    }
+
+    th {
+      color: var(--muted);
+      font-weight: 500;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .04em
+    }
+
+    tr:hover td {
+      background: #1c2128
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 12px;
+      font-size: 11px;
+      font-weight: 600
+    }
+
+    .badge.ok {
+      background: rgba(63, 185, 80, .15);
+      color: var(--ok)
+    }
+
+    .badge.err {
+      background: rgba(248, 81, 73, .15);
+      color: var(--err)
+    }
+
+    .badge.warn {
+      background: rgba(210, 153, 34, .15);
+      color: var(--warn)
+    }
+
+    .badge.dry {
+      background: rgba(88, 166, 255, .15);
+      color: var(--accent)
+    }
+
+    details {
+      margin-top: 8px
+    }
+
+    details summary {
+      cursor: pointer;
+      color: var(--muted);
+      font-size: 12px
+    }
+
+    .muted {
+      color: var(--muted)
+    }
+
+    .actions {
+      display: flex;
+      gap: 8px;
+      align-items: center
+    }
+
+    button {
+      background: var(--panel);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 6px 12px;
+      cursor: pointer;
+      font-size: 13px
+    }
+
+    button:hover {
+      border-color: var(--accent)
+    }
+
+    .empty {
+      color: var(--muted);
+      text-align: center;
+      padding: 40px
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none
+    }
+
+    a:hover {
+      text-decoration: underline
+    }
+
+    .spark {
+      display: flex;
+      gap: 2px;
+      align-items: flex-end;
+      height: 40px;
+      margin-top: 8px
+    }
+
+    .spark span {
+      flex: 1;
+      background: var(--accent);
+      border-radius: 2px 2px 0 0;
+      min-width: 3px
+    }
+  </style>
 </head>
+
 <body>
-<header>
-  <div>
-    <h1>RM Reciprocal Visit Pipeline</h1>
-    <div class="sub">24/7 CI/CD &middot; rentmasseur.com &middot; Who Saw Me &rarr; visit back</div>
-  </div>
-  <div class="actions">
-    <span id="freshness" class="muted"></span>
-    <button id="refresh">Refresh</button>
-  </div>
-</header>
-<main>
-  <div class="grid" id="stats"></div>
-  <div class="card" style="margin-bottom:24px">
-    <div class="label">Visits per run (last 40)</div>
-    <div class="spark" id="spark"></div>
-  </div>
-  <table>
-    <thead><tr>
-      <th>Started</th><th>Status</th><th>Viewers</th><th>Visited</th><th>Dry</th><th>Error</th>
-    </tr></thead>
-    <tbody id="rows"></tbody>
-  </table>
-  <p class="muted" style="margin-top:16px;font-size:12px">
-    Data source: <code>ui/runs.json</code> committed by the GitHub Actions workflow.
-  </p>
-</main>
+  <header>
+    <div>
+      <h1>RM Reciprocal Visit Pipeline</h1>
+      <div class="sub">24/7 CI/CD &middot; rentmasseur.com &middot; Who Saw Me &rarr; visit back</div>
+    </div>
+    <div class="actions">
+      <span id="freshness" class="muted"></span>
+      <button id="refresh">Refresh</button>
+    </div>
+  </header>
+  <main>
+    <div class="grid" id="stats"></div>
+    <div class="card" style="margin-bottom:24px">
+      <div class="label">Visits per run (last 40)</div>
+      <div class="spark" id="spark"></div>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Started</th>
+          <th>Status</th>
+          <th>Viewers</th>
+          <th>Visited</th>
+          <th>Verified</th>
+          <th>Dry</th>
+          <th>Error</th>
+        </tr>
+      </thead>
+      <tbody id="rows"></tbody>
+    </table>
+    <p class="muted" style="margin-top:16px;font-size:12px">
+      Data source: <code>ui/runs.json</code> committed by the GitHub Actions workflow.
+    </p>
+  </main>
 
-<script>
-const RUNS_URL = "runs.json";
-const $ = (id) => document.getElementById(id);
+  <script>
+    const RUNS_URL = "runs.json";
+    const $ = (id) => document.getElementById(id);
 
-function fmt(iso){ const d=new Date(iso); if(isNaN(d)) return iso;
-  return d.toLocaleString(); }
-function ago(iso){ const d=new Date(iso); if(isNaN(d)) return "";
-  const s=Math.round((Date.now()-d)/1000);
-  if(s<60) return s+"s ago"; if(s<3600) return Math.round(s/60)+"m ago";
-  if(s<86400) return Math.round(s/3600)+"h ago"; return Math.round(s/86400)+"d ago"; }
+    function fmt(iso) {
+      const d = new Date(iso); if (isNaN(d)) return iso;
+      return d.toLocaleString();
+    }
+    function ago(iso) {
+      const d = new Date(iso); if (isNaN(d)) return "";
+      const s = Math.round((Date.now() - d) / 1000);
+      if (s < 60) return s + "s ago"; if (s < 3600) return Math.round(s / 60) + "m ago";
+      if (s < 86400) return Math.round(s / 3600) + "h ago"; return Math.round(s / 86400) + "d ago";
+    }
 
-function badge(r){
-  if(r.dry_run) return `<span class="badge dry">dry</span>`;
-  if(r.status==="ok") return `<span class="badge ok">ok</span>`;
-  if(r.status==="login_failed") return `<span class="badge err">login</span>`;
-  return `<span class="badge err">${r.status}</span>`;
-}
+    function badge(r) {
+      if (r.dry_run) return `<span class="badge dry">dry</span>`;
+      if (r.status === "ok") return `<span class="badge ok">ok</span>`;
+      if (r.status === "login_failed") return `<span class="badge err">login</span>`;
+      return `<span class="badge err">${r.status}</span>`;
+    }
 
-function render(runs){
-  runs=[...runs].reverse(); // newest first
-  const ok=runs.filter(r=>r.status==="ok"&&!r.dry_run).length;
-  const fails=runs.filter(r=>r.status!=="ok").length;
-  const dry=runs.filter(r=>r.dry_run).length;
-  const totalVisits=runs.reduce((a,r)=>a+(r.visited_count||0),0);
-  const last=runs[0];
+    function render(runs) {
+      runs = [...runs].reverse(); // newest first
+      const ok = runs.filter(r => r.status === "ok" && !r.dry_run).length;
+      const fails = runs.filter(r => r.status !== "ok").length;
+      const dry = runs.filter(r => r.dry_run).length;
+      const totalVisits = runs.reduce((a, r) => a + (r.visited_count || 0), 0);
+      const last = runs[0];
 
-  $("stats").innerHTML = [
-    ["Total runs", runs.length, ""],
-    ["Successful", ok, "ok"],
-    ["Failed", fails, fails?"err":""],
-    ["Dry runs", dry, "warn"],
-    ["Total visits", totalVisits, ""],
-    ["Last run", last?ago(last.started_at):"—", "muted"],
-  ].map(([l,v,c])=>`<div class="card"><div class="label">${l}</div>
+      const verified = runs.filter(r => r.verified_count !== undefined && r.verified_count !== null);
+      const totalVerified = verified.reduce((a, r) => a + (r.verified_count || 0), 0);
+
+      $("stats").innerHTML = [
+        ["Total runs", runs.length, ""],
+        ["Successful", ok, "ok"],
+        ["Failed", fails, fails ? "err" : ""],
+        ["Dry runs", dry, "warn"],
+        ["Total visits", totalVisits, ""],
+        ["Verified", totalVerified, totalVerified ? "ok" : "muted"],
+        ["Last run", last ? ago(last.started_at) : "—", "muted"],
+      ].map(([l, v, c]) => `<div class="card"><div class="label">${l}</div>
     <div class="value ${c}">${v}</div></div>`).join("");
 
-  $("freshness").textContent = last ? "last: "+ago(last.started_at) : "";
+      $("freshness").textContent = last ? "last: " + ago(last.started_at) : "";
 
-  const spark = runs.slice(0,40).reverse().map(r=>{
-    const h = Math.min(40, (r.visited_count||0)*2);
-    return `<span style="height:${Math.max(2,h)}px" title="${r.started_at}: ${r.visited_count||0}"></span>`;
-  }).join("");
-  $("spark").innerHTML = spark || '<span class="muted">no data</span>';
+      const spark = runs.slice(0, 40).reverse().map(r => {
+        const h = Math.min(40, (r.visited_count || 0) * 2);
+        return `<span style="height:${Math.max(2, h)}px" title="${r.started_at}: ${r.visited_count || 0}"></span>`;
+      }).join("");
+      $("spark").innerHTML = spark || '<span class="muted">no data</span>';
 
-  $("rows").innerHTML = runs.length ? runs.map(r=>`
+      $("rows").innerHTML = runs.length ? runs.map(r => `
     <tr>
       <td>${fmt(r.started_at)}</td>
       <td>${badge(r)}</td>
-      <td>${r.viewers_found||0}</td>
-      <td>${r.visited_count||0}</td>
-      <td>${r.dry_run?"yes":"no"}</td>
-      <td class="muted">${r.error||""}</td>
+      <td>${r.viewers_found || 0}</td>
+      <td>${r.visited_count || 0}</td>
+      <td>${r.verified_count !== undefined && r.verified_count !== null ? `<span class="${r.verified_count > 0 ? 'ok' : 'err'}">${r.verified_count}</span>` : '—'}</td>
+      <td>${r.dry_run ? "yes" : "no"}</td>
+      <td class="muted">${r.error || ""}</td>
     </tr>
-    ${r.visited&&r.visited.length?`<tr><td colspan="6" style="padding:0">
+    ${r.verification && r.verification.missing && r.verification.missing.length ? `<tr><td colspan="7" style="padding:0">
+      <details><summary class="err">${r.verification.missing.length} not verified in 'Who Did I See'</summary>
+        <div style="padding:8px 10px">${r.verification.missing.map(n => `<div class="err">${n}</div>`).join("")}</div>
+      </details></td></tr>` : ""}
+    ${r.visited && r.visited.length ? `<tr><td colspan="7" style="padding:0">
       <details><summary>${r.visited.length} visited profiles</summary>
         <div style="padding:8px 10px">
-          ${r.visited.map(v=>`<div><a href="${v.url}" target="_blank" rel="noopener">${v.name||v.url}</a>
-            ${v.visited?'<span class="ok">✓</span>':'<span class="err">✗</span>'}
-            <span class="muted">${v.error||""}</span></div>`).join("")}
-        </div></details></td></tr>`:""}
-  `).join("") : `<tr><td colspan="6" class="empty">No runs yet. Trigger the workflow to populate runs.json.</td></tr>`;
-}
+          ${r.visited.map(v => `<div><a href="${v.url}" target="_blank" rel="noopener">${v.name || v.url}</a>
+            ${v.visited ? '<span class="ok">✓</span>' : '<span class="err">✗</span>'}
+            <span class="muted">${v.error || ""}</span></div>`).join("")}
+        </div></details></td></tr>`: ""}
+  `).join("") : `<tr><td colspan="7" class="empty">No runs yet. Trigger the workflow to populate runs.json.</td></tr>`;
+    }
 
-async function load(){
-  try{
-    const r = await fetch(RUNS_URL+"?t="+Date.now());
-    if(!r.ok) throw new Error("HTTP "+r.status);
-    const runs = await r.json();
-    render(Array.isArray(runs)?runs:[]);
-  }catch(e){
-    $("rows").innerHTML = `<tr><td colspan="6" class="empty err">Failed to load runs.json: ${e.message}</td></tr>`;
-  }
-}
-$("refresh").onclick = load;
-load();
-setInterval(load, 60000);
-</script>
+    async function load() {
+      try {
+        const r = await fetch(RUNS_URL + "?t=" + Date.now());
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        const runs = await r.json();
+        render(Array.isArray(runs) ? runs : []);
+      } catch (e) {
+        $("rows").innerHTML = `<tr><td colspan="7" class="empty err">Failed to load runs.json: ${e.message}</td></tr>`;
+      }
+    }
+    $("refresh").onclick = load;
+    load();
+    setInterval(load, 60000);
+  </script>
 </body>
+
 </html>

@@ -2,8 +2,11 @@
 Reciprocal-visit pipeline for rentmasseur.com "Who Saw Me".
 
 Logs in, opens /settings/whosawme, collects the profile links of people who
-viewed you, and visits each of them back (reciprocal visit). Records every run
-as a JSON entry in ui/runs.json so the dashboard can render it.
+viewed you, visits each of them back (reciprocal visit), then opens the
+"Who Did I See" tab and verifies the visits registered. If "Who Did I See"
+doesn't reflect the "Who Saw Me" entries, the run is marked as failed.
+
+Records every run as a JSON entry in ui/runs.json for the dashboard.
 
 Env vars:
   RM_EMAIL     rentmasseur login email            (required)
@@ -14,10 +17,13 @@ Env vars:
   MAX_DELAY_S  max seconds between visits          (default "5")
   RUNS_FILE    path to runs.json                   (default "ui/runs.json")
   HEADFUL      "1" to show the browser             (default "0")
+  RECORD_DIR   directory for session video         (default "recordings")
 
-NOTE: selectors below are best-effort against the live site and may need
-tweaking if the markup changes. They are grouped in SELECTORS so you can
-adjust them in one place.
+Selectors were verified against the live site on 2026-08-02:
+  - Login:   input#email, input#password, button:has-text("Login")
+  - Viewers: a.username (href="/{username}")
+  - Tabs:    text "WHO SAW ME" / "WHO DID I SEE"
+  - Cookie:  button:has-text("Accept all")
 """
 from __future__ import annotations
 
@@ -32,18 +38,20 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
 
 BASE = "https://rentmasseur.com"
-WHOSAWME = f"{BASE}/settings/whosawme"
+LOGIN_URL = f"{BASE}/login"
+WHOSAWME_URL = f"{BASE}/settings/whosawme"
 
-SELECTORS = {
-    # Login form
-    "email_input": 'input[name="email"], input[type="email"], input#email',
-    "pass_input": 'input[name="password"], input[type="password"], input#password',
-    "submit_btn": 'button[type="submit"], input[type="submit"], button:has-text("Log in"), button:has-text("Sign in")',
-    # "Who saw me" viewer entries. We look for anchors whose href contains /user/ or /profile/.
-    "viewer_link": 'a[href*="/user/"], a[href*="/profile/"], a[href*="/members/"]',
-    # Logged-in signal
-    "logged_in_marker": 'a[href*="/logout"], a:has-text("Log out"), a:has-text("My Account")',
-}
+# Verified selectors — do not change without testing against the live site.
+EMAIL_SEL = "input#email"
+PASS_SEL = "input#password"
+LOGIN_BTN = 'button:has-text("Login")'
+LOGOUT_LINK = 'a:has-text("Logout")'
+COOKIE_ACCEPT = 'button:has-text("Accept all")'
+# Viewer links on "Who Saw Me" — class contains "username", href is /{username}
+VIEWER_LINK = "a.username"
+# Tab labels on the visits page
+WHOSAWME_TAB = 'text="WHO SAW ME"'
+WHODIDISEE_TAB = 'text="WHO DID I SEE"'
 
 
 def env(key: str, default: str = "") -> str:
@@ -68,60 +76,92 @@ def require_creds() -> tuple[str, str]:
     return email, pw
 
 
-def login(page, email: str, password: str) -> bool:
-    log("Navigating to login page")
-    page.goto(f"{BASE}/login", wait_until="domcontentloaded")
+def dismiss_cookie_banner(page) -> None:
     try:
-        page.fill(SELECTORS["email_input"], email, timeout=15000)
-        page.fill(SELECTORS["pass_input"], password, timeout=15000)
-        page.click(SELECTORS["submit_btn"], timeout=15000)
+        btn = page.locator(COOKIE_ACCEPT)
+        if btn.count() > 0:
+            btn.first.click(timeout=3000)
+            log("Dismissed cookie banner")
+    except (PWTimeout, Exception):
+        pass  # Banner may not appear
+
+
+def login(page, email: str, password: str) -> bool:
+    log(f"Navigating to {LOGIN_URL}")
+    page.goto(LOGIN_URL, wait_until="domcontentloaded")
+    dismiss_cookie_banner(page)
+
+    try:
+        page.fill(EMAIL_SEL, email, timeout=15000)
+        page.fill(PASS_SEL, password, timeout=15000)
+        log("Submitting login form")
+        page.click(LOGIN_BTN, timeout=15000)
     except PWTimeout:
         log("Login form selectors did not match — site markup may have changed.")
         return False
-    # Wait for a logged-in marker or a URL change away from /login
+
+    # Wait for redirect away from /login or logout link appearing
     try:
-        page.wait_for_selector(SELECTORS["logged_in_marker"], timeout=20000)
-        log("Logged in successfully")
+        page.wait_for_url("**/login**", wait_until="domcontentloaded", timeout=5000)
+        # If we're still on /login after 5s, check for logout link
+        log("Still on /login after submit — checking for errors")
+        return False
+    except PWTimeout:
+        pass  # URL changed — good
+
+    # Verify we're actually logged in by checking for logout link
+    try:
+        page.wait_for_selector(LOGOUT_LINK, timeout=15000)
+        log("Logged in successfully (logout link found)")
         return True
     except PWTimeout:
         if "/login" in page.url:
-            log("Still on /login after submit — credentials likely invalid.")
+            log("Still on /login — credentials likely invalid.")
             return False
-        log("Logged in (no explicit marker, but URL changed)")
+        log(f"Logged in (URL changed to {page.url})")
         return True
 
 
 def collect_viewers(page) -> list[dict]:
-    log(f"Opening {WHOSAWME}")
-    page.goto(WHOSAWME, wait_until="domcontentloaded")
-    # Give lazy-loaded lists a chance to render
+    log(f"Opening {WHOSAWME_URL}")
+    page.goto(WHOSAWME_URL, wait_until="domcontentloaded")
+    dismiss_cookie_banner(page)
+
+    # Make sure we're on the "WHO SAW ME" tab
     try:
-        page.wait_for_selector(SELECTORS["viewer_link"], timeout=20000)
+        page.click(WHOSAWME_TAB, timeout=10000)
+        log("Clicked 'WHO SAW ME' tab")
+    except (PWTimeout, Exception):
+        log("Could not click 'WHO SAW ME' tab (may already be active)")
+
+    # Wait for viewer links to render
+    try:
+        page.wait_for_selector(VIEWER_LINK, timeout=20000)
     except PWTimeout:
-        log("No viewer links found (page may be empty or selectors changed).")
+        log("No viewer links found (page may be empty or not logged in).")
         return []
 
     seen: set[str] = set()
     viewers: list[dict] = []
-    # Scroll a bit to load more entries
-    for _ in range(2):
+    # Scroll to load more entries
+    for _ in range(3):
         page.mouse.wheel(0, 4000)
-        page.wait_for_timeout(600)
+        page.wait_for_timeout(800)
 
-    anchors = page.query_selector_all(SELECTORS["viewer_link"])
+    anchors = page.query_selector_all(VIEWER_LINK)
     for a in anchors:
         href = a.get_attribute("href") or ""
         if not href:
             continue
         full = href if href.startswith("http") else BASE + href
-        # Normalize to the profile root (strip query/fragments)
-        key = full.split("?")[0].split("#")[0]
-        if key in seen or "/settings/" in key:
+        key = full.split("?")[0].split("#")[0].rstrip("/")
+        # Skip non-profile links (settings, advertise, etc.)
+        if key in seen or "/settings/" in key or "/advertise/" in key:
             continue
         seen.add(key)
         name = (a.inner_text() or "").strip()[:80]
         viewers.append({"name": name, "url": key})
-    log(f"Collected {len(viewers)} unique viewers")
+    log(f"Collected {len(viewers)} unique viewers from 'Who Saw Me'")
     return viewers
 
 
@@ -153,6 +193,67 @@ def visit_back(page, viewers: list[dict], dry_run: bool) -> list[dict]:
     return results
 
 
+def verify_whodidisee(page, expected_viewers: list[dict]) -> dict:
+    """
+    Open the 'Who Did I See' tab and check that the viewers we just visited
+    appear there. If they don't, the visits didn't register and the pipe
+    didn't actually work.
+
+    Returns a dict with:
+      - saw_count: how many of the visited profiles appear in 'Who Did I See'
+      - matched: list of matched viewer names
+      - missing: list of viewer names not found in 'Who Did I See'
+    """
+    log("Verifying visits via 'WHO DID I SEE' tab")
+    # Navigate back to the visits page
+    page.goto(WHOSAWME_URL, wait_until="domcontentloaded")
+    dismiss_cookie_banner(page)
+
+    # Click the "WHO DID I SEE" tab
+    try:
+        page.click(WHODIDISEE_TAB, timeout=10000)
+        log("Clicked 'WHO DID I SEE' tab")
+    except (PWTimeout, Exception) as e:
+        log(f"Could not click 'WHO DID I SEE' tab: {e}")
+        return {"saw_count": 0, "matched": [], "missing": [v["name"] for v in expected_viewers], "error": "tab not found"}
+
+    # Wait for the list to render
+    try:
+        page.wait_for_selector(VIEWER_LINK, timeout=15000)
+    except PWTimeout:
+        log("No entries in 'Who Did I See' — visits may not have registered.")
+        return {"saw_count": 0, "matched": [], "missing": [v["name"] for v in expected_viewers]}
+
+    # Scroll to load entries
+    for _ in range(3):
+        page.mouse.wheel(0, 4000)
+        page.wait_for_timeout(800)
+
+    # Collect who appears in "Who Did I See"
+    seen_urls: set[str] = set()
+    anchors = page.query_selector_all(VIEWER_LINK)
+    for a in anchors:
+        href = a.get_attribute("href") or ""
+        if href:
+            full = href if href.startswith("http") else BASE + href
+            seen_urls.add(full.split("?")[0].split("#")[0].rstrip("/"))
+
+    expected_urls = {v["url"] for v in expected_viewers if v.get("visited")}
+    matched = [v for v in expected_viewers if v.get("visited") and v["url"] in seen_urls]
+    missing = [v for v in expected_viewers if v.get("visited") and v["url"] not in seen_urls]
+
+    log(f"Verification: {len(matched)}/{len(expected_urls)} visited profiles appear in 'Who Did I See'")
+    if missing:
+        log(f"Missing from 'Who Did I See': {[v['name'] for v in missing[:10]]}")
+
+    return {
+        "saw_count": len(matched),
+        "expected_count": len(expected_urls),
+        "matched": [v["name"] for v in matched],
+        "missing": [v["name"] for v in missing],
+    }
+
+
 def append_run(runs_file: Path, record: dict) -> None:
     runs_file.parent.mkdir(parents=True, exist_ok=True)
     runs: list[dict] = []
@@ -163,7 +264,6 @@ def append_run(runs_file: Path, record: dict) -> None:
             log("runs.json was corrupt — starting fresh")
             runs = []
     runs.append(record)
-    # Keep the tail bounded so the file doesn't grow forever
     runs = runs[-500:]
     runs_file.write_text(json.dumps(runs, indent=2))
     log(f"Wrote run to {runs_file} (total {len(runs)})")
@@ -174,10 +274,17 @@ def main() -> int:
     dry_run = env("DRY_RUN", "0") == "1"
     runs_file = Path(env("RUNS_FILE", "ui/runs.json"))
     headful = env("HEADFUL", "0") == "1"
+    record_dir = Path(env("RECORD_DIR", "recordings"))
+    record_dir.mkdir(parents=True, exist_ok=True)
 
     started = datetime.now(timezone.utc)
+    run_id = started.strftime("%Y%m%dT%H%M%SZ") + f"-{random.randint(100,999)}"
+    video_path = record_dir / f"{run_id}.webm"
     status = "ok"
     error = ""
+    viewers: list[dict] = []
+    visited: list[dict] = []
+    verification: dict = {}
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=not headful)
@@ -185,6 +292,8 @@ def main() -> int:
             user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
             "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
             viewport={"width": 1280, "height": 900},
+            record_video_dir=str(record_dir),
+            record_video_size={"width": 1280, "height": 900},
         )
         page = ctx.new_page()
         try:
@@ -192,26 +301,52 @@ def main() -> int:
                 status, error = "login_failed", "could not log in"
             else:
                 viewers = collect_viewers(page)
-                visited = visit_back(page, viewers, dry_run)
-                succeeded = sum(1 for r in visited if r.get("visited"))
-                log(f"Reciprocal visits done: {succeeded}/{len(visited)} succeeded")
+                if not viewers:
+                    status, error = "no_viewers", "no viewers found on Who Saw Me"
+                else:
+                    visited = visit_back(page, viewers, dry_run)
+                    succeeded = sum(1 for r in visited if r.get("visited"))
+                    log(f"Reciprocal visits done: {succeeded}/{len(visited)} succeeded")
+
+                    if not dry_run and succeeded > 0:
+                        verification = verify_whodidisee(page, visited)
+                        # If none of the visits registered, mark as failed
+                        if verification.get("saw_count", 0) == 0 and verification.get("expected_count", 0) > 0:
+                            status = "verification_failed"
+                            error = "visits did not register in 'Who Did I See'"
+                            log("VERIFICATION FAILED: visits did not register")
         except Exception as e:  # noqa: BLE001
             status, error = "error", str(e)[:200]
             log(f"Run failed: {error}")
         finally:
+            # Close context first so the video file is finalized
+            video = page.video
             ctx.close()
             browser.close()
+            # Rename the video file to our run ID
+            if video:
+                try:
+                    original = video.path()
+                    if original and Path(original).exists():
+                        target = record_dir / f"{run_id}.webm"
+                        Path(original).rename(target)
+                        log(f"Session video saved: {target}")
+                except Exception as e:  # noqa: BLE001
+                    log(f"Could not save video: {e}")
 
     record = {
-        "id": started.strftime("%Y%m%dT%H%M%SZ") + f"-{random.randint(100,999)}",
+        "id": run_id,
         "started_at": started.isoformat(timespec="seconds"),
         "finished_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "status": status,
         "error": error,
         "dry_run": dry_run,
-        "viewers_found": len(viewers) if status == "ok" else 0,
-        "visited_count": sum(1 for r in visited if r.get("visited")) if status == "ok" else 0,
-        "visited": visited if status == "ok" else [],
+        "viewers_found": len(viewers),
+        "visited_count": sum(1 for r in visited if r.get("visited")),
+        "verified_count": verification.get("saw_count", 0),
+        "verification": verification if verification else None,
+        "video": f"recordings/{run_id}.webm",
+        "visited": visited,
     }
     append_run(runs_file, record)
     return 0 if status == "ok" else 1
