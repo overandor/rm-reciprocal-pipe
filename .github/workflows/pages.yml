@@ -4,6 +4,10 @@ on:
   push:
     branches: [main]
     paths: [ui/**]
+  workflow_run:
+    workflows: ["Reciprocal Visit Pipeline"]
+    types: [completed]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
