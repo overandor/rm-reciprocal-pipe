@@ -1,0 +1,62 @@
+name: Reciprocal Visit Pipeline
+
+on:
+  schedule:
+    # Every 10 minutes, 24/7. GitHub Actions cron is best-effort and can drift
+    # or be deprioritized for free repos; see README for a self-hosted fallback.
+    # Note: GitHub's docs say scheduled workflows run on the shortest interval
+    # supported is 5 min, but 10 min is more reliably honored for free repos.
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (don't actually visit back)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reciprocate
+  cancel-in-progress: false
+
+jobs:
+  reciprocate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: src/requirements.txt
+
+      - name: Install deps + Playwright browsers
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r src/requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Run reciprocal-visit pipeline
+        working-directory: ${{ github.workspace }}
+        env:
+          RM_EMAIL: ${{ secrets.RM_EMAIL }}
+          RM_PASSWORD: ${{ secrets.RM_PASSWORD }}
+          DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && '1' || '0' }}
+          RUNS_FILE: ui/runs.json
+        run: python src/reciprocate.py
+
+      - name: Commit updated runs.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet ui/runs.json; then
+            echo "No changes to runs.json"
+          else
+            git add ui/runs.json
+            git commit -m "chore: update runs.json [skip ci]"
+            git push
+          fi
