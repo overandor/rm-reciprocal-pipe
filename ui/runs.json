@@ -1,1 +1,77 @@
-[]
+[
+  {
+    "id": "20260802T195907Z-905",
+    "started_at": "2026-08-02T19:59:07+00:00",
+    "finished_at": "2026-08-02T19:59:36+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": true,
+    "viewers_found": 10,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260802T195907Z-905.webm",
+    "visited": [
+      {
+        "name": "Soredude",
+        "url": "https://rentmasseur.com/soredude",
+        "visited": false,
+        "dry_run": true
+      },
+      {
+        "name": "Villageguynyc",
+        "url": "https://rentmasseur.com/villageguynyc",
+        "visited": false,
+        "dry_run": true
+      },
+      {
+        "name": "Svendaring",
+        "url": "https://rentmasseur.com/svendaring",
+        "visited": false,
+        "dry_run": true
+      },
+      {
+        "name": "Robbywestchester",
+        "url": "https://rentmasseur.com/Robbywestchester",
+        "visited": false,
+        "dry_run": true
+      },
+      {
+        "name": "Jackyg",
+        "url": "https://rentmasseur.com/Jackyg",
+        "visited": false,
+        "dry_run": true
+      },
+      {
+        "name": "Johnpan",
+        "url": "https://rentmasseur.com/johnpan",
+        "visited": false,
+        "dry_run": true
+      },
+      {
+        "name": "Jt_nyc",
+        "url": "https://rentmasseur.com/jt_nyc",
+        "visited": false,
+        "dry_run": true
+      },
+      {
+        "name": "Nicolahskott",
+        "url": "https://rentmasseur.com/Nicolahskott",
+        "visited": false,
+        "dry_run": true
+      },
+      {
+        "name": "Timberchen",
+        "url": "https://rentmasseur.com/Timberchen",
+        "visited": false,
+        "dry_run": true
+      },
+      {
+        "name": "AdamYo",
+        "url": "https://rentmasseur.com/AdamYo",
+        "visited": false,
+        "dry_run": true
+      }
+    ]
+  }
+]
