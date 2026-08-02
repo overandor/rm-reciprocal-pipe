@@ -49,9 +49,9 @@ LOGOUT_LINK = 'a:has-text("Logout")'
 COOKIE_ACCEPT = 'button:has-text("Accept all")'
 # Viewer links on "Who Saw Me" — class contains "username", href is /{username}
 VIEWER_LINK = "a.username"
-# Tab labels on the visits page
-WHOSAWME_TAB = 'text="WHO SAW ME"'
-WHODIDISEE_TAB = 'text="WHO DID I SEE"'
+# Tab labels on the visits page (buttons with mixed case)
+WHOSAWME_TAB = 'button:has-text("Who Saw Me")'
+WHODIDISEE_TAB = 'button:has-text("Who Did I See")'
 
 
 def env(key: str, default: str = "") -> str:
