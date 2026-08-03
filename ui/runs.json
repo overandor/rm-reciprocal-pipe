@@ -983,5 +983,80 @@
         "error": ""
       }
     ]
+  },
+  {
+    "id": "20260803T163700Z-612",
+    "started_at": "2026-08-03T16:37:00+00:00",
+    "finished_at": "2026-08-03T16:37:18+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": true,
+    "viewers_found": 10,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260803T163700Z-612.webm",
+    "visited": [
+      {
+        "name": "Pierrejms",
+        "url": "https://rentmasseur.com/pierrejms",
+        "visited": false,
+        "dry_run": true
+      },
+      {
+        "name": "HanzieB",
+        "url": "https://rentmasseur.com/HanzieB",
+        "visited": false,
+        "dry_run": true
+      },
+      {
+        "name": "JoshuaNY",
+        "url": "https://rentmasseur.com/JoshuaNY",
+        "visited": false,
+        "dry_run": true
+      },
+      {
+        "name": "DJMbeach",
+        "url": "https://rentmasseur.com/DJMbeach",
+        "visited": false,
+        "dry_run": true
+      },
+      {
+        "name": "Hydratedlips",
+        "url": "https://rentmasseur.com/Hydratedlips",
+        "visited": false,
+        "dry_run": true
+      },
+      {
+        "name": "Nicolahskott",
+        "url": "https://rentmasseur.com/Nicolahskott",
+        "visited": false,
+        "dry_run": true
+      },
+      {
+        "name": "Guysfriend",
+        "url": "https://rentmasseur.com/guysfriend",
+        "visited": false,
+        "dry_run": true
+      },
+      {
+        "name": "Pajinnyc",
+        "url": "https://rentmasseur.com/pajinnyc",
+        "visited": false,
+        "dry_run": true
+      },
+      {
+        "name": "Billinbklyn",
+        "url": "https://rentmasseur.com/Billinbklyn",
+        "visited": false,
+        "dry_run": true
+      },
+      {
+        "name": "Petebodyworks",
+        "url": "https://rentmasseur.com/petebodyworks",
+        "visited": false,
+        "dry_run": true
+      }
+    ]
   }
 ]
