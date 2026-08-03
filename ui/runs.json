@@ -892,5 +892,96 @@
         "error": ""
       }
     ]
+  },
+  {
+    "id": "20260803T151426Z-440",
+    "started_at": "2026-08-03T15:14:26+00:00",
+    "finished_at": "2026-08-03T15:15:39+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "Pierrejms",
+        "HanzieB",
+        "JoshuaNY",
+        "DJMbeach",
+        "Hydratedlips",
+        "Nicolahskott",
+        "Guysfriend",
+        "Pajinnyc",
+        "Billinbklyn",
+        "Petebodyworks"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260803T151426Z-440.webm",
+    "visited": [
+      {
+        "name": "Pierrejms",
+        "url": "https://rentmasseur.com/pierrejms",
+        "visited": true,
+        "error": ""
+      },
+      {
+        "name": "HanzieB",
+        "url": "https://rentmasseur.com/HanzieB",
+        "visited": true,
+        "error": ""
+      },
+      {
+        "name": "JoshuaNY",
+        "url": "https://rentmasseur.com/JoshuaNY",
+        "visited": true,
+        "error": ""
+      },
+      {
+        "name": "DJMbeach",
+        "url": "https://rentmasseur.com/DJMbeach",
+        "visited": true,
+        "error": ""
+      },
+      {
+        "name": "Hydratedlips",
+        "url": "https://rentmasseur.com/Hydratedlips",
+        "visited": true,
+        "error": ""
+      },
+      {
+        "name": "Nicolahskott",
+        "url": "https://rentmasseur.com/Nicolahskott",
+        "visited": true,
+        "error": ""
+      },
+      {
+        "name": "Guysfriend",
+        "url": "https://rentmasseur.com/guysfriend",
+        "visited": true,
+        "error": ""
+      },
+      {
+        "name": "Pajinnyc",
+        "url": "https://rentmasseur.com/pajinnyc",
+        "visited": true,
+        "error": ""
+      },
+      {
+        "name": "Billinbklyn",
+        "url": "https://rentmasseur.com/Billinbklyn",
+        "visited": true,
+        "error": ""
+      },
+      {
+        "name": "Petebodyworks",
+        "url": "https://rentmasseur.com/petebodyworks",
+        "visited": true,
+        "error": ""
+      }
+    ]
   }
 ]
