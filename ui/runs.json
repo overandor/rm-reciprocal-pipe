@@ -710,5 +710,96 @@
         "error": ""
       }
     ]
+  },
+  {
+    "id": "20260803T011911Z-655",
+    "started_at": "2026-08-03T01:19:11+00:00",
+    "finished_at": "2026-08-03T01:20:23+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "Guysfriend",
+        "Pajinnyc",
+        "Billinbklyn",
+        "Petebodyworks",
+        "Jtakesajourney",
+        "Soredude",
+        "Villageguynyc",
+        "Svendaring",
+        "Robbywestchester",
+        "Jackyg"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260803T011911Z-655.webm",
+    "visited": [
+      {
+        "name": "Guysfriend",
+        "url": "https://rentmasseur.com/guysfriend",
+        "visited": true,
+        "error": ""
+      },
+      {
+        "name": "Pajinnyc",
+        "url": "https://rentmasseur.com/pajinnyc",
+        "visited": true,
+        "error": ""
+      },
+      {
+        "name": "Billinbklyn",
+        "url": "https://rentmasseur.com/Billinbklyn",
+        "visited": true,
+        "error": ""
+      },
+      {
+        "name": "Petebodyworks",
+        "url": "https://rentmasseur.com/petebodyworks",
+        "visited": true,
+        "error": ""
+      },
+      {
+        "name": "Jtakesajourney",
+        "url": "https://rentmasseur.com/Jtakesajourney",
+        "visited": true,
+        "error": ""
+      },
+      {
+        "name": "Soredude",
+        "url": "https://rentmasseur.com/soredude",
+        "visited": true,
+        "error": ""
+      },
+      {
+        "name": "Villageguynyc",
+        "url": "https://rentmasseur.com/villageguynyc",
+        "visited": true,
+        "error": ""
+      },
+      {
+        "name": "Svendaring",
+        "url": "https://rentmasseur.com/svendaring",
+        "visited": true,
+        "error": ""
+      },
+      {
+        "name": "Robbywestchester",
+        "url": "https://rentmasseur.com/Robbywestchester",
+        "visited": true,
+        "error": ""
+      },
+      {
+        "name": "Jackyg",
+        "url": "https://rentmasseur.com/Jackyg",
+        "visited": true,
+        "error": ""
+      }
+    ]
   }
 ]
