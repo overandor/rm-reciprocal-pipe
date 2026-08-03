@@ -801,5 +801,96 @@
         "error": ""
       }
     ]
+  },
+  {
+    "id": "20260803T045645Z-293",
+    "started_at": "2026-08-03T04:56:45+00:00",
+    "finished_at": "2026-08-03T04:57:58+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "DJMbeach",
+        "Hydratedlips",
+        "Nicolahskott",
+        "Guysfriend",
+        "Pajinnyc",
+        "Billinbklyn",
+        "Petebodyworks",
+        "Jtakesajourney",
+        "Soredude",
+        "Villageguynyc"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260803T045645Z-293.webm",
+    "visited": [
+      {
+        "name": "DJMbeach",
+        "url": "https://rentmasseur.com/DJMbeach",
+        "visited": true,
+        "error": ""
+      },
+      {
+        "name": "Hydratedlips",
+        "url": "https://rentmasseur.com/Hydratedlips",
+        "visited": true,
+        "error": ""
+      },
+      {
+        "name": "Nicolahskott",
+        "url": "https://rentmasseur.com/Nicolahskott",
+        "visited": true,
+        "error": ""
+      },
+      {
+        "name": "Guysfriend",
+        "url": "https://rentmasseur.com/guysfriend",
+        "visited": true,
+        "error": ""
+      },
+      {
+        "name": "Pajinnyc",
+        "url": "https://rentmasseur.com/pajinnyc",
+        "visited": true,
+        "error": ""
+      },
+      {
+        "name": "Billinbklyn",
+        "url": "https://rentmasseur.com/Billinbklyn",
+        "visited": true,
+        "error": ""
+      },
+      {
+        "name": "Petebodyworks",
+        "url": "https://rentmasseur.com/petebodyworks",
+        "visited": true,
+        "error": ""
+      },
+      {
+        "name": "Jtakesajourney",
+        "url": "https://rentmasseur.com/Jtakesajourney",
+        "visited": true,
+        "error": ""
+      },
+      {
+        "name": "Soredude",
+        "url": "https://rentmasseur.com/soredude",
+        "visited": true,
+        "error": ""
+      },
+      {
+        "name": "Villageguynyc",
+        "url": "https://rentmasseur.com/villageguynyc",
+        "visited": true,
+        "error": ""
+      }
+    ]
   }
 ]
