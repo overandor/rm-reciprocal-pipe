@@ -22,7 +22,7 @@ Env vars:
 Selectors were verified against the live site on 2026-08-02:
   - Login:   input#email, input#password, button:has-text("Login")
   - Viewers: a.username (href="/{username}")
-  - Tabs:    text "WHO SAW ME" / "WHO DID I SEE"
+  - Tabs:    button:has-text("Who Saw Me") / button:has-text("Who Did I See")
   - Cookie:  button:has-text("Accept all")
 """
 from __future__ import annotations
@@ -30,7 +30,6 @@ from __future__ import annotations
 import json
 import os
 import random
-import sys
 import time
 from datetime import datetime, timezone
 from pathlib import Path
@@ -72,7 +71,7 @@ def log(msg: str) -> None:
 def require_creds() -> tuple[str, str]:
     email, pw = env("RM_EMAIL"), env("RM_PASSWORD")
     if not email or not pw:
-        sys.exit("ERROR: RM_EMAIL and RM_PASSWORD must be set.")
+        raise RuntimeError("RM_EMAIL and RM_PASSWORD must be set.")
     return email, pw
 
 
@@ -170,7 +169,7 @@ def collect_viewers(page) -> list[dict]:
     return viewers
 
 
-def visit_back(page, viewers: list[dict], dry_run: bool) -> list[dict]:
+def visit_back(page, viewers: list[dict], dry_run: bool, record_dir: Path, run_id: str) -> list[dict]:
     max_visits = env_int("MAX_VISITS", 80)
     min_d, max_d = env_int("MIN_DELAY_S", 2), env_int("MAX_DELAY_S", 5)
     targets = viewers[:max_visits]
@@ -181,19 +180,31 @@ def visit_back(page, viewers: list[dict], dry_run: bool) -> list[dict]:
             results.append({**v, "visited": False, "dry_run": True})
         return results
 
+    shot_dir = record_dir / "screenshots" / run_id
+    shot_dir.mkdir(parents=True, exist_ok=True)
+
     for i, v in enumerate(targets, 1):
         ok = False
         err = ""
+        screenshot = None
         try:
             log(f"[{i}/{len(targets)}] Visiting {v['url']}")
             page.goto(v["url"], wait_until="domcontentloaded", timeout=20000)
             page.wait_for_timeout(700)
             ok = True
+            try:
+                safe_name = "".join(c if c.isalnum() or c in "-_" else "_" for c in v.get("name", "unknown"))
+                shot_file = shot_dir / f"{i:03d}_{safe_name}.png"
+                page.screenshot(path=str(shot_file), full_page=False)
+                screenshot = f"recordings/screenshots/{run_id}/{i:03d}_{safe_name}.png"
+                log(f"  Screenshot saved: {shot_file.name}")
+            except Exception as e:  # noqa: BLE001
+                log(f"  Screenshot failed: {e}")
         except PWTimeout:
             err = "timeout"
         except Exception as e:  # noqa: BLE001
             err = str(e)[:120]
-        results.append({**v, "visited": ok, "error": err})
+        results.append({**v, "visited": ok, "error": err, "screenshot": screenshot})
         time.sleep(random.uniform(min_d, max_d))
     return results
 
@@ -275,7 +286,6 @@ def append_run(runs_file: Path, record: dict) -> None:
 
 
 def main() -> int:
-    email, password = require_creds()
     dry_run = env("DRY_RUN", "0") == "1"
     runs_file = Path(env("RUNS_FILE", "ui/runs.json"))
     headful = env("HEADFUL", "0") == "1"
@@ -284,7 +294,6 @@ def main() -> int:
 
     started = datetime.now(timezone.utc)
     run_id = started.strftime("%Y%m%dT%H%M%SZ") + f"-{random.randint(100,999)}"
-    video_path = record_dir / f"{run_id}.webm"
     status = "ok"
     error = ""
     viewers: list[dict] = []
@@ -302,6 +311,7 @@ def main() -> int:
         )
         page = ctx.new_page()
         try:
+            email, password = require_creds()
             if not login(page, email, password):
                 status, error = "login_failed", "could not log in"
             else:
@@ -309,17 +319,19 @@ def main() -> int:
                 if not viewers:
                     status, error = "no_viewers", "no viewers found on Who Saw Me"
                 else:
-                    visited = visit_back(page, viewers, dry_run)
+                    visited = visit_back(page, viewers, dry_run, record_dir, run_id)
                     succeeded = sum(1 for r in visited if r.get("visited"))
                     log(f"Reciprocal visits done: {succeeded}/{len(visited)} succeeded")
 
                     if not dry_run and succeeded > 0:
                         verification = verify_whodidisee(page, visited)
-                        # If none of the visits registered, mark as failed
-                        if verification.get("saw_count", 0) == 0 and verification.get("expected_count", 0) > 0:
+                        # If any visited profile is missing from "Who Did I See",
+                        # the pipe didn't work — visits didn't register.
+                        missing = verification.get("missing", [])
+                        if missing:
                             status = "verification_failed"
-                            error = "visits did not register in 'Who Did I See'"
-                            log("VERIFICATION FAILED: visits did not register")
+                            error = f"{len(missing)} visit(s) did not register in 'Who Did I See'"
+                            log(f"VERIFICATION FAILED: {error}")
         except Exception as e:  # noqa: BLE001
             status, error = "error", str(e)[:200]
             log(f"Run failed: {error}")

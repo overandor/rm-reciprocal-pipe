@@ -323,6 +323,7 @@
         <div style="padding:8px 10px">
           ${r.visited.map(v => `<div><a href="${v.url}" target="_blank" rel="noopener">${v.name || v.url}</a>
             ${v.visited ? '<span class="ok">✓</span>' : '<span class="err">✗</span>'}
+            ${v.screenshot ? `<a href="${v.screenshot}" target="_blank" rel="noopener" title="Screenshot proof">📷</a>` : ''}
             <span class="muted">${v.error || ""}</span></div>`).join("")}
         </div></details></td></tr>`: ""}
   `).join("") : `<tr><td colspan="7" class="empty">No runs yet. Trigger the workflow to populate runs.json.</td></tr>`;
