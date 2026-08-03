@@ -461,5 +461,106 @@
         "screenshot": "recordings/screenshots/20260803T164136Z-573/010_Petebodyworks.png"
       }
     ]
+  },
+  {
+    "id": "20260803T172235Z-796",
+    "started_at": "2026-08-03T17:22:35+00:00",
+    "finished_at": "2026-08-03T17:23:46+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "Chevysc",
+        "Swimmerstud",
+        "Pierrejms",
+        "HanzieB",
+        "JoshuaNY",
+        "DJMbeach",
+        "Hydratedlips",
+        "Nicolahskott",
+        "Guysfriend",
+        "Pajinnyc"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260803T172235Z-796.webm",
+    "visited": [
+      {
+        "name": "Chevysc",
+        "url": "https://rentmasseur.com/Chevysc",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260803T172235Z-796/001_Chevysc.png"
+      },
+      {
+        "name": "Swimmerstud",
+        "url": "https://rentmasseur.com/Swimmerstud",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260803T172235Z-796/002_Swimmerstud.png"
+      },
+      {
+        "name": "Pierrejms",
+        "url": "https://rentmasseur.com/pierrejms",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260803T172235Z-796/003_Pierrejms.png"
+      },
+      {
+        "name": "HanzieB",
+        "url": "https://rentmasseur.com/HanzieB",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260803T172235Z-796/004_HanzieB.png"
+      },
+      {
+        "name": "JoshuaNY",
+        "url": "https://rentmasseur.com/JoshuaNY",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260803T172235Z-796/005_JoshuaNY.png"
+      },
+      {
+        "name": "DJMbeach",
+        "url": "https://rentmasseur.com/DJMbeach",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260803T172235Z-796/006_DJMbeach.png"
+      },
+      {
+        "name": "Hydratedlips",
+        "url": "https://rentmasseur.com/Hydratedlips",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260803T172235Z-796/007_Hydratedlips.png"
+      },
+      {
+        "name": "Nicolahskott",
+        "url": "https://rentmasseur.com/Nicolahskott",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260803T172235Z-796/008_Nicolahskott.png"
+      },
+      {
+        "name": "Guysfriend",
+        "url": "https://rentmasseur.com/guysfriend",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260803T172235Z-796/009_Guysfriend.png"
+      },
+      {
+        "name": "Pajinnyc",
+        "url": "https://rentmasseur.com/pajinnyc",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260803T172235Z-796/010_Pajinnyc.png"
+      }
+    ]
   }
 ]
