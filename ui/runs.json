@@ -1485,5 +1485,106 @@
         "screenshot": "recordings/screenshots/20260804T132454Z-608/010_Chillshaun.png"
       }
     ]
+  },
+  {
+    "id": "20260804T155849Z-694",
+    "started_at": "2026-08-04T15:58:49+00:00",
+    "finished_at": "2026-08-04T16:00:03+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "EnergyAlex",
+        "Browncash",
+        "JCDISC",
+        "Jeandre",
+        "Nycerik",
+        "Evanwantsmassage",
+        "Captainkock",
+        "Gabrielwalking",
+        "JakeyD",
+        "TallerNM"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260804T155849Z-694.webm",
+    "visited": [
+      {
+        "name": "EnergyAlex",
+        "url": "https://rentmasseur.com/EnergyAlex",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T155849Z-694/001_EnergyAlex.png"
+      },
+      {
+        "name": "Browncash",
+        "url": "https://rentmasseur.com/Browncash",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T155849Z-694/002_Browncash.png"
+      },
+      {
+        "name": "JCDISC",
+        "url": "https://rentmasseur.com/JCDISC",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T155849Z-694/003_JCDISC.png"
+      },
+      {
+        "name": "Jeandre",
+        "url": "https://rentmasseur.com/Jeandre",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T155849Z-694/004_Jeandre.png"
+      },
+      {
+        "name": "Nycerik",
+        "url": "https://rentmasseur.com/nycerik",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T155849Z-694/005_Nycerik.png"
+      },
+      {
+        "name": "Evanwantsmassage",
+        "url": "https://rentmasseur.com/Evanwantsmassage",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T155849Z-694/006_Evanwantsmassage.png"
+      },
+      {
+        "name": "Captainkock",
+        "url": "https://rentmasseur.com/Captainkock",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T155849Z-694/007_Captainkock.png"
+      },
+      {
+        "name": "Gabrielwalking",
+        "url": "https://rentmasseur.com/Gabrielwalking",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T155849Z-694/008_Gabrielwalking.png"
+      },
+      {
+        "name": "JakeyD",
+        "url": "https://rentmasseur.com/JakeyD",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T155849Z-694/009_JakeyD.png"
+      },
+      {
+        "name": "TallerNM",
+        "url": "https://rentmasseur.com/TallerNM",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T155849Z-694/010_TallerNM.png"
+      }
+    ]
   }
 ]
