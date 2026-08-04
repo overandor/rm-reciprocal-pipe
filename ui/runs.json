@@ -966,5 +966,106 @@
         "screenshot": "recordings/screenshots/20260803T225534Z-803/010_Chevysc.png"
       }
     ]
+  },
+  {
+    "id": "20260804T001329Z-803",
+    "started_at": "2026-08-04T00:13:29+00:00",
+    "finished_at": "2026-08-04T00:14:46+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "Conservativeguy",
+        "Chillshaun",
+        "MascGuyProf",
+        "Pierrejms",
+        "Thglblcurator",
+        "Moodring",
+        "Moorixnahm",
+        "Nicholassss",
+        "MartinFW",
+        "STEVEBUS"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260804T001329Z-803.webm",
+    "visited": [
+      {
+        "name": "Conservativeguy",
+        "url": "https://rentmasseur.com/conservativeguy",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T001329Z-803/001_Conservativeguy.png"
+      },
+      {
+        "name": "Chillshaun",
+        "url": "https://rentmasseur.com/Chillshaun",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T001329Z-803/002_Chillshaun.png"
+      },
+      {
+        "name": "MascGuyProf",
+        "url": "https://rentmasseur.com/MascGuyProf",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T001329Z-803/003_MascGuyProf.png"
+      },
+      {
+        "name": "Pierrejms",
+        "url": "https://rentmasseur.com/pierrejms",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T001329Z-803/004_Pierrejms.png"
+      },
+      {
+        "name": "Thglblcurator",
+        "url": "https://rentmasseur.com/Thglblcurator",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T001329Z-803/005_Thglblcurator.png"
+      },
+      {
+        "name": "Moodring",
+        "url": "https://rentmasseur.com/moodring",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T001329Z-803/006_Moodring.png"
+      },
+      {
+        "name": "Moorixnahm",
+        "url": "https://rentmasseur.com/moorixnahm",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T001329Z-803/007_Moorixnahm.png"
+      },
+      {
+        "name": "Nicholassss",
+        "url": "https://rentmasseur.com/Nicholassss",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T001329Z-803/008_Nicholassss.png"
+      },
+      {
+        "name": "MartinFW",
+        "url": "https://rentmasseur.com/MartinFW",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T001329Z-803/009_MartinFW.png"
+      },
+      {
+        "name": "STEVEBUS",
+        "url": "https://rentmasseur.com/STEVEBUS",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T001329Z-803/010_STEVEBUS.png"
+      }
+    ]
   }
 ]
