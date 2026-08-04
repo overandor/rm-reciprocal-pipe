@@ -1283,5 +1283,106 @@
         "screenshot": "recordings/screenshots/20260804T091752Z-564/010_Thglblcurator.png"
       }
     ]
+  },
+  {
+    "id": "20260804T113719Z-407",
+    "started_at": "2026-08-04T11:37:19+00:00",
+    "finished_at": "2026-08-04T11:38:30+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "Captainkock",
+        "Gabrielwalking",
+        "JakeyD",
+        "TallerNM",
+        "Boogiewugie",
+        "Conservativeguy",
+        "Chillshaun",
+        "MascGuyProf",
+        "Pierrejms",
+        "Thglblcurator"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260804T113719Z-407.webm",
+    "visited": [
+      {
+        "name": "Captainkock",
+        "url": "https://rentmasseur.com/Captainkock",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T113719Z-407/001_Captainkock.png"
+      },
+      {
+        "name": "Gabrielwalking",
+        "url": "https://rentmasseur.com/Gabrielwalking",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T113719Z-407/002_Gabrielwalking.png"
+      },
+      {
+        "name": "JakeyD",
+        "url": "https://rentmasseur.com/JakeyD",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T113719Z-407/003_JakeyD.png"
+      },
+      {
+        "name": "TallerNM",
+        "url": "https://rentmasseur.com/TallerNM",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T113719Z-407/004_TallerNM.png"
+      },
+      {
+        "name": "Boogiewugie",
+        "url": "https://rentmasseur.com/Boogiewugie",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T113719Z-407/005_Boogiewugie.png"
+      },
+      {
+        "name": "Conservativeguy",
+        "url": "https://rentmasseur.com/conservativeguy",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T113719Z-407/006_Conservativeguy.png"
+      },
+      {
+        "name": "Chillshaun",
+        "url": "https://rentmasseur.com/Chillshaun",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T113719Z-407/007_Chillshaun.png"
+      },
+      {
+        "name": "MascGuyProf",
+        "url": "https://rentmasseur.com/MascGuyProf",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T113719Z-407/008_MascGuyProf.png"
+      },
+      {
+        "name": "Pierrejms",
+        "url": "https://rentmasseur.com/pierrejms",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T113719Z-407/009_Pierrejms.png"
+      },
+      {
+        "name": "Thglblcurator",
+        "url": "https://rentmasseur.com/Thglblcurator",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T113719Z-407/010_Thglblcurator.png"
+      }
+    ]
   }
 ]
