@@ -1687,5 +1687,106 @@
         "screenshot": "recordings/screenshots/20260804T180012Z-672/010_Gabrielwalking.png"
       }
     ]
+  },
+  {
+    "id": "20260804T195151Z-446",
+    "started_at": "2026-08-04T19:51:51+00:00",
+    "finished_at": "2026-08-04T19:53:00+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "IkkerHands",
+        "Rimbauddream",
+        "Rangerboy",
+        "CocosDaddy",
+        "EnergyAlex",
+        "Browncash",
+        "JCDISC",
+        "Jeandre",
+        "Nycerik",
+        "Evanwantsmassage"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260804T195151Z-446.webm",
+    "visited": [
+      {
+        "name": "IkkerHands",
+        "url": "https://rentmasseur.com/IkkerHands",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T195151Z-446/001_IkkerHands.png"
+      },
+      {
+        "name": "Rimbauddream",
+        "url": "https://rentmasseur.com/rimbauddream",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T195151Z-446/002_Rimbauddream.png"
+      },
+      {
+        "name": "Rangerboy",
+        "url": "https://rentmasseur.com/rangerboy",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T195151Z-446/003_Rangerboy.png"
+      },
+      {
+        "name": "CocosDaddy",
+        "url": "https://rentmasseur.com/CocosDaddy",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T195151Z-446/004_CocosDaddy.png"
+      },
+      {
+        "name": "EnergyAlex",
+        "url": "https://rentmasseur.com/EnergyAlex",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T195151Z-446/005_EnergyAlex.png"
+      },
+      {
+        "name": "Browncash",
+        "url": "https://rentmasseur.com/Browncash",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T195151Z-446/006_Browncash.png"
+      },
+      {
+        "name": "JCDISC",
+        "url": "https://rentmasseur.com/JCDISC",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T195151Z-446/007_JCDISC.png"
+      },
+      {
+        "name": "Jeandre",
+        "url": "https://rentmasseur.com/Jeandre",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T195151Z-446/008_Jeandre.png"
+      },
+      {
+        "name": "Nycerik",
+        "url": "https://rentmasseur.com/nycerik",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T195151Z-446/009_Nycerik.png"
+      },
+      {
+        "name": "Evanwantsmassage",
+        "url": "https://rentmasseur.com/Evanwantsmassage",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260804T195151Z-446/010_Evanwantsmassage.png"
+      }
+    ]
   }
 ]
