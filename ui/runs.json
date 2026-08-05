@@ -2293,5 +2293,106 @@
         "screenshot": "recordings/screenshots/20260805T043306Z-661/010_Rangerboy.png"
       }
     ]
+  },
+  {
+    "id": "20260805T072342Z-702",
+    "started_at": "2026-08-05T07:23:42+00:00",
+    "finished_at": "2026-08-05T07:24:48+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "IkkerHands",
+        "Fridolf",
+        "BenClib",
+        "Jbtomahawk",
+        "Westchest",
+        "Gdogger",
+        "CocosDaddy",
+        "NycboyTribeca",
+        "Rimbauddream",
+        "Rangerboy"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260805T072342Z-702.webm",
+    "visited": [
+      {
+        "name": "IkkerHands",
+        "url": "https://rentmasseur.com/IkkerHands",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260805T072342Z-702/001_IkkerHands.png"
+      },
+      {
+        "name": "Fridolf",
+        "url": "https://rentmasseur.com/Fridolf",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260805T072342Z-702/002_Fridolf.png"
+      },
+      {
+        "name": "BenClib",
+        "url": "https://rentmasseur.com/BenClib",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260805T072342Z-702/003_BenClib.png"
+      },
+      {
+        "name": "Jbtomahawk",
+        "url": "https://rentmasseur.com/Jbtomahawk",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260805T072342Z-702/004_Jbtomahawk.png"
+      },
+      {
+        "name": "Westchest",
+        "url": "https://rentmasseur.com/westchest",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260805T072342Z-702/005_Westchest.png"
+      },
+      {
+        "name": "Gdogger",
+        "url": "https://rentmasseur.com/Gdogger",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260805T072342Z-702/006_Gdogger.png"
+      },
+      {
+        "name": "CocosDaddy",
+        "url": "https://rentmasseur.com/CocosDaddy",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260805T072342Z-702/007_CocosDaddy.png"
+      },
+      {
+        "name": "NycboyTribeca",
+        "url": "https://rentmasseur.com/nycboyTribeca",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260805T072342Z-702/008_NycboyTribeca.png"
+      },
+      {
+        "name": "Rimbauddream",
+        "url": "https://rentmasseur.com/rimbauddream",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260805T072342Z-702/009_Rimbauddream.png"
+      },
+      {
+        "name": "Rangerboy",
+        "url": "https://rentmasseur.com/rangerboy",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260805T072342Z-702/010_Rangerboy.png"
+      }
+    ]
   }
 ]
