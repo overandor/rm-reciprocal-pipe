@@ -2610,5 +2610,19 @@
         "screenshot": "recordings/screenshots/20260805T145828Z-612/010_Gdogger.png"
       }
     ]
+  },
+  {
+    "id": "20260805T164852Z-421",
+    "started_at": "2026-08-05T16:48:52+00:00",
+    "finished_at": "2026-08-05T16:49:13+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260805T164852Z-421.webm",
+    "visited": []
   }
 ]
