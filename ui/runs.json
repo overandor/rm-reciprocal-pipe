@@ -2495,5 +2495,19 @@
         "screenshot": "recordings/screenshots/20260805T101058Z-233/010_Rangerboy.png"
       }
     ]
+  },
+  {
+    "id": "20260805T122104Z-666",
+    "started_at": "2026-08-05T12:21:04+00:00",
+    "finished_at": "2026-08-05T12:21:24+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260805T122104Z-666.webm",
+    "visited": []
   }
 ]
