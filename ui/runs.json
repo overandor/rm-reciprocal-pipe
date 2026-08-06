@@ -3143,5 +3143,106 @@
         "screenshot": "recordings/screenshots/20260806T010635Z-863/010_Traveledone.png"
       }
     ]
+  },
+  {
+    "id": "20260806T043045Z-388",
+    "started_at": "2026-08-06T04:30:45+00:00",
+    "finished_at": "2026-08-06T04:31:58+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "Wowrenatoo",
+        "Leanbuilt",
+        "IkkerHands",
+        "Creocreo",
+        "Garbagemanco",
+        "RogerA",
+        "Newer",
+        "Aaggdd",
+        "Rigid",
+        "Jaymal"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260806T043045Z-388.webm",
+    "visited": [
+      {
+        "name": "Wowrenatoo",
+        "url": "https://rentmasseur.com/wowrenatoo",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260806T043045Z-388/001_Wowrenatoo.png"
+      },
+      {
+        "name": "Leanbuilt",
+        "url": "https://rentmasseur.com/leanbuilt",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260806T043045Z-388/002_Leanbuilt.png"
+      },
+      {
+        "name": "IkkerHands",
+        "url": "https://rentmasseur.com/IkkerHands",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260806T043045Z-388/003_IkkerHands.png"
+      },
+      {
+        "name": "Creocreo",
+        "url": "https://rentmasseur.com/Creocreo",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260806T043045Z-388/004_Creocreo.png"
+      },
+      {
+        "name": "Garbagemanco",
+        "url": "https://rentmasseur.com/Garbagemanco",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260806T043045Z-388/005_Garbagemanco.png"
+      },
+      {
+        "name": "RogerA",
+        "url": "https://rentmasseur.com/RogerA",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260806T043045Z-388/006_RogerA.png"
+      },
+      {
+        "name": "Newer",
+        "url": "https://rentmasseur.com/Newer",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260806T043045Z-388/007_Newer.png"
+      },
+      {
+        "name": "Aaggdd",
+        "url": "https://rentmasseur.com/aaggdd",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260806T043045Z-388/008_Aaggdd.png"
+      },
+      {
+        "name": "Rigid",
+        "url": "https://rentmasseur.com/Rigid",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260806T043045Z-388/009_Rigid.png"
+      },
+      {
+        "name": "Jaymal",
+        "url": "https://rentmasseur.com/jaymal",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260806T043045Z-388/010_Jaymal.png"
+      }
+    ]
   }
 ]
