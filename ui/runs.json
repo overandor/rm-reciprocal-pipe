@@ -4773,5 +4773,19 @@
         "screenshot": "recordings/screenshots/20260807T153856Z-508/010_Hidadenis.png"
       }
     ]
+  },
+  {
+    "id": "20260807T163547Z-185",
+    "started_at": "2026-08-07T16:35:47+00:00",
+    "finished_at": "2026-08-07T16:36:07+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260807T163547Z-185.webm",
+    "visited": []
   }
 ]
