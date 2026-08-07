@@ -3965,5 +3965,106 @@
         "screenshot": "recordings/screenshots/20260807T065027Z-949/010_Jmichael.png"
       }
     ]
+  },
+  {
+    "id": "20260807T081004Z-322",
+    "started_at": "2026-08-07T08:10:04+00:00",
+    "finished_at": "2026-08-07T08:11:21+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "Jsaninetythree",
+        "IkkerHands",
+        "Hidadenis",
+        "Tauroracing",
+        "JohnJChristopher",
+        "ChuckW",
+        "Makingusquirt",
+        "Thelastemailmike",
+        "Laigood",
+        "Jmichael"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260807T081004Z-322.webm",
+    "visited": [
+      {
+        "name": "Jsaninetythree",
+        "url": "https://rentmasseur.com/Jsaninetythree",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260807T081004Z-322/001_Jsaninetythree.png"
+      },
+      {
+        "name": "IkkerHands",
+        "url": "https://rentmasseur.com/IkkerHands",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260807T081004Z-322/002_IkkerHands.png"
+      },
+      {
+        "name": "Hidadenis",
+        "url": "https://rentmasseur.com/hidadenis",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260807T081004Z-322/003_Hidadenis.png"
+      },
+      {
+        "name": "Tauroracing",
+        "url": "https://rentmasseur.com/Tauroracing",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260807T081004Z-322/004_Tauroracing.png"
+      },
+      {
+        "name": "JohnJChristopher",
+        "url": "https://rentmasseur.com/JohnJChristopher",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260807T081004Z-322/005_JohnJChristopher.png"
+      },
+      {
+        "name": "ChuckW",
+        "url": "https://rentmasseur.com/ChuckW",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260807T081004Z-322/006_ChuckW.png"
+      },
+      {
+        "name": "Makingusquirt",
+        "url": "https://rentmasseur.com/makingusquirt",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260807T081004Z-322/007_Makingusquirt.png"
+      },
+      {
+        "name": "Thelastemailmike",
+        "url": "https://rentmasseur.com/thelastemailmike",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260807T081004Z-322/008_Thelastemailmike.png"
+      },
+      {
+        "name": "Laigood",
+        "url": "https://rentmasseur.com/Laigood",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260807T081004Z-322/009_Laigood.png"
+      },
+      {
+        "name": "Jmichael",
+        "url": "https://rentmasseur.com/jmichael",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260807T081004Z-322/010_Jmichael.png"
+      }
+    ]
   }
 ]
