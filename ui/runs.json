@@ -6776,5 +6776,106 @@
         "screenshot": "recordings/screenshots/20260808T144901Z-229/010_Queermatt.png"
       }
     ]
+  },
+  {
+    "id": "20260808T151934Z-898",
+    "started_at": "2026-08-08T15:19:34+00:00",
+    "finished_at": "2026-08-08T15:20:48+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "Tomnng",
+        "Traveledone",
+        "ShortandSweet",
+        "Mcmark",
+        "TheSqueak",
+        "Ligaymale",
+        "Necrosage",
+        "Operakev",
+        "Tomozade",
+        "Queermatt"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260808T151934Z-898.webm",
+    "visited": [
+      {
+        "name": "Tomnng",
+        "url": "https://rentmasseur.com/tomnng",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260808T151934Z-898/001_Tomnng.png"
+      },
+      {
+        "name": "Traveledone",
+        "url": "https://rentmasseur.com/Traveledone",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260808T151934Z-898/002_Traveledone.png"
+      },
+      {
+        "name": "ShortandSweet",
+        "url": "https://rentmasseur.com/ShortandSweet",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260808T151934Z-898/003_ShortandSweet.png"
+      },
+      {
+        "name": "Mcmark",
+        "url": "https://rentmasseur.com/Mcmark",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260808T151934Z-898/004_Mcmark.png"
+      },
+      {
+        "name": "TheSqueak",
+        "url": "https://rentmasseur.com/TheSqueak",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260808T151934Z-898/005_TheSqueak.png"
+      },
+      {
+        "name": "Ligaymale",
+        "url": "https://rentmasseur.com/Ligaymale",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260808T151934Z-898/006_Ligaymale.png"
+      },
+      {
+        "name": "Necrosage",
+        "url": "https://rentmasseur.com/Necrosage",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260808T151934Z-898/007_Necrosage.png"
+      },
+      {
+        "name": "Operakev",
+        "url": "https://rentmasseur.com/Operakev",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260808T151934Z-898/008_Operakev.png"
+      },
+      {
+        "name": "Tomozade",
+        "url": "https://rentmasseur.com/tomozade",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260808T151934Z-898/009_Tomozade.png"
+      },
+      {
+        "name": "Queermatt",
+        "url": "https://rentmasseur.com/Queermatt",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260808T151934Z-898/010_Queermatt.png"
+      }
+    ]
   }
 ]
