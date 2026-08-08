@@ -7107,5 +7107,106 @@
     "verification": null,
     "video": "recordings/20260808T175305Z-808.webm",
     "visited": []
+  },
+  {
+    "id": "20260808T184942Z-759",
+    "started_at": "2026-08-08T18:49:42+00:00",
+    "finished_at": "2026-08-08T18:50:53+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "Pershing",
+        "FlorinGG",
+        "JohnJChristopher",
+        "Titopachucho",
+        "Tirripaisti",
+        "Oldernwisertoo",
+        "Tomnng",
+        "Traveledone",
+        "ShortandSweet",
+        "Mcmark"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260808T184942Z-759.webm",
+    "visited": [
+      {
+        "name": "Pershing",
+        "url": "https://rentmasseur.com/Pershing",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260808T184942Z-759/001_Pershing.png"
+      },
+      {
+        "name": "FlorinGG",
+        "url": "https://rentmasseur.com/FlorinGG",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260808T184942Z-759/002_FlorinGG.png"
+      },
+      {
+        "name": "JohnJChristopher",
+        "url": "https://rentmasseur.com/JohnJChristopher",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260808T184942Z-759/003_JohnJChristopher.png"
+      },
+      {
+        "name": "Titopachucho",
+        "url": "https://rentmasseur.com/Titopachucho",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260808T184942Z-759/004_Titopachucho.png"
+      },
+      {
+        "name": "Tirripaisti",
+        "url": "https://rentmasseur.com/Tirripaisti",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260808T184942Z-759/005_Tirripaisti.png"
+      },
+      {
+        "name": "Oldernwisertoo",
+        "url": "https://rentmasseur.com/oldernwisertoo",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260808T184942Z-759/006_Oldernwisertoo.png"
+      },
+      {
+        "name": "Tomnng",
+        "url": "https://rentmasseur.com/tomnng",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260808T184942Z-759/007_Tomnng.png"
+      },
+      {
+        "name": "Traveledone",
+        "url": "https://rentmasseur.com/Traveledone",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260808T184942Z-759/008_Traveledone.png"
+      },
+      {
+        "name": "ShortandSweet",
+        "url": "https://rentmasseur.com/ShortandSweet",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260808T184942Z-759/009_ShortandSweet.png"
+      },
+      {
+        "name": "Mcmark",
+        "url": "https://rentmasseur.com/Mcmark",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260808T184942Z-759/010_Mcmark.png"
+      }
+    ]
   }
 ]
