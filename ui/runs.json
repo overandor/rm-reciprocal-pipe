@@ -7093,5 +7093,19 @@
     "verification": null,
     "video": "recordings/20260808T171714Z-899.webm",
     "visited": []
+  },
+  {
+    "id": "20260808T175305Z-808",
+    "started_at": "2026-08-08T17:53:05+00:00",
+    "finished_at": "2026-08-08T17:53:25+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260808T175305Z-808.webm",
+    "visited": []
   }
 ]
