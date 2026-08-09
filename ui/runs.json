@@ -9269,5 +9269,19 @@
         "screenshot": "recordings/screenshots/20260809T190001Z-558/010_Makingusquirt.png"
       }
     ]
+  },
+  {
+    "id": "20260809T194411Z-205",
+    "started_at": "2026-08-09T19:44:11+00:00",
+    "finished_at": "2026-08-09T19:44:31+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260809T194411Z-205.webm",
+    "visited": []
   }
 ]
