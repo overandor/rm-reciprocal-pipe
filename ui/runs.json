@@ -8647,5 +8647,19 @@
         "screenshot": "recordings/screenshots/20260809T140339Z-195/010_Ishqmhn.png"
       }
     ]
+  },
+  {
+    "id": "20260809T145134Z-101",
+    "started_at": "2026-08-09T14:51:34+00:00",
+    "finished_at": "2026-08-09T14:51:54+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260809T145134Z-101.webm",
+    "visited": []
   }
 ]
