@@ -8100,5 +8100,19 @@
         "screenshot": "recordings/screenshots/20260809T073743Z-705/010_Frankweho.png"
       }
     ]
+  },
+  {
+    "id": "20260809T082414Z-187",
+    "started_at": "2026-08-09T08:24:14+00:00",
+    "finished_at": "2026-08-09T08:24:33+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260809T082414Z-187.webm",
+    "visited": []
   }
 ]
