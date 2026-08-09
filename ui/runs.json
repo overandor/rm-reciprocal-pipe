@@ -7682,5 +7682,19 @@
         "screenshot": "recordings/screenshots/20260809T003725Z-349/010_MarcoNapoli.png"
       }
     ]
+  },
+  {
+    "id": "20260809T025153Z-341",
+    "started_at": "2026-08-09T02:51:53+00:00",
+    "finished_at": "2026-08-09T02:52:13+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260809T025153Z-341.webm",
+    "visited": []
   }
 ]
