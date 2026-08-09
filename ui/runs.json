@@ -9603,5 +9603,19 @@
         "screenshot": "recordings/screenshots/20260809T221456Z-582/010_Czeeco.png"
       }
     ]
+  },
+  {
+    "id": "20260809T225448Z-325",
+    "started_at": "2026-08-09T22:54:48+00:00",
+    "finished_at": "2026-08-09T22:55:09+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260809T225448Z-325.webm",
+    "visited": []
   }
 ]
