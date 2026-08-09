@@ -8128,5 +8128,106 @@
     "verification": null,
     "video": "recordings/20260809T091950Z-491.webm",
     "visited": []
+  },
+  {
+    "id": "20260809T100316Z-552",
+    "started_at": "2026-08-09T10:03:16+00:00",
+    "finished_at": "2026-08-09T10:04:28+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "AwakenWithDean",
+        "Czeeco",
+        "Danielsalvatore",
+        "Sf_reader",
+        "Makingusquirt",
+        "Starixus",
+        "Ishqmhn",
+        "CocosDaddy",
+        "BenjiTurg",
+        "Frankweho"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260809T100316Z-552.webm",
+    "visited": [
+      {
+        "name": "AwakenWithDean",
+        "url": "https://rentmasseur.com/AwakenWithDean",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260809T100316Z-552/001_AwakenWithDean.png"
+      },
+      {
+        "name": "Czeeco",
+        "url": "https://rentmasseur.com/Czeeco",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260809T100316Z-552/002_Czeeco.png"
+      },
+      {
+        "name": "Danielsalvatore",
+        "url": "https://rentmasseur.com/danielsalvatore",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260809T100316Z-552/003_Danielsalvatore.png"
+      },
+      {
+        "name": "Sf_reader",
+        "url": "https://rentmasseur.com/sf_reader",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260809T100316Z-552/004_Sf_reader.png"
+      },
+      {
+        "name": "Makingusquirt",
+        "url": "https://rentmasseur.com/makingusquirt",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260809T100316Z-552/005_Makingusquirt.png"
+      },
+      {
+        "name": "Starixus",
+        "url": "https://rentmasseur.com/Starixus",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260809T100316Z-552/006_Starixus.png"
+      },
+      {
+        "name": "Ishqmhn",
+        "url": "https://rentmasseur.com/Ishqmhn",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260809T100316Z-552/007_Ishqmhn.png"
+      },
+      {
+        "name": "CocosDaddy",
+        "url": "https://rentmasseur.com/CocosDaddy",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260809T100316Z-552/008_CocosDaddy.png"
+      },
+      {
+        "name": "BenjiTurg",
+        "url": "https://rentmasseur.com/BenjiTurg",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260809T100316Z-552/009_BenjiTurg.png"
+      },
+      {
+        "name": "Frankweho",
+        "url": "https://rentmasseur.com/frankweho",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260809T100316Z-552/010_Frankweho.png"
+      }
+    ]
   }
 ]
