@@ -10612,5 +10612,19 @@
         "screenshot": "recordings/screenshots/20260810T183230Z-791/010_Robertosept.png"
       }
     ]
+  },
+  {
+    "id": "20260810T194119Z-519",
+    "started_at": "2026-08-10T19:41:19+00:00",
+    "finished_at": "2026-08-10T19:41:39+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260810T194119Z-519.webm",
+    "visited": []
   }
 ]
