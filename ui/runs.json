@@ -10382,5 +10382,106 @@
         "screenshot": "recordings/screenshots/20260810T143911Z-548/010_Kohmasse.png"
       }
     ]
+  },
+  {
+    "id": "20260810T153954Z-792",
+    "started_at": "2026-08-10T15:39:54+00:00",
+    "finished_at": "2026-08-10T15:41:02+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "JARDINBH",
+        "DaddyJackOff",
+        "Coaches",
+        "Otlelual",
+        "Cheesecakes",
+        "TeddyATX",
+        "Kennedy_gregg",
+        "Robertosept",
+        "Lazzzz",
+        "LeoAperol"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260810T153954Z-792.webm",
+    "visited": [
+      {
+        "name": "JARDINBH",
+        "url": "https://rentmasseur.com/JARDINBH",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260810T153954Z-792/001_JARDINBH.png"
+      },
+      {
+        "name": "DaddyJackOff",
+        "url": "https://rentmasseur.com/DaddyJackOff",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260810T153954Z-792/002_DaddyJackOff.png"
+      },
+      {
+        "name": "Coaches",
+        "url": "https://rentmasseur.com/Coaches",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260810T153954Z-792/003_Coaches.png"
+      },
+      {
+        "name": "Otlelual",
+        "url": "https://rentmasseur.com/Otlelual",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260810T153954Z-792/004_Otlelual.png"
+      },
+      {
+        "name": "Cheesecakes",
+        "url": "https://rentmasseur.com/Cheesecakes",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260810T153954Z-792/005_Cheesecakes.png"
+      },
+      {
+        "name": "TeddyATX",
+        "url": "https://rentmasseur.com/TeddyATX",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260810T153954Z-792/006_TeddyATX.png"
+      },
+      {
+        "name": "Kennedy_gregg",
+        "url": "https://rentmasseur.com/Kennedy_gregg",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260810T153954Z-792/007_Kennedy_gregg.png"
+      },
+      {
+        "name": "Robertosept",
+        "url": "https://rentmasseur.com/Robertosept",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260810T153954Z-792/008_Robertosept.png"
+      },
+      {
+        "name": "Lazzzz",
+        "url": "https://rentmasseur.com/Lazzzz",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260810T153954Z-792/009_Lazzzz.png"
+      },
+      {
+        "name": "LeoAperol",
+        "url": "https://rentmasseur.com/LeoAperol",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260810T153954Z-792/010_LeoAperol.png"
+      }
+    ]
   }
 ]
