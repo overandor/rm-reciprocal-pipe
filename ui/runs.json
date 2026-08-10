@@ -10239,5 +10239,19 @@
         "screenshot": "recordings/screenshots/20260810T094155Z-879/010_InManhattan.png"
       }
     ]
+  },
+  {
+    "id": "20260810T105232Z-911",
+    "started_at": "2026-08-10T10:52:32+00:00",
+    "finished_at": "2026-08-10T10:52:52+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260810T105232Z-911.webm",
+    "visited": []
   }
 ]
