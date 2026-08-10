@@ -10253,5 +10253,19 @@
     "verification": null,
     "video": "recordings/20260810T105232Z-911.webm",
     "visited": []
+  },
+  {
+    "id": "20260810T115409Z-639",
+    "started_at": "2026-08-10T11:54:09+00:00",
+    "finished_at": "2026-08-10T11:54:29+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260810T115409Z-639.webm",
+    "visited": []
   }
 ]
