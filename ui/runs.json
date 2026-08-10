@@ -9936,5 +9936,106 @@
         "screenshot": "recordings/screenshots/20260810T041758Z-517/010_Taylorcao.png"
       }
     ]
+  },
+  {
+    "id": "20260810T055223Z-978",
+    "started_at": "2026-08-10T05:52:23+00:00",
+    "finished_at": "2026-08-10T05:53:34+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "LeoAperol",
+        "Kohmasse",
+        "Robertosept",
+        "HeightsBear",
+        "MassageMuscleFan",
+        "Creathguillot",
+        "AstrologyGuy",
+        "InManhattan",
+        "PJBaretta",
+        "Ericerich"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260810T055223Z-978.webm",
+    "visited": [
+      {
+        "name": "LeoAperol",
+        "url": "https://rentmasseur.com/LeoAperol",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260810T055223Z-978/001_LeoAperol.png"
+      },
+      {
+        "name": "Kohmasse",
+        "url": "https://rentmasseur.com/Kohmasse",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260810T055223Z-978/002_Kohmasse.png"
+      },
+      {
+        "name": "Robertosept",
+        "url": "https://rentmasseur.com/Robertosept",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260810T055223Z-978/003_Robertosept.png"
+      },
+      {
+        "name": "HeightsBear",
+        "url": "https://rentmasseur.com/HeightsBear",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260810T055223Z-978/004_HeightsBear.png"
+      },
+      {
+        "name": "MassageMuscleFan",
+        "url": "https://rentmasseur.com/MassageMuscleFan",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260810T055223Z-978/005_MassageMuscleFan.png"
+      },
+      {
+        "name": "Creathguillot",
+        "url": "https://rentmasseur.com/creathguillot",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260810T055223Z-978/006_Creathguillot.png"
+      },
+      {
+        "name": "AstrologyGuy",
+        "url": "https://rentmasseur.com/AstrologyGuy",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260810T055223Z-978/007_AstrologyGuy.png"
+      },
+      {
+        "name": "InManhattan",
+        "url": "https://rentmasseur.com/InManhattan",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260810T055223Z-978/008_InManhattan.png"
+      },
+      {
+        "name": "PJBaretta",
+        "url": "https://rentmasseur.com/PJBaretta",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260810T055223Z-978/009_PJBaretta.png"
+      },
+      {
+        "name": "Ericerich",
+        "url": "https://rentmasseur.com/ericerich",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260810T055223Z-978/010_Ericerich.png"
+      }
+    ]
   }
 ]
