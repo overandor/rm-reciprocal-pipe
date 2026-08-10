@@ -10483,5 +10483,19 @@
         "screenshot": "recordings/screenshots/20260810T153954Z-792/010_LeoAperol.png"
       }
     ]
+  },
+  {
+    "id": "20260810T163452Z-792",
+    "started_at": "2026-08-10T16:34:52+00:00",
+    "finished_at": "2026-08-10T16:35:12+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260810T163452Z-792.webm",
+    "visited": []
   }
 ]
