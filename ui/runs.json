@@ -9821,5 +9821,19 @@
         "screenshot": "recordings/screenshots/20260810T000554Z-388/010_DougUC.png"
       }
     ]
+  },
+  {
+    "id": "20260810T023316Z-291",
+    "started_at": "2026-08-10T02:33:16+00:00",
+    "finished_at": "2026-08-10T02:33:36+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260810T023316Z-291.webm",
+    "visited": []
   }
 ]
