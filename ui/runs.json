@@ -12528,5 +12528,106 @@
         "screenshot": "recordings/screenshots/20260811T215742Z-613/010_Biobaselex.png"
       }
     ]
+  },
+  {
+    "id": "20260811T225525Z-367",
+    "started_at": "2026-08-11T22:55:25+00:00",
+    "finished_at": "2026-08-11T22:56:51+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "Cockychub",
+        "TeddyATX",
+        "Zackr",
+        "Benalsteph",
+        "Gtownhairguy",
+        "AquaticGuy",
+        "AlexUWS",
+        "FriendHenry",
+        "Llkkbbc",
+        "Crosmm"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260811T225525Z-367.webm",
+    "visited": [
+      {
+        "name": "Cockychub",
+        "url": "https://rentmasseur.com/Cockychub",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260811T225525Z-367/001_Cockychub.png"
+      },
+      {
+        "name": "TeddyATX",
+        "url": "https://rentmasseur.com/TeddyATX",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260811T225525Z-367/002_TeddyATX.png"
+      },
+      {
+        "name": "Zackr",
+        "url": "https://rentmasseur.com/Zackr",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260811T225525Z-367/003_Zackr.png"
+      },
+      {
+        "name": "Benalsteph",
+        "url": "https://rentmasseur.com/Benalsteph",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260811T225525Z-367/004_Benalsteph.png"
+      },
+      {
+        "name": "Gtownhairguy",
+        "url": "https://rentmasseur.com/Gtownhairguy",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260811T225525Z-367/005_Gtownhairguy.png"
+      },
+      {
+        "name": "AquaticGuy",
+        "url": "https://rentmasseur.com/AquaticGuy",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260811T225525Z-367/006_AquaticGuy.png"
+      },
+      {
+        "name": "AlexUWS",
+        "url": "https://rentmasseur.com/AlexUWS",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260811T225525Z-367/007_AlexUWS.png"
+      },
+      {
+        "name": "FriendHenry",
+        "url": "https://rentmasseur.com/FriendHenry",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260811T225525Z-367/008_FriendHenry.png"
+      },
+      {
+        "name": "Llkkbbc",
+        "url": "https://rentmasseur.com/llkkbbc",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260811T225525Z-367/009_Llkkbbc.png"
+      },
+      {
+        "name": "Crosmm",
+        "url": "https://rentmasseur.com/Crosmm",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260811T225525Z-367/010_Crosmm.png"
+      }
+    ]
   }
 ]
