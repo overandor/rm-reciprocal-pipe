@@ -13479,5 +13479,106 @@
         "screenshot": "recordings/screenshots/20260812T151342Z-618/010_Cockychub.png"
       }
     ]
+  },
+  {
+    "id": "20260812T161429Z-148",
+    "started_at": "2026-08-12T16:14:29+00:00",
+    "finished_at": "2026-08-12T16:15:41+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "Lambchops",
+        "Vontillx",
+        "Michaelmor",
+        "Riverlane",
+        "Embodiedzaya",
+        "Oldernwisertoo",
+        "Alexandertodd",
+        "Tightknotted",
+        "Jihphat",
+        "Rickyromo"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260812T161429Z-148.webm",
+    "visited": [
+      {
+        "name": "Lambchops",
+        "url": "https://rentmasseur.com/Lambchops",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260812T161429Z-148/001_Lambchops.png"
+      },
+      {
+        "name": "Vontillx",
+        "url": "https://rentmasseur.com/Vontillx",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260812T161429Z-148/002_Vontillx.png"
+      },
+      {
+        "name": "Michaelmor",
+        "url": "https://rentmasseur.com/Michaelmor",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260812T161429Z-148/003_Michaelmor.png"
+      },
+      {
+        "name": "Riverlane",
+        "url": "https://rentmasseur.com/Riverlane",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260812T161429Z-148/004_Riverlane.png"
+      },
+      {
+        "name": "Embodiedzaya",
+        "url": "https://rentmasseur.com/Embodiedzaya",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260812T161429Z-148/005_Embodiedzaya.png"
+      },
+      {
+        "name": "Oldernwisertoo",
+        "url": "https://rentmasseur.com/oldernwisertoo",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260812T161429Z-148/006_Oldernwisertoo.png"
+      },
+      {
+        "name": "Alexandertodd",
+        "url": "https://rentmasseur.com/Alexandertodd",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260812T161429Z-148/007_Alexandertodd.png"
+      },
+      {
+        "name": "Tightknotted",
+        "url": "https://rentmasseur.com/Tightknotted",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260812T161429Z-148/008_Tightknotted.png"
+      },
+      {
+        "name": "Jihphat",
+        "url": "https://rentmasseur.com/Jihphat",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260812T161429Z-148/009_Jihphat.png"
+      },
+      {
+        "name": "Rickyromo",
+        "url": "https://rentmasseur.com/rickyromo",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260812T161429Z-148/010_Rickyromo.png"
+      }
+    ]
   }
 ]
