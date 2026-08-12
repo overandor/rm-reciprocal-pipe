@@ -12744,5 +12744,19 @@
         "screenshot": "recordings/screenshots/20260812T023156Z-424/010_Gtownhairguy.png"
       }
     ]
+  },
+  {
+    "id": "20260812T042715Z-777",
+    "started_at": "2026-08-12T04:27:15+00:00",
+    "finished_at": "2026-08-12T04:27:35+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260812T042715Z-777.webm",
+    "visited": []
   }
 ]
