@@ -13911,5 +13911,19 @@
         "screenshot": "recordings/screenshots/20260812T212415Z-532/010_Riverlane.png"
       }
     ]
+  },
+  {
+    "id": "20260812T222032Z-926",
+    "started_at": "2026-08-12T22:20:32+00:00",
+    "finished_at": "2026-08-12T22:20:52+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260812T222032Z-926.webm",
+    "visited": []
   }
 ]
