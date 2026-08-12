@@ -12758,5 +12758,106 @@
     "verification": null,
     "video": "recordings/20260812T042715Z-777.webm",
     "visited": []
+  },
+  {
+    "id": "20260812T060115Z-180",
+    "started_at": "2026-08-12T06:01:15+00:00",
+    "finished_at": "2026-08-12T06:02:30+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "Rickyromo",
+        "EDDIELOUKY",
+        "Oldernwisertoo",
+        "Cockychub",
+        "Michaelmor",
+        "Giannyg",
+        "Ugarun",
+        "NICKFIRSTJACK",
+        "Kohmasse",
+        "Beefy_daddy"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260812T060115Z-180.webm",
+    "visited": [
+      {
+        "name": "Rickyromo",
+        "url": "https://rentmasseur.com/rickyromo",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260812T060115Z-180/001_Rickyromo.png"
+      },
+      {
+        "name": "EDDIELOUKY",
+        "url": "https://rentmasseur.com/EDDIELOUKY",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260812T060115Z-180/002_EDDIELOUKY.png"
+      },
+      {
+        "name": "Oldernwisertoo",
+        "url": "https://rentmasseur.com/oldernwisertoo",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260812T060115Z-180/003_Oldernwisertoo.png"
+      },
+      {
+        "name": "Cockychub",
+        "url": "https://rentmasseur.com/Cockychub",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260812T060115Z-180/004_Cockychub.png"
+      },
+      {
+        "name": "Michaelmor",
+        "url": "https://rentmasseur.com/Michaelmor",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260812T060115Z-180/005_Michaelmor.png"
+      },
+      {
+        "name": "Giannyg",
+        "url": "https://rentmasseur.com/giannyg",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260812T060115Z-180/006_Giannyg.png"
+      },
+      {
+        "name": "Ugarun",
+        "url": "https://rentmasseur.com/Ugarun",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260812T060115Z-180/007_Ugarun.png"
+      },
+      {
+        "name": "NICKFIRSTJACK",
+        "url": "https://rentmasseur.com/NICKFIRSTJACK",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260812T060115Z-180/008_NICKFIRSTJACK.png"
+      },
+      {
+        "name": "Kohmasse",
+        "url": "https://rentmasseur.com/Kohmasse",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260812T060115Z-180/009_Kohmasse.png"
+      },
+      {
+        "name": "Beefy_daddy",
+        "url": "https://rentmasseur.com/beefy_daddy",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260812T060115Z-180/010_Beefy_daddy.png"
+      }
+    ]
   }
 ]
