@@ -13810,5 +13810,106 @@
     "verification": null,
     "video": "recordings/20260812T202711Z-438.webm",
     "visited": []
+  },
+  {
+    "id": "20260812T212415Z-532",
+    "started_at": "2026-08-12T21:24:15+00:00",
+    "finished_at": "2026-08-12T21:25:25+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "Italianodue",
+        "Edsilva",
+        "MWMBicuriois",
+        "Adventurguy",
+        "Banaltrabear",
+        "Talleshbr",
+        "Lambchops",
+        "Vontillx",
+        "Michaelmor",
+        "Riverlane"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260812T212415Z-532.webm",
+    "visited": [
+      {
+        "name": "Italianodue",
+        "url": "https://rentmasseur.com/italianodue",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260812T212415Z-532/001_Italianodue.png"
+      },
+      {
+        "name": "Edsilva",
+        "url": "https://rentmasseur.com/edsilva",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260812T212415Z-532/002_Edsilva.png"
+      },
+      {
+        "name": "MWMBicuriois",
+        "url": "https://rentmasseur.com/MWMBicuriois",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260812T212415Z-532/003_MWMBicuriois.png"
+      },
+      {
+        "name": "Adventurguy",
+        "url": "https://rentmasseur.com/adventurguy",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260812T212415Z-532/004_Adventurguy.png"
+      },
+      {
+        "name": "Banaltrabear",
+        "url": "https://rentmasseur.com/Banaltrabear",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260812T212415Z-532/005_Banaltrabear.png"
+      },
+      {
+        "name": "Talleshbr",
+        "url": "https://rentmasseur.com/talleshbr",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260812T212415Z-532/006_Talleshbr.png"
+      },
+      {
+        "name": "Lambchops",
+        "url": "https://rentmasseur.com/Lambchops",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260812T212415Z-532/007_Lambchops.png"
+      },
+      {
+        "name": "Vontillx",
+        "url": "https://rentmasseur.com/Vontillx",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260812T212415Z-532/008_Vontillx.png"
+      },
+      {
+        "name": "Michaelmor",
+        "url": "https://rentmasseur.com/Michaelmor",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260812T212415Z-532/009_Michaelmor.png"
+      },
+      {
+        "name": "Riverlane",
+        "url": "https://rentmasseur.com/Riverlane",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260812T212415Z-532/010_Riverlane.png"
+      }
+    ]
   }
 ]
