@@ -14242,5 +14242,106 @@
         "screenshot": "recordings/screenshots/20260813T044148Z-336/010_Nhs.png"
       }
     ]
+  },
+  {
+    "id": "20260813T060840Z-981",
+    "started_at": "2026-08-13T06:08:40+00:00",
+    "finished_at": "2026-08-13T06:09:52+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "Bigblueeast",
+        "Ishqmhn",
+        "Darrendean",
+        "Pockys",
+        "Kohmasse",
+        "CsCold",
+        "DeepTouchMan",
+        "YULIAN",
+        "MitchinSC",
+        "Nhs"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260813T060840Z-981.webm",
+    "visited": [
+      {
+        "name": "Bigblueeast",
+        "url": "https://rentmasseur.com/Bigblueeast",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260813T060840Z-981/001_Bigblueeast.png"
+      },
+      {
+        "name": "Ishqmhn",
+        "url": "https://rentmasseur.com/Ishqmhn",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260813T060840Z-981/002_Ishqmhn.png"
+      },
+      {
+        "name": "Darrendean",
+        "url": "https://rentmasseur.com/Darrendean",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260813T060840Z-981/003_Darrendean.png"
+      },
+      {
+        "name": "Pockys",
+        "url": "https://rentmasseur.com/Pockys",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260813T060840Z-981/004_Pockys.png"
+      },
+      {
+        "name": "Kohmasse",
+        "url": "https://rentmasseur.com/Kohmasse",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260813T060840Z-981/005_Kohmasse.png"
+      },
+      {
+        "name": "CsCold",
+        "url": "https://rentmasseur.com/CsCold",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260813T060840Z-981/006_CsCold.png"
+      },
+      {
+        "name": "DeepTouchMan",
+        "url": "https://rentmasseur.com/DeepTouchMan",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260813T060840Z-981/007_DeepTouchMan.png"
+      },
+      {
+        "name": "YULIAN",
+        "url": "https://rentmasseur.com/YULIAN",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260813T060840Z-981/008_YULIAN.png"
+      },
+      {
+        "name": "MitchinSC",
+        "url": "https://rentmasseur.com/MitchinSC",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260813T060840Z-981/009_MitchinSC.png"
+      },
+      {
+        "name": "Nhs",
+        "url": "https://rentmasseur.com/Nhs",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260813T060840Z-981/010_Nhs.png"
+      }
+    ]
   }
 ]
