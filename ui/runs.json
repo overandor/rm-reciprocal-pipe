@@ -15193,5 +15193,19 @@
     "verification": null,
     "video": "recordings/20260813T194000Z-978.webm",
     "visited": []
+  },
+  {
+    "id": "20260813T202226Z-211",
+    "started_at": "2026-08-13T20:22:26+00:00",
+    "finished_at": "2026-08-13T20:22:45+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260813T202226Z-211.webm",
+    "visited": []
   }
 ]
