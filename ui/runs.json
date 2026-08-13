@@ -15078,5 +15078,106 @@
     "verification": null,
     "video": "recordings/20260813T172400Z-948.webm",
     "visited": []
+  },
+  {
+    "id": "20260813T182951Z-887",
+    "started_at": "2026-08-13T18:29:51+00:00",
+    "finished_at": "2026-08-13T18:31:15+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "Shortsighted",
+        "Kohmasse",
+        "MitchinSC",
+        "Tytwelve",
+        "OrizNYC",
+        "Bklibra",
+        "Mikemasseur",
+        "Bigblueeast",
+        "DougUC",
+        "Justinperez"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260813T182951Z-887.webm",
+    "visited": [
+      {
+        "name": "Shortsighted",
+        "url": "https://rentmasseur.com/Shortsighted",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260813T182951Z-887/001_Shortsighted.png"
+      },
+      {
+        "name": "Kohmasse",
+        "url": "https://rentmasseur.com/Kohmasse",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260813T182951Z-887/002_Kohmasse.png"
+      },
+      {
+        "name": "MitchinSC",
+        "url": "https://rentmasseur.com/MitchinSC",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260813T182951Z-887/003_MitchinSC.png"
+      },
+      {
+        "name": "Tytwelve",
+        "url": "https://rentmasseur.com/Tytwelve",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260813T182951Z-887/004_Tytwelve.png"
+      },
+      {
+        "name": "OrizNYC",
+        "url": "https://rentmasseur.com/OrizNYC",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260813T182951Z-887/005_OrizNYC.png"
+      },
+      {
+        "name": "Bklibra",
+        "url": "https://rentmasseur.com/bklibra",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260813T182951Z-887/006_Bklibra.png"
+      },
+      {
+        "name": "Mikemasseur",
+        "url": "https://rentmasseur.com/Mikemasseur",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260813T182951Z-887/007_Mikemasseur.png"
+      },
+      {
+        "name": "Bigblueeast",
+        "url": "https://rentmasseur.com/Bigblueeast",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260813T182951Z-887/008_Bigblueeast.png"
+      },
+      {
+        "name": "DougUC",
+        "url": "https://rentmasseur.com/DougUC",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260813T182951Z-887/009_DougUC.png"
+      },
+      {
+        "name": "Justinperez",
+        "url": "https://rentmasseur.com/Justinperez",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260813T182951Z-887/010_Justinperez.png"
+      }
+    ]
   }
 ]
