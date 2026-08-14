@@ -16144,5 +16144,19 @@
         "screenshot": "recordings/screenshots/20260814T111228Z-576/010_MitchinSC.png"
       }
     ]
+  },
+  {
+    "id": "20260814T120147Z-583",
+    "started_at": "2026-08-14T12:01:47+00:00",
+    "finished_at": "2026-08-14T12:02:07+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260814T120147Z-583.webm",
+    "visited": []
   }
 ]
