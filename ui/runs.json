@@ -15712,5 +15712,19 @@
         "screenshot": "recordings/screenshots/20260814T024830Z-681/010_OrizNYC.png"
       }
     ]
+  },
+  {
+    "id": "20260814T044124Z-642",
+    "started_at": "2026-08-14T04:41:24+00:00",
+    "finished_at": "2026-08-14T04:41:44+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260814T044124Z-642.webm",
+    "visited": []
   }
 ]
