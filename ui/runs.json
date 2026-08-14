@@ -17095,5 +17095,19 @@
     "verification": null,
     "video": "recordings/20260814T215821Z-818.webm",
     "visited": []
+  },
+  {
+    "id": "20260814T223322Z-799",
+    "started_at": "2026-08-14T22:33:22+00:00",
+    "finished_at": "2026-08-14T22:33:42+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260814T223322Z-799.webm",
+    "visited": []
   }
 ]
