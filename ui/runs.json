@@ -19084,5 +19084,19 @@
         "screenshot": "recordings/screenshots/20260815T125235Z-117/010_Shortsighted.png"
       }
     ]
+  },
+  {
+    "id": "20260815T133703Z-452",
+    "started_at": "2026-08-15T13:37:03+00:00",
+    "finished_at": "2026-08-15T13:37:23+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260815T133703Z-452.webm",
+    "visited": []
   }
 ]
