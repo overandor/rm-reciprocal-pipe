@@ -21289,5 +21289,19 @@
         "screenshot": "recordings/screenshots/20260816T044914Z-114/010_UWSUS.png"
       }
     ]
+  },
+  {
+    "id": "20260816T051905Z-365",
+    "started_at": "2026-08-16T05:19:05+00:00",
+    "finished_at": "2026-08-16T05:19:25+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260816T051905Z-365.webm",
+    "visited": []
   }
 ]
