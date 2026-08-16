@@ -21951,5 +21951,19 @@
     "verification": null,
     "video": "recordings/20260816T104236Z-900.webm",
     "visited": []
+  },
+  {
+    "id": "20260816T110521Z-842",
+    "started_at": "2026-08-16T11:05:21+00:00",
+    "finished_at": "2026-08-16T11:05:41+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260816T110521Z-842.webm",
+    "visited": []
   }
 ]
