@@ -23982,5 +23982,19 @@
     "verification": null,
     "video": "recordings/20260817T004029Z-602.webm",
     "visited": []
+  },
+  {
+    "id": "20260817T020957Z-516",
+    "started_at": "2026-08-17T02:09:57+00:00",
+    "finished_at": "2026-08-17T02:10:18+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260817T020957Z-516.webm",
+    "visited": []
   }
 ]
