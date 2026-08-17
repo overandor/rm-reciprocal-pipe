@@ -24630,5 +24630,19 @@
         "screenshot": "recordings/screenshots/20260817T091118Z-160/010_Kohmasse.png"
       }
     ]
+  },
+  {
+    "id": "20260817T100140Z-152",
+    "started_at": "2026-08-17T10:01:40+00:00",
+    "finished_at": "2026-08-17T10:02:00+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260817T100140Z-152.webm",
+    "visited": []
   }
 ]
