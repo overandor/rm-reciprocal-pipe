@@ -25564,5 +25564,106 @@
         "screenshot": "recordings/screenshots/20260817T194110Z-734/010_Jbtomahawk.png"
       }
     ]
+  },
+  {
+    "id": "20260817T201057Z-820",
+    "started_at": "2026-08-17T20:10:57+00:00",
+    "finished_at": "2026-08-17T20:12:14+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "Inneedofmassage",
+        "Williyumz",
+        "Stevelar",
+        "Oldernwisertoo",
+        "Johnnycat",
+        "Newer",
+        "TheSqueak",
+        "Misterswirl",
+        "Blackcake",
+        "Jbtomahawk"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260817T201057Z-820.webm",
+    "visited": [
+      {
+        "name": "Inneedofmassage",
+        "url": "https://rentmasseur.com/inneedofmassage",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260817T201057Z-820/001_Inneedofmassage.png"
+      },
+      {
+        "name": "Williyumz",
+        "url": "https://rentmasseur.com/williyumz",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260817T201057Z-820/002_Williyumz.png"
+      },
+      {
+        "name": "Stevelar",
+        "url": "https://rentmasseur.com/Stevelar",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260817T201057Z-820/003_Stevelar.png"
+      },
+      {
+        "name": "Oldernwisertoo",
+        "url": "https://rentmasseur.com/oldernwisertoo",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260817T201057Z-820/004_Oldernwisertoo.png"
+      },
+      {
+        "name": "Johnnycat",
+        "url": "https://rentmasseur.com/johnnycat",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260817T201057Z-820/005_Johnnycat.png"
+      },
+      {
+        "name": "Newer",
+        "url": "https://rentmasseur.com/Newer",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260817T201057Z-820/006_Newer.png"
+      },
+      {
+        "name": "TheSqueak",
+        "url": "https://rentmasseur.com/TheSqueak",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260817T201057Z-820/007_TheSqueak.png"
+      },
+      {
+        "name": "Misterswirl",
+        "url": "https://rentmasseur.com/Misterswirl",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260817T201057Z-820/008_Misterswirl.png"
+      },
+      {
+        "name": "Blackcake",
+        "url": "https://rentmasseur.com/Blackcake",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260817T201057Z-820/009_Blackcake.png"
+      },
+      {
+        "name": "Jbtomahawk",
+        "url": "https://rentmasseur.com/Jbtomahawk",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260817T201057Z-820/010_Jbtomahawk.png"
+      }
+    ]
   }
 ]
