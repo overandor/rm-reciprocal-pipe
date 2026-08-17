@@ -24874,5 +24874,19 @@
     "verification": null,
     "video": "recordings/20260817T121406Z-170.webm",
     "visited": []
+  },
+  {
+    "id": "20260817T131132Z-704",
+    "started_at": "2026-08-17T13:11:32+00:00",
+    "finished_at": "2026-08-17T13:11:52+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260817T131132Z-704.webm",
+    "visited": []
   }
 ]
