@@ -28678,5 +28678,106 @@
         "screenshot": "recordings/screenshots/20260818T195911Z-207/010_NoHoDominican.png"
       }
     ]
+  },
+  {
+    "id": "20260818T203720Z-340",
+    "started_at": "2026-08-18T20:37:20+00:00",
+    "finished_at": "2026-08-18T20:38:34+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "Tomozade",
+        "Johnnycat",
+        "Thoroughlysumpin",
+        "Benlennox",
+        "Geminiinnyc",
+        "Balexme",
+        "OrlandoGeek",
+        "Bknymuscle",
+        "JakeBrennan",
+        "Llkkbbc"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260818T203720Z-340.webm",
+    "visited": [
+      {
+        "name": "Tomozade",
+        "url": "https://rentmasseur.com/tomozade",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260818T203720Z-340/001_Tomozade.png"
+      },
+      {
+        "name": "Johnnycat",
+        "url": "https://rentmasseur.com/johnnycat",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260818T203720Z-340/002_Johnnycat.png"
+      },
+      {
+        "name": "Thoroughlysumpin",
+        "url": "https://rentmasseur.com/thoroughlysumpin",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260818T203720Z-340/003_Thoroughlysumpin.png"
+      },
+      {
+        "name": "Benlennox",
+        "url": "https://rentmasseur.com/benlennox",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260818T203720Z-340/004_Benlennox.png"
+      },
+      {
+        "name": "Geminiinnyc",
+        "url": "https://rentmasseur.com/Geminiinnyc",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260818T203720Z-340/005_Geminiinnyc.png"
+      },
+      {
+        "name": "Balexme",
+        "url": "https://rentmasseur.com/Balexme",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260818T203720Z-340/006_Balexme.png"
+      },
+      {
+        "name": "OrlandoGeek",
+        "url": "https://rentmasseur.com/OrlandoGeek",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260818T203720Z-340/007_OrlandoGeek.png"
+      },
+      {
+        "name": "Bknymuscle",
+        "url": "https://rentmasseur.com/bknymuscle",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260818T203720Z-340/008_Bknymuscle.png"
+      },
+      {
+        "name": "JakeBrennan",
+        "url": "https://rentmasseur.com/JakeBrennan",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260818T203720Z-340/009_JakeBrennan.png"
+      },
+      {
+        "name": "Llkkbbc",
+        "url": "https://rentmasseur.com/llkkbbc",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260818T203720Z-340/010_Llkkbbc.png"
+      }
+    ]
   }
 ]
