@@ -27410,5 +27410,106 @@
         "screenshot": "recordings/screenshots/20260818T092241Z-408/010_Williyumz.png"
       }
     ]
+  },
+  {
+    "id": "20260818T095952Z-651",
+    "started_at": "2026-08-18T09:59:52+00:00",
+    "finished_at": "2026-08-18T10:01:13+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "JakeBrennan",
+        "Llkkbbc",
+        "Massagecouve",
+        "Trailin",
+        "NoHoDominican",
+        "Turtlebaynew",
+        "Bbchk",
+        "Jetsetterd",
+        "Inneedofmassage",
+        "Williyumz"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260818T095952Z-651.webm",
+    "visited": [
+      {
+        "name": "JakeBrennan",
+        "url": "https://rentmasseur.com/JakeBrennan",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260818T095952Z-651/001_JakeBrennan.png"
+      },
+      {
+        "name": "Llkkbbc",
+        "url": "https://rentmasseur.com/llkkbbc",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260818T095952Z-651/002_Llkkbbc.png"
+      },
+      {
+        "name": "Massagecouve",
+        "url": "https://rentmasseur.com/Massagecouve",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260818T095952Z-651/003_Massagecouve.png"
+      },
+      {
+        "name": "Trailin",
+        "url": "https://rentmasseur.com/Trailin",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260818T095952Z-651/004_Trailin.png"
+      },
+      {
+        "name": "NoHoDominican",
+        "url": "https://rentmasseur.com/NoHoDominican",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260818T095952Z-651/005_NoHoDominican.png"
+      },
+      {
+        "name": "Turtlebaynew",
+        "url": "https://rentmasseur.com/Turtlebaynew",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260818T095952Z-651/006_Turtlebaynew.png"
+      },
+      {
+        "name": "Bbchk",
+        "url": "https://rentmasseur.com/bbchk",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260818T095952Z-651/007_Bbchk.png"
+      },
+      {
+        "name": "Jetsetterd",
+        "url": "https://rentmasseur.com/Jetsetterd",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260818T095952Z-651/008_Jetsetterd.png"
+      },
+      {
+        "name": "Inneedofmassage",
+        "url": "https://rentmasseur.com/inneedofmassage",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260818T095952Z-651/009_Inneedofmassage.png"
+      },
+      {
+        "name": "Williyumz",
+        "url": "https://rentmasseur.com/williyumz",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260818T095952Z-651/010_Williyumz.png"
+      }
+    ]
   }
 ]
