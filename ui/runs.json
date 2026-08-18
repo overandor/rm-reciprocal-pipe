@@ -29009,5 +29009,19 @@
         "screenshot": "recordings/screenshots/20260818T223351Z-295/010_OrlandoGeek.png"
       }
     ]
+  },
+  {
+    "id": "20260818T225920Z-321",
+    "started_at": "2026-08-18T22:59:20+00:00",
+    "finished_at": "2026-08-18T22:59:40+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260818T225920Z-321.webm",
+    "visited": []
   }
 ]
