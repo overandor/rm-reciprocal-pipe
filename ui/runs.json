@@ -28894,5 +28894,19 @@
         "screenshot": "recordings/screenshots/20260818T213358Z-279/010_Llkkbbc.png"
       }
     ]
+  },
+  {
+    "id": "20260818T215719Z-713",
+    "started_at": "2026-08-18T21:57:19+00:00",
+    "finished_at": "2026-08-18T21:57:38+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260818T215719Z-713.webm",
+    "visited": []
   }
 ]
