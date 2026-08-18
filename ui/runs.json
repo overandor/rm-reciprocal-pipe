@@ -29023,5 +29023,106 @@
     "verification": null,
     "video": "recordings/20260818T225920Z-321.webm",
     "visited": []
+  },
+  {
+    "id": "20260818T233158Z-932",
+    "started_at": "2026-08-18T23:31:58+00:00",
+    "finished_at": "2026-08-18T23:33:17+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "MassageAddictATL",
+        "Tirripaisti",
+        "Fantasyfriend",
+        "Tomozade",
+        "Johnnycat",
+        "Thoroughlysumpin",
+        "Benlennox",
+        "Geminiinnyc",
+        "Balexme",
+        "OrlandoGeek"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260818T233158Z-932.webm",
+    "visited": [
+      {
+        "name": "MassageAddictATL",
+        "url": "https://rentmasseur.com/MassageAddictATL",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260818T233158Z-932/001_MassageAddictATL.png"
+      },
+      {
+        "name": "Tirripaisti",
+        "url": "https://rentmasseur.com/Tirripaisti",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260818T233158Z-932/002_Tirripaisti.png"
+      },
+      {
+        "name": "Fantasyfriend",
+        "url": "https://rentmasseur.com/Fantasyfriend",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260818T233158Z-932/003_Fantasyfriend.png"
+      },
+      {
+        "name": "Tomozade",
+        "url": "https://rentmasseur.com/tomozade",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260818T233158Z-932/004_Tomozade.png"
+      },
+      {
+        "name": "Johnnycat",
+        "url": "https://rentmasseur.com/johnnycat",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260818T233158Z-932/005_Johnnycat.png"
+      },
+      {
+        "name": "Thoroughlysumpin",
+        "url": "https://rentmasseur.com/thoroughlysumpin",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260818T233158Z-932/006_Thoroughlysumpin.png"
+      },
+      {
+        "name": "Benlennox",
+        "url": "https://rentmasseur.com/benlennox",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260818T233158Z-932/007_Benlennox.png"
+      },
+      {
+        "name": "Geminiinnyc",
+        "url": "https://rentmasseur.com/Geminiinnyc",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260818T233158Z-932/008_Geminiinnyc.png"
+      },
+      {
+        "name": "Balexme",
+        "url": "https://rentmasseur.com/Balexme",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260818T233158Z-932/009_Balexme.png"
+      },
+      {
+        "name": "OrlandoGeek",
+        "url": "https://rentmasseur.com/OrlandoGeek",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260818T233158Z-932/010_OrlandoGeek.png"
+      }
+    ]
   }
 ]
