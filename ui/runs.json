@@ -30365,5 +30365,19 @@
         "screenshot": "recordings/screenshots/20260819T121620Z-410/010_Svendaring.png"
       }
     ]
+  },
+  {
+    "id": "20260819T131524Z-111",
+    "started_at": "2026-08-19T13:15:24+00:00",
+    "finished_at": "2026-08-19T13:15:44+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260819T131524Z-111.webm",
+    "visited": []
   }
 ]
