@@ -29326,5 +29326,106 @@
         "screenshot": "recordings/screenshots/20260819T014703Z-734/010_Balexme.png"
       }
     ]
+  },
+  {
+    "id": "20260819T024633Z-550",
+    "started_at": "2026-08-19T02:46:33+00:00",
+    "finished_at": "2026-08-19T02:47:55+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "Warriors",
+        "Mercfan",
+        "Svendaring",
+        "Pippup",
+        "Btrav",
+        "MassageAddictATL",
+        "Tirripaisti",
+        "Fantasyfriend",
+        "Tomozade",
+        "Johnnycat"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260819T024633Z-550.webm",
+    "visited": [
+      {
+        "name": "Warriors",
+        "url": "https://rentmasseur.com/Warriors",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T024633Z-550/001_Warriors.png"
+      },
+      {
+        "name": "Mercfan",
+        "url": "https://rentmasseur.com/Mercfan",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T024633Z-550/002_Mercfan.png"
+      },
+      {
+        "name": "Svendaring",
+        "url": "https://rentmasseur.com/svendaring",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T024633Z-550/003_Svendaring.png"
+      },
+      {
+        "name": "Pippup",
+        "url": "https://rentmasseur.com/Pippup",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T024633Z-550/004_Pippup.png"
+      },
+      {
+        "name": "Btrav",
+        "url": "https://rentmasseur.com/btrav",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T024633Z-550/005_Btrav.png"
+      },
+      {
+        "name": "MassageAddictATL",
+        "url": "https://rentmasseur.com/MassageAddictATL",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T024633Z-550/006_MassageAddictATL.png"
+      },
+      {
+        "name": "Tirripaisti",
+        "url": "https://rentmasseur.com/Tirripaisti",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T024633Z-550/007_Tirripaisti.png"
+      },
+      {
+        "name": "Fantasyfriend",
+        "url": "https://rentmasseur.com/Fantasyfriend",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T024633Z-550/008_Fantasyfriend.png"
+      },
+      {
+        "name": "Tomozade",
+        "url": "https://rentmasseur.com/tomozade",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T024633Z-550/009_Tomozade.png"
+      },
+      {
+        "name": "Johnnycat",
+        "url": "https://rentmasseur.com/johnnycat",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T024633Z-550/010_Johnnycat.png"
+      }
+    ]
   }
 ]
