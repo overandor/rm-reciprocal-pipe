@@ -31518,5 +31518,106 @@
         "screenshot": "recordings/screenshots/20260819T230252Z-560/010_JjJluv.png"
       }
     ]
+  },
+  {
+    "id": "20260819T233509Z-892",
+    "started_at": "2026-08-19T23:35:09+00:00",
+    "finished_at": "2026-08-19T23:36:27+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "Jetsetterd",
+        "Tinywaist",
+        "KennethFK",
+        "Gtownhairguy",
+        "Bohemio",
+        "AbyssR",
+        "MartinFW",
+        "MountaineerNY",
+        "Mizzouri",
+        "Bknotty"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260819T233509Z-892.webm",
+    "visited": [
+      {
+        "name": "Jetsetterd",
+        "url": "https://rentmasseur.com/Jetsetterd",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T233509Z-892/001_Jetsetterd.png"
+      },
+      {
+        "name": "Tinywaist",
+        "url": "https://rentmasseur.com/tinywaist",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T233509Z-892/002_Tinywaist.png"
+      },
+      {
+        "name": "KennethFK",
+        "url": "https://rentmasseur.com/KennethFK",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T233509Z-892/003_KennethFK.png"
+      },
+      {
+        "name": "Gtownhairguy",
+        "url": "https://rentmasseur.com/Gtownhairguy",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T233509Z-892/004_Gtownhairguy.png"
+      },
+      {
+        "name": "Bohemio",
+        "url": "https://rentmasseur.com/Bohemio",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T233509Z-892/005_Bohemio.png"
+      },
+      {
+        "name": "AbyssR",
+        "url": "https://rentmasseur.com/AbyssR",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T233509Z-892/006_AbyssR.png"
+      },
+      {
+        "name": "MartinFW",
+        "url": "https://rentmasseur.com/MartinFW",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T233509Z-892/007_MartinFW.png"
+      },
+      {
+        "name": "MountaineerNY",
+        "url": "https://rentmasseur.com/MountaineerNY",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T233509Z-892/008_MountaineerNY.png"
+      },
+      {
+        "name": "Mizzouri",
+        "url": "https://rentmasseur.com/Mizzouri",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T233509Z-892/009_Mizzouri.png"
+      },
+      {
+        "name": "Bknotty",
+        "url": "https://rentmasseur.com/bknotty",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T233509Z-892/010_Bknotty.png"
+      }
+    ]
   }
 ]
