@@ -30061,5 +30061,107 @@
         "screenshot": "recordings/screenshots/20260819T105210Z-589/010_Btrav.png"
       }
     ]
+  },
+  {
+    "id": "20260819T111548Z-344",
+    "started_at": "2026-08-19T11:15:48+00:00",
+    "finished_at": "2026-08-19T11:17:08+00:00",
+    "status": "verification_failed",
+    "error": "2 visit(s) did not register in 'Who Did I See'",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 8,
+    "verification": {
+      "saw_count": 8,
+      "expected_count": 10,
+      "matched": [
+        "Valiantxxx",
+        "Italianodue",
+        "Tghttim",
+        "Jihphat",
+        "Nycguyues",
+        "Jbtomahawk",
+        "Miamimaleguy",
+        "Warriors"
+      ],
+      "missing": [
+        "Mercfan",
+        "Svendaring"
+      ]
+    },
+    "video": "recordings/20260819T111548Z-344.webm",
+    "visited": [
+      {
+        "name": "Valiantxxx",
+        "url": "https://rentmasseur.com/Valiantxxx",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T111548Z-344/001_Valiantxxx.png"
+      },
+      {
+        "name": "Italianodue",
+        "url": "https://rentmasseur.com/italianodue",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T111548Z-344/002_Italianodue.png"
+      },
+      {
+        "name": "Tghttim",
+        "url": "https://rentmasseur.com/Tghttim",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T111548Z-344/003_Tghttim.png"
+      },
+      {
+        "name": "Jihphat",
+        "url": "https://rentmasseur.com/Jihphat",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T111548Z-344/004_Jihphat.png"
+      },
+      {
+        "name": "Nycguyues",
+        "url": "https://rentmasseur.com/Nycguyues",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T111548Z-344/005_Nycguyues.png"
+      },
+      {
+        "name": "Jbtomahawk",
+        "url": "https://rentmasseur.com/Jbtomahawk",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T111548Z-344/006_Jbtomahawk.png"
+      },
+      {
+        "name": "Miamimaleguy",
+        "url": "https://rentmasseur.com/Miamimaleguy",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T111548Z-344/007_Miamimaleguy.png"
+      },
+      {
+        "name": "Warriors",
+        "url": "https://rentmasseur.com/Warriors",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T111548Z-344/008_Warriors.png"
+      },
+      {
+        "name": "Mercfan",
+        "url": "https://rentmasseur.com/Mercfan",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T111548Z-344/009_Mercfan.png"
+      },
+      {
+        "name": "Svendaring",
+        "url": "https://rentmasseur.com/svendaring",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T111548Z-344/010_Svendaring.png"
+      }
+    ]
   }
 ]
