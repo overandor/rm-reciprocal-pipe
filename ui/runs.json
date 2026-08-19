@@ -30379,5 +30379,106 @@
     "verification": null,
     "video": "recordings/20260819T131524Z-111.webm",
     "visited": []
+  },
+  {
+    "id": "20260819T140523Z-349",
+    "started_at": "2026-08-19T14:05:23+00:00",
+    "finished_at": "2026-08-19T14:06:46+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "Masahelover",
+        "Tghttim",
+        "Turtlebaynew",
+        "HenryHMDR",
+        "Valiantxxx",
+        "Italianodue",
+        "Jihphat",
+        "Nycguyues",
+        "Jbtomahawk",
+        "Miamimaleguy"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260819T140523Z-349.webm",
+    "visited": [
+      {
+        "name": "Masahelover",
+        "url": "https://rentmasseur.com/Masahelover",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T140523Z-349/001_Masahelover.png"
+      },
+      {
+        "name": "Tghttim",
+        "url": "https://rentmasseur.com/Tghttim",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T140523Z-349/002_Tghttim.png"
+      },
+      {
+        "name": "Turtlebaynew",
+        "url": "https://rentmasseur.com/Turtlebaynew",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T140523Z-349/003_Turtlebaynew.png"
+      },
+      {
+        "name": "HenryHMDR",
+        "url": "https://rentmasseur.com/HenryHMDR",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T140523Z-349/004_HenryHMDR.png"
+      },
+      {
+        "name": "Valiantxxx",
+        "url": "https://rentmasseur.com/Valiantxxx",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T140523Z-349/005_Valiantxxx.png"
+      },
+      {
+        "name": "Italianodue",
+        "url": "https://rentmasseur.com/italianodue",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T140523Z-349/006_Italianodue.png"
+      },
+      {
+        "name": "Jihphat",
+        "url": "https://rentmasseur.com/Jihphat",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T140523Z-349/007_Jihphat.png"
+      },
+      {
+        "name": "Nycguyues",
+        "url": "https://rentmasseur.com/Nycguyues",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T140523Z-349/008_Nycguyues.png"
+      },
+      {
+        "name": "Jbtomahawk",
+        "url": "https://rentmasseur.com/Jbtomahawk",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T140523Z-349/009_Jbtomahawk.png"
+      },
+      {
+        "name": "Miamimaleguy",
+        "url": "https://rentmasseur.com/Miamimaleguy",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260819T140523Z-349/010_Miamimaleguy.png"
+      }
+    ]
   }
 ]
