@@ -33939,5 +33939,106 @@
         "screenshot": "recordings/screenshots/20260820T211429Z-413/010_Puckey.png"
       }
     ]
+  },
+  {
+    "id": "20260820T214938Z-378",
+    "started_at": "2026-08-20T21:49:38+00:00",
+    "finished_at": "2026-08-20T21:50:53+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "Brooksfield",
+        "Dilferest",
+        "Southslope",
+        "Alextrumbull",
+        "HeyJohnDavid",
+        "GAwootv",
+        "Stevedocbw",
+        "Rblxhrt",
+        "Newyorkmatic",
+        "Happyhelper"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260820T214938Z-378.webm",
+    "visited": [
+      {
+        "name": "Brooksfield",
+        "url": "https://rentmasseur.com/Brooksfield",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T214938Z-378/001_Brooksfield.png"
+      },
+      {
+        "name": "Dilferest",
+        "url": "https://rentmasseur.com/Dilferest",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T214938Z-378/002_Dilferest.png"
+      },
+      {
+        "name": "Southslope",
+        "url": "https://rentmasseur.com/Southslope",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T214938Z-378/003_Southslope.png"
+      },
+      {
+        "name": "Alextrumbull",
+        "url": "https://rentmasseur.com/alextrumbull",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T214938Z-378/004_Alextrumbull.png"
+      },
+      {
+        "name": "HeyJohnDavid",
+        "url": "https://rentmasseur.com/HeyJohnDavid",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T214938Z-378/005_HeyJohnDavid.png"
+      },
+      {
+        "name": "GAwootv",
+        "url": "https://rentmasseur.com/GAwootv",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T214938Z-378/006_GAwootv.png"
+      },
+      {
+        "name": "Stevedocbw",
+        "url": "https://rentmasseur.com/stevedocbw",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T214938Z-378/007_Stevedocbw.png"
+      },
+      {
+        "name": "Rblxhrt",
+        "url": "https://rentmasseur.com/Rblxhrt",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T214938Z-378/008_Rblxhrt.png"
+      },
+      {
+        "name": "Newyorkmatic",
+        "url": "https://rentmasseur.com/newyorkmatic",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T214938Z-378/009_Newyorkmatic.png"
+      },
+      {
+        "name": "Happyhelper",
+        "url": "https://rentmasseur.com/happyhelper",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T214938Z-378/010_Happyhelper.png"
+      }
+    ]
   }
 ]
