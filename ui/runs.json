@@ -32988,5 +32988,19 @@
         "screenshot": "recordings/screenshots/20260820T130955Z-348/010_AllLegs.png"
       }
     ]
+  },
+  {
+    "id": "20260820T140109Z-327",
+    "started_at": "2026-08-20T14:01:09+00:00",
+    "finished_at": "2026-08-20T14:01:29+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260820T140109Z-327.webm",
+    "visited": []
   }
 ]
