@@ -32239,5 +32239,19 @@
         "screenshot": "recordings/screenshots/20260820T054541Z-703/010_Benlennox.png"
       }
     ]
+  },
+  {
+    "id": "20260820T061944Z-274",
+    "started_at": "2026-08-20T06:19:44+00:00",
+    "finished_at": "2026-08-20T06:20:03+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260820T061944Z-274.webm",
+    "visited": []
   }
 ]
