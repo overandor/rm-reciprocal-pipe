@@ -33622,5 +33622,106 @@
         "screenshot": "recordings/screenshots/20260820T185806Z-782/010_Mnmike.png"
       }
     ]
+  },
+  {
+    "id": "20260820T193838Z-577",
+    "started_at": "2026-08-20T19:38:38+00:00",
+    "finished_at": "2026-08-20T19:39:51+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "Alextrumbull",
+        "HeyJohnDavid",
+        "GAwootv",
+        "Stevedocbw",
+        "Rblxhrt",
+        "Newyorkmatic",
+        "Happyhelper",
+        "Puckey",
+        "Danzell",
+        "Jrickless"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260820T193838Z-577.webm",
+    "visited": [
+      {
+        "name": "Alextrumbull",
+        "url": "https://rentmasseur.com/alextrumbull",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T193838Z-577/001_Alextrumbull.png"
+      },
+      {
+        "name": "HeyJohnDavid",
+        "url": "https://rentmasseur.com/HeyJohnDavid",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T193838Z-577/002_HeyJohnDavid.png"
+      },
+      {
+        "name": "GAwootv",
+        "url": "https://rentmasseur.com/GAwootv",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T193838Z-577/003_GAwootv.png"
+      },
+      {
+        "name": "Stevedocbw",
+        "url": "https://rentmasseur.com/stevedocbw",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T193838Z-577/004_Stevedocbw.png"
+      },
+      {
+        "name": "Rblxhrt",
+        "url": "https://rentmasseur.com/Rblxhrt",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T193838Z-577/005_Rblxhrt.png"
+      },
+      {
+        "name": "Newyorkmatic",
+        "url": "https://rentmasseur.com/newyorkmatic",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T193838Z-577/006_Newyorkmatic.png"
+      },
+      {
+        "name": "Happyhelper",
+        "url": "https://rentmasseur.com/happyhelper",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T193838Z-577/007_Happyhelper.png"
+      },
+      {
+        "name": "Puckey",
+        "url": "https://rentmasseur.com/Puckey",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T193838Z-577/008_Puckey.png"
+      },
+      {
+        "name": "Danzell",
+        "url": "https://rentmasseur.com/Danzell",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T193838Z-577/009_Danzell.png"
+      },
+      {
+        "name": "Jrickless",
+        "url": "https://rentmasseur.com/jrickless",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T193838Z-577/010_Jrickless.png"
+      }
+    ]
   }
 ]
