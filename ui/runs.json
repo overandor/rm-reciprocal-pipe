@@ -34142,5 +34142,106 @@
         "screenshot": "recordings/screenshots/20260820T221543Z-467/010_Stevedocbw.png"
       }
     ]
+  },
+  {
+    "id": "20260820T225017Z-805",
+    "started_at": "2026-08-20T22:50:17+00:00",
+    "finished_at": "2026-08-20T22:51:41+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "Bklibra",
+        "ChuloCub",
+        "HairyTravelGuy",
+        "Htchtc",
+        "Brooksfield",
+        "Dilferest",
+        "Southslope",
+        "Alextrumbull",
+        "HeyJohnDavid",
+        "GAwootv"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260820T225017Z-805.webm",
+    "visited": [
+      {
+        "name": "Bklibra",
+        "url": "https://rentmasseur.com/bklibra",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T225017Z-805/001_Bklibra.png"
+      },
+      {
+        "name": "ChuloCub",
+        "url": "https://rentmasseur.com/ChuloCub",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T225017Z-805/002_ChuloCub.png"
+      },
+      {
+        "name": "HairyTravelGuy",
+        "url": "https://rentmasseur.com/HairyTravelGuy",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T225017Z-805/003_HairyTravelGuy.png"
+      },
+      {
+        "name": "Htchtc",
+        "url": "https://rentmasseur.com/Htchtc",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T225017Z-805/004_Htchtc.png"
+      },
+      {
+        "name": "Brooksfield",
+        "url": "https://rentmasseur.com/Brooksfield",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T225017Z-805/005_Brooksfield.png"
+      },
+      {
+        "name": "Dilferest",
+        "url": "https://rentmasseur.com/Dilferest",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T225017Z-805/006_Dilferest.png"
+      },
+      {
+        "name": "Southslope",
+        "url": "https://rentmasseur.com/Southslope",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T225017Z-805/007_Southslope.png"
+      },
+      {
+        "name": "Alextrumbull",
+        "url": "https://rentmasseur.com/alextrumbull",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T225017Z-805/008_Alextrumbull.png"
+      },
+      {
+        "name": "HeyJohnDavid",
+        "url": "https://rentmasseur.com/HeyJohnDavid",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T225017Z-805/009_HeyJohnDavid.png"
+      },
+      {
+        "name": "GAwootv",
+        "url": "https://rentmasseur.com/GAwootv",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T225017Z-805/010_GAwootv.png"
+      }
+    ]
   }
 ]
