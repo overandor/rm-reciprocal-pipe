@@ -33103,5 +33103,106 @@
         "screenshot": "recordings/screenshots/20260820T145407Z-875/010_AllLegs.png"
       }
     ]
+  },
+  {
+    "id": "20260820T154025Z-641",
+    "started_at": "2026-08-20T15:40:25+00:00",
+    "finished_at": "2026-08-20T15:41:42+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "Danzell",
+        "GAwootv",
+        "Jrickless",
+        "Dreamo",
+        "Mnmike",
+        "Bkbroiler",
+        "Hickory",
+        "JohnCinNNJ",
+        "Embodiedzaya",
+        "Queermatt"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260820T154025Z-641.webm",
+    "visited": [
+      {
+        "name": "Danzell",
+        "url": "https://rentmasseur.com/Danzell",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T154025Z-641/001_Danzell.png"
+      },
+      {
+        "name": "GAwootv",
+        "url": "https://rentmasseur.com/GAwootv",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T154025Z-641/002_GAwootv.png"
+      },
+      {
+        "name": "Jrickless",
+        "url": "https://rentmasseur.com/jrickless",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T154025Z-641/003_Jrickless.png"
+      },
+      {
+        "name": "Dreamo",
+        "url": "https://rentmasseur.com/Dreamo",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T154025Z-641/004_Dreamo.png"
+      },
+      {
+        "name": "Mnmike",
+        "url": "https://rentmasseur.com/Mnmike",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T154025Z-641/005_Mnmike.png"
+      },
+      {
+        "name": "Bkbroiler",
+        "url": "https://rentmasseur.com/bkbroiler",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T154025Z-641/006_Bkbroiler.png"
+      },
+      {
+        "name": "Hickory",
+        "url": "https://rentmasseur.com/Hickory",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T154025Z-641/007_Hickory.png"
+      },
+      {
+        "name": "JohnCinNNJ",
+        "url": "https://rentmasseur.com/JohnCinNNJ",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T154025Z-641/008_JohnCinNNJ.png"
+      },
+      {
+        "name": "Embodiedzaya",
+        "url": "https://rentmasseur.com/Embodiedzaya",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T154025Z-641/009_Embodiedzaya.png"
+      },
+      {
+        "name": "Queermatt",
+        "url": "https://rentmasseur.com/Queermatt",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260820T154025Z-641/010_Queermatt.png"
+      }
+    ]
   }
 ]
