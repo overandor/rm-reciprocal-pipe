@@ -34574,5 +34574,19 @@
         "screenshot": "recordings/screenshots/20260821T031759Z-503/010_HairyTravelGuy.png"
       }
     ]
+  },
+  {
+    "id": "20260821T040655Z-728",
+    "started_at": "2026-08-21T04:06:55+00:00",
+    "finished_at": "2026-08-21T04:07:15+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260821T040655Z-728.webm",
+    "visited": []
   }
 ]
