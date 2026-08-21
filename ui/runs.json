@@ -35351,5 +35351,106 @@
     "verification": null,
     "video": "recordings/20260821T120121Z-993.webm",
     "visited": []
+  },
+  {
+    "id": "20260821T130931Z-650",
+    "started_at": "2026-08-21T13:09:31+00:00",
+    "finished_at": "2026-08-21T13:10:48+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "Seawest",
+        "Riccimao",
+        "Sugarlucy",
+        "Mnmike",
+        "GAwootv",
+        "Hillguydc",
+        "Jackromeo",
+        "Llkkbbc",
+        "Mangavo",
+        "Athleticsfan"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260821T130931Z-650.webm",
+    "visited": [
+      {
+        "name": "Seawest",
+        "url": "https://rentmasseur.com/seawest",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260821T130931Z-650/001_Seawest.png"
+      },
+      {
+        "name": "Riccimao",
+        "url": "https://rentmasseur.com/Riccimao",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260821T130931Z-650/002_Riccimao.png"
+      },
+      {
+        "name": "Sugarlucy",
+        "url": "https://rentmasseur.com/Sugarlucy",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260821T130931Z-650/003_Sugarlucy.png"
+      },
+      {
+        "name": "Mnmike",
+        "url": "https://rentmasseur.com/Mnmike",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260821T130931Z-650/004_Mnmike.png"
+      },
+      {
+        "name": "GAwootv",
+        "url": "https://rentmasseur.com/GAwootv",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260821T130931Z-650/005_GAwootv.png"
+      },
+      {
+        "name": "Hillguydc",
+        "url": "https://rentmasseur.com/hillguydc",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260821T130931Z-650/006_Hillguydc.png"
+      },
+      {
+        "name": "Jackromeo",
+        "url": "https://rentmasseur.com/Jackromeo",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260821T130931Z-650/007_Jackromeo.png"
+      },
+      {
+        "name": "Llkkbbc",
+        "url": "https://rentmasseur.com/llkkbbc",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260821T130931Z-650/008_Llkkbbc.png"
+      },
+      {
+        "name": "Mangavo",
+        "url": "https://rentmasseur.com/Mangavo",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260821T130931Z-650/009_Mangavo.png"
+      },
+      {
+        "name": "Athleticsfan",
+        "url": "https://rentmasseur.com/athleticsfan",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260821T130931Z-650/010_Athleticsfan.png"
+      }
+    ]
   }
 ]
