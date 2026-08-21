@@ -36793,5 +36793,19 @@
         "screenshot": "recordings/screenshots/20260821T223528Z-741/010_Gtownhairguy.png"
       }
     ]
+  },
+  {
+    "id": "20260821T230001Z-351",
+    "started_at": "2026-08-21T23:00:01+00:00",
+    "finished_at": "2026-08-21T23:00:21+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260821T230001Z-351.webm",
+    "visited": []
   }
 ]
