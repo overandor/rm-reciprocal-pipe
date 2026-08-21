@@ -36058,5 +36058,19 @@
         "screenshot": "recordings/screenshots/20260821T172148Z-277/010_Jackromeo.png"
       }
     ]
+  },
+  {
+    "id": "20260821T175826Z-362",
+    "started_at": "2026-08-21T17:58:26+00:00",
+    "finished_at": "2026-08-21T17:58:47+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260821T175826Z-362.webm",
+    "visited": []
   }
 ]
