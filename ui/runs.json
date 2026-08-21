@@ -36476,5 +36476,19 @@
         "screenshot": "recordings/screenshots/20260821T203357Z-633/010_GAwootv.png"
       }
     ]
+  },
+  {
+    "id": "20260821T205920Z-866",
+    "started_at": "2026-08-21T20:59:20+00:00",
+    "finished_at": "2026-08-21T20:59:40+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260821T205920Z-866.webm",
+    "visited": []
   }
 ]
