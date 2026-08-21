@@ -35121,5 +35121,19 @@
         "screenshot": "recordings/screenshots/20260821T094437Z-865/010_WillNYCUK.png"
       }
     ]
+  },
+  {
+    "id": "20260821T101534Z-260",
+    "started_at": "2026-08-21T10:15:34+00:00",
+    "finished_at": "2026-08-21T10:15:54+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260821T101534Z-260.webm",
+    "visited": []
   }
 ]
