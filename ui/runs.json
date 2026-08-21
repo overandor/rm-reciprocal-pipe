@@ -34689,5 +34689,19 @@
         "screenshot": "recordings/screenshots/20260821T045405Z-589/010_Bklibra.png"
       }
     ]
+  },
+  {
+    "id": "20260821T053907Z-453",
+    "started_at": "2026-08-21T05:39:07+00:00",
+    "finished_at": "2026-08-21T05:39:28+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260821T053907Z-453.webm",
+    "visited": []
   }
 ]
