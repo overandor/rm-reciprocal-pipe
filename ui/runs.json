@@ -34459,5 +34459,19 @@
         "screenshot": "recordings/screenshots/20260821T002711Z-391/010_Dilferest.png"
       }
     ]
+  },
+  {
+    "id": "20260821T021014Z-627",
+    "started_at": "2026-08-21T02:10:14+00:00",
+    "finished_at": "2026-08-21T02:10:34+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260821T021014Z-627.webm",
+    "visited": []
   }
 ]
