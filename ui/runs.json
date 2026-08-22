@@ -37253,5 +37253,106 @@
     "verification": null,
     "video": "recordings/20260822T045136Z-805.webm",
     "visited": []
+  },
+  {
+    "id": "20260822T053419Z-290",
+    "started_at": "2026-08-22T05:34:19+00:00",
+    "finished_at": "2026-08-22T05:35:36+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "Mrfinnj",
+        "Hottallsilver",
+        "Adriangu",
+        "Lostindc",
+        "RelaxandRecover",
+        "Edsilva",
+        "KennethFK",
+        "JohnJChristopher",
+        "Famheirloom",
+        "Scottbtx"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260822T053419Z-290.webm",
+    "visited": [
+      {
+        "name": "Mrfinnj",
+        "url": "https://rentmasseur.com/mrfinnj",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T053419Z-290/001_Mrfinnj.png"
+      },
+      {
+        "name": "Hottallsilver",
+        "url": "https://rentmasseur.com/Hottallsilver",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T053419Z-290/002_Hottallsilver.png"
+      },
+      {
+        "name": "Adriangu",
+        "url": "https://rentmasseur.com/Adriangu",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T053419Z-290/003_Adriangu.png"
+      },
+      {
+        "name": "Lostindc",
+        "url": "https://rentmasseur.com/lostindc",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T053419Z-290/004_Lostindc.png"
+      },
+      {
+        "name": "RelaxandRecover",
+        "url": "https://rentmasseur.com/RelaxandRecover",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T053419Z-290/005_RelaxandRecover.png"
+      },
+      {
+        "name": "Edsilva",
+        "url": "https://rentmasseur.com/edsilva",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T053419Z-290/006_Edsilva.png"
+      },
+      {
+        "name": "KennethFK",
+        "url": "https://rentmasseur.com/KennethFK",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T053419Z-290/007_KennethFK.png"
+      },
+      {
+        "name": "JohnJChristopher",
+        "url": "https://rentmasseur.com/JohnJChristopher",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T053419Z-290/008_JohnJChristopher.png"
+      },
+      {
+        "name": "Famheirloom",
+        "url": "https://rentmasseur.com/famheirloom",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T053419Z-290/009_Famheirloom.png"
+      },
+      {
+        "name": "Scottbtx",
+        "url": "https://rentmasseur.com/Scottbtx",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T053419Z-290/010_Scottbtx.png"
+      }
+    ]
   }
 ]
