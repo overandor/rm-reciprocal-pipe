@@ -37455,5 +37455,19 @@
         "screenshot": "recordings/screenshots/20260822T060032Z-622/010_Famheirloom.png"
       }
     ]
+  },
+  {
+    "id": "20260822T065558Z-496",
+    "started_at": "2026-08-22T06:55:58+00:00",
+    "finished_at": "2026-08-22T06:56:18+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260822T065558Z-496.webm",
+    "visited": []
   }
 ]
