@@ -1,106 +1,5 @@
 [
   {
-    "id": "20260803T164136Z-573",
-    "started_at": "2026-08-03T16:41:36+00:00",
-    "finished_at": "2026-08-03T16:42:55+00:00",
-    "status": "ok",
-    "error": "",
-    "dry_run": false,
-    "viewers_found": 10,
-    "visited_count": 10,
-    "verified_count": 10,
-    "verification": {
-      "saw_count": 10,
-      "expected_count": 10,
-      "matched": [
-        "Pierrejms",
-        "HanzieB",
-        "JoshuaNY",
-        "DJMbeach",
-        "Hydratedlips",
-        "Nicolahskott",
-        "Guysfriend",
-        "Pajinnyc",
-        "Billinbklyn",
-        "Petebodyworks"
-      ],
-      "missing": []
-    },
-    "video": "recordings/20260803T164136Z-573.webm",
-    "visited": [
-      {
-        "name": "Pierrejms",
-        "url": "https://rentmasseur.com/pierrejms",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260803T164136Z-573/001_Pierrejms.png"
-      },
-      {
-        "name": "HanzieB",
-        "url": "https://rentmasseur.com/HanzieB",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260803T164136Z-573/002_HanzieB.png"
-      },
-      {
-        "name": "JoshuaNY",
-        "url": "https://rentmasseur.com/JoshuaNY",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260803T164136Z-573/003_JoshuaNY.png"
-      },
-      {
-        "name": "DJMbeach",
-        "url": "https://rentmasseur.com/DJMbeach",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260803T164136Z-573/004_DJMbeach.png"
-      },
-      {
-        "name": "Hydratedlips",
-        "url": "https://rentmasseur.com/Hydratedlips",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260803T164136Z-573/005_Hydratedlips.png"
-      },
-      {
-        "name": "Nicolahskott",
-        "url": "https://rentmasseur.com/Nicolahskott",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260803T164136Z-573/006_Nicolahskott.png"
-      },
-      {
-        "name": "Guysfriend",
-        "url": "https://rentmasseur.com/guysfriend",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260803T164136Z-573/007_Guysfriend.png"
-      },
-      {
-        "name": "Pajinnyc",
-        "url": "https://rentmasseur.com/pajinnyc",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260803T164136Z-573/008_Pajinnyc.png"
-      },
-      {
-        "name": "Billinbklyn",
-        "url": "https://rentmasseur.com/Billinbklyn",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260803T164136Z-573/009_Billinbklyn.png"
-      },
-      {
-        "name": "Petebodyworks",
-        "url": "https://rentmasseur.com/petebodyworks",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260803T164136Z-573/010_Petebodyworks.png"
-      }
-    ]
-  },
-  {
     "id": "20260803T172235Z-796",
     "started_at": "2026-08-03T17:22:35+00:00",
     "finished_at": "2026-08-03T17:23:46+00:00",
@@ -39371,5 +39270,19 @@
         "screenshot": "recordings/screenshots/20260822T200154Z-463/010_Italwrsl.png"
       }
     ]
+  },
+  {
+    "id": "20260822T203740Z-757",
+    "started_at": "2026-08-22T20:37:40+00:00",
+    "finished_at": "2026-08-22T20:38:00+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260822T203740Z-757.webm",
+    "visited": []
   }
 ]
