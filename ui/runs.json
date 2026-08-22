@@ -1,19 +1,5 @@
 [
   {
-    "id": "20260803T163540Z-891",
-    "started_at": "2026-08-03T16:35:40+00:00",
-    "finished_at": "2026-08-03T16:35:42+00:00",
-    "status": "error",
-    "error": "RM_EMAIL and RM_PASSWORD must be set.",
-    "dry_run": true,
-    "viewers_found": 0,
-    "visited_count": 0,
-    "verified_count": 0,
-    "verification": null,
-    "video": "recordings/20260803T163540Z-891.webm",
-    "visited": []
-  },
-  {
     "id": "20260803T164136Z-573",
     "started_at": "2026-08-03T16:41:36+00:00",
     "finished_at": "2026-08-03T16:42:55+00:00",
@@ -39282,6 +39268,107 @@
         "visited": true,
         "error": "",
         "screenshot": "recordings/screenshots/20260822T194133Z-332/010_Rugburn.png"
+      }
+    ]
+  },
+  {
+    "id": "20260822T200154Z-463",
+    "started_at": "2026-08-22T20:01:54+00:00",
+    "finished_at": "2026-08-22T20:03:16+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "Joeyarb",
+        "Milbw",
+        "IrishNYC",
+        "Dassfinee",
+        "LATransMassage",
+        "Whereinli",
+        "Christopherl",
+        "NewRochGuy",
+        "Nitpicking",
+        "Italwrsl"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260822T200154Z-463.webm",
+    "visited": [
+      {
+        "name": "Joeyarb",
+        "url": "https://rentmasseur.com/joeyarb",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T200154Z-463/001_Joeyarb.png"
+      },
+      {
+        "name": "Milbw",
+        "url": "https://rentmasseur.com/milbw",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T200154Z-463/002_Milbw.png"
+      },
+      {
+        "name": "IrishNYC",
+        "url": "https://rentmasseur.com/IrishNYC",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T200154Z-463/003_IrishNYC.png"
+      },
+      {
+        "name": "Dassfinee",
+        "url": "https://rentmasseur.com/dassfinee",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T200154Z-463/004_Dassfinee.png"
+      },
+      {
+        "name": "LATransMassage",
+        "url": "https://rentmasseur.com/LATransMassage",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T200154Z-463/005_LATransMassage.png"
+      },
+      {
+        "name": "Whereinli",
+        "url": "https://rentmasseur.com/Whereinli",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T200154Z-463/006_Whereinli.png"
+      },
+      {
+        "name": "Christopherl",
+        "url": "https://rentmasseur.com/christopherl",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T200154Z-463/007_Christopherl.png"
+      },
+      {
+        "name": "NewRochGuy",
+        "url": "https://rentmasseur.com/NewRochGuy",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T200154Z-463/008_NewRochGuy.png"
+      },
+      {
+        "name": "Nitpicking",
+        "url": "https://rentmasseur.com/nitpicking",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T200154Z-463/009_Nitpicking.png"
+      },
+      {
+        "name": "Italwrsl",
+        "url": "https://rentmasseur.com/Italwrsl",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T200154Z-463/010_Italwrsl.png"
       }
     ]
   }
