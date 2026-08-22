@@ -37225,5 +37225,19 @@
         "screenshot": "recordings/screenshots/20260822T033001Z-847/010_Geminiinnyc.png"
       }
     ]
+  },
+  {
+    "id": "20260822T040931Z-288",
+    "started_at": "2026-08-22T04:09:31+00:00",
+    "finished_at": "2026-08-22T04:09:52+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260822T040931Z-288.webm",
+    "visited": []
   }
 ]
