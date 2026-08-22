@@ -1,106 +1,5 @@
 [
   {
-    "id": "20260803T172235Z-796",
-    "started_at": "2026-08-03T17:22:35+00:00",
-    "finished_at": "2026-08-03T17:23:46+00:00",
-    "status": "ok",
-    "error": "",
-    "dry_run": false,
-    "viewers_found": 10,
-    "visited_count": 10,
-    "verified_count": 10,
-    "verification": {
-      "saw_count": 10,
-      "expected_count": 10,
-      "matched": [
-        "Chevysc",
-        "Swimmerstud",
-        "Pierrejms",
-        "HanzieB",
-        "JoshuaNY",
-        "DJMbeach",
-        "Hydratedlips",
-        "Nicolahskott",
-        "Guysfriend",
-        "Pajinnyc"
-      ],
-      "missing": []
-    },
-    "video": "recordings/20260803T172235Z-796.webm",
-    "visited": [
-      {
-        "name": "Chevysc",
-        "url": "https://rentmasseur.com/Chevysc",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260803T172235Z-796/001_Chevysc.png"
-      },
-      {
-        "name": "Swimmerstud",
-        "url": "https://rentmasseur.com/Swimmerstud",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260803T172235Z-796/002_Swimmerstud.png"
-      },
-      {
-        "name": "Pierrejms",
-        "url": "https://rentmasseur.com/pierrejms",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260803T172235Z-796/003_Pierrejms.png"
-      },
-      {
-        "name": "HanzieB",
-        "url": "https://rentmasseur.com/HanzieB",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260803T172235Z-796/004_HanzieB.png"
-      },
-      {
-        "name": "JoshuaNY",
-        "url": "https://rentmasseur.com/JoshuaNY",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260803T172235Z-796/005_JoshuaNY.png"
-      },
-      {
-        "name": "DJMbeach",
-        "url": "https://rentmasseur.com/DJMbeach",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260803T172235Z-796/006_DJMbeach.png"
-      },
-      {
-        "name": "Hydratedlips",
-        "url": "https://rentmasseur.com/Hydratedlips",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260803T172235Z-796/007_Hydratedlips.png"
-      },
-      {
-        "name": "Nicolahskott",
-        "url": "https://rentmasseur.com/Nicolahskott",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260803T172235Z-796/008_Nicolahskott.png"
-      },
-      {
-        "name": "Guysfriend",
-        "url": "https://rentmasseur.com/guysfriend",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260803T172235Z-796/009_Guysfriend.png"
-      },
-      {
-        "name": "Pajinnyc",
-        "url": "https://rentmasseur.com/pajinnyc",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260803T172235Z-796/010_Pajinnyc.png"
-      }
-    ]
-  },
-  {
     "id": "20260803T190836Z-667",
     "started_at": "2026-08-03T19:08:36+00:00",
     "finished_at": "2026-08-03T19:09:47+00:00",
@@ -39284,5 +39183,107 @@
     "verification": null,
     "video": "recordings/20260822T203740Z-757.webm",
     "visited": []
+  },
+  {
+    "id": "20260822T210040Z-232",
+    "started_at": "2026-08-22T21:00:40+00:00",
+    "finished_at": "2026-08-22T21:02:00+00:00",
+    "status": "verification_failed",
+    "error": "1 visit(s) did not register in 'Who Did I See'",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 9,
+    "verification": {
+      "saw_count": 9,
+      "expected_count": 10,
+      "matched": [
+        "Hazyarchive",
+        "Joeyarb",
+        "Milbw",
+        "IrishNYC",
+        "Dassfinee",
+        "LATransMassage",
+        "Whereinli",
+        "Christopherl",
+        "NewRochGuy"
+      ],
+      "missing": [
+        "Nitpicking"
+      ]
+    },
+    "video": "recordings/20260822T210040Z-232.webm",
+    "visited": [
+      {
+        "name": "Hazyarchive",
+        "url": "https://rentmasseur.com/hazyarchive",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T210040Z-232/001_Hazyarchive.png"
+      },
+      {
+        "name": "Joeyarb",
+        "url": "https://rentmasseur.com/joeyarb",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T210040Z-232/002_Joeyarb.png"
+      },
+      {
+        "name": "Milbw",
+        "url": "https://rentmasseur.com/milbw",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T210040Z-232/003_Milbw.png"
+      },
+      {
+        "name": "IrishNYC",
+        "url": "https://rentmasseur.com/IrishNYC",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T210040Z-232/004_IrishNYC.png"
+      },
+      {
+        "name": "Dassfinee",
+        "url": "https://rentmasseur.com/dassfinee",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T210040Z-232/005_Dassfinee.png"
+      },
+      {
+        "name": "LATransMassage",
+        "url": "https://rentmasseur.com/LATransMassage",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T210040Z-232/006_LATransMassage.png"
+      },
+      {
+        "name": "Whereinli",
+        "url": "https://rentmasseur.com/Whereinli",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T210040Z-232/007_Whereinli.png"
+      },
+      {
+        "name": "Christopherl",
+        "url": "https://rentmasseur.com/christopherl",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T210040Z-232/008_Christopherl.png"
+      },
+      {
+        "name": "NewRochGuy",
+        "url": "https://rentmasseur.com/NewRochGuy",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T210040Z-232/009_NewRochGuy.png"
+      },
+      {
+        "name": "Nitpicking",
+        "url": "https://rentmasseur.com/nitpicking",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T210040Z-232/010_Nitpicking.png"
+      }
+    ]
   }
 ]
