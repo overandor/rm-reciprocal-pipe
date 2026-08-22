@@ -38911,5 +38911,106 @@
     "verification": null,
     "video": "recordings/20260822T153047Z-986.webm",
     "visited": []
+  },
+  {
+    "id": "20260822T155616Z-859",
+    "started_at": "2026-08-22T15:56:16+00:00",
+    "finished_at": "2026-08-22T15:57:38+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "Christopherl",
+        "NewRochGuy",
+        "Nitpicking",
+        "Italwrsl",
+        "Rugburn",
+        "Gtownhairguy",
+        "Tallblondenyc",
+        "Bobbarker",
+        "Mrfinnj",
+        "Hottallsilver"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260822T155616Z-859.webm",
+    "visited": [
+      {
+        "name": "Christopherl",
+        "url": "https://rentmasseur.com/christopherl",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T155616Z-859/001_Christopherl.png"
+      },
+      {
+        "name": "NewRochGuy",
+        "url": "https://rentmasseur.com/NewRochGuy",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T155616Z-859/002_NewRochGuy.png"
+      },
+      {
+        "name": "Nitpicking",
+        "url": "https://rentmasseur.com/nitpicking",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T155616Z-859/003_Nitpicking.png"
+      },
+      {
+        "name": "Italwrsl",
+        "url": "https://rentmasseur.com/Italwrsl",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T155616Z-859/004_Italwrsl.png"
+      },
+      {
+        "name": "Rugburn",
+        "url": "https://rentmasseur.com/rugburn",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T155616Z-859/005_Rugburn.png"
+      },
+      {
+        "name": "Gtownhairguy",
+        "url": "https://rentmasseur.com/Gtownhairguy",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T155616Z-859/006_Gtownhairguy.png"
+      },
+      {
+        "name": "Tallblondenyc",
+        "url": "https://rentmasseur.com/Tallblondenyc",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T155616Z-859/007_Tallblondenyc.png"
+      },
+      {
+        "name": "Bobbarker",
+        "url": "https://rentmasseur.com/Bobbarker",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T155616Z-859/008_Bobbarker.png"
+      },
+      {
+        "name": "Mrfinnj",
+        "url": "https://rentmasseur.com/mrfinnj",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T155616Z-859/009_Mrfinnj.png"
+      },
+      {
+        "name": "Hottallsilver",
+        "url": "https://rentmasseur.com/Hottallsilver",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260822T155616Z-859/010_Hottallsilver.png"
+      }
+    ]
   }
 ]
