@@ -37239,5 +37239,19 @@
     "verification": null,
     "video": "recordings/20260822T040931Z-288.webm",
     "visited": []
+  },
+  {
+    "id": "20260822T045136Z-805",
+    "started_at": "2026-08-22T04:51:36+00:00",
+    "finished_at": "2026-08-22T04:51:56+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260822T045136Z-805.webm",
+    "visited": []
   }
 ]
