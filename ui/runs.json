@@ -1,106 +1,5 @@
 [
   {
-    "id": "20260804T155849Z-694",
-    "started_at": "2026-08-04T15:58:49+00:00",
-    "finished_at": "2026-08-04T16:00:03+00:00",
-    "status": "ok",
-    "error": "",
-    "dry_run": false,
-    "viewers_found": 10,
-    "visited_count": 10,
-    "verified_count": 10,
-    "verification": {
-      "saw_count": 10,
-      "expected_count": 10,
-      "matched": [
-        "EnergyAlex",
-        "Browncash",
-        "JCDISC",
-        "Jeandre",
-        "Nycerik",
-        "Evanwantsmassage",
-        "Captainkock",
-        "Gabrielwalking",
-        "JakeyD",
-        "TallerNM"
-      ],
-      "missing": []
-    },
-    "video": "recordings/20260804T155849Z-694.webm",
-    "visited": [
-      {
-        "name": "EnergyAlex",
-        "url": "https://rentmasseur.com/EnergyAlex",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260804T155849Z-694/001_EnergyAlex.png"
-      },
-      {
-        "name": "Browncash",
-        "url": "https://rentmasseur.com/Browncash",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260804T155849Z-694/002_Browncash.png"
-      },
-      {
-        "name": "JCDISC",
-        "url": "https://rentmasseur.com/JCDISC",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260804T155849Z-694/003_JCDISC.png"
-      },
-      {
-        "name": "Jeandre",
-        "url": "https://rentmasseur.com/Jeandre",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260804T155849Z-694/004_Jeandre.png"
-      },
-      {
-        "name": "Nycerik",
-        "url": "https://rentmasseur.com/nycerik",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260804T155849Z-694/005_Nycerik.png"
-      },
-      {
-        "name": "Evanwantsmassage",
-        "url": "https://rentmasseur.com/Evanwantsmassage",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260804T155849Z-694/006_Evanwantsmassage.png"
-      },
-      {
-        "name": "Captainkock",
-        "url": "https://rentmasseur.com/Captainkock",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260804T155849Z-694/007_Captainkock.png"
-      },
-      {
-        "name": "Gabrielwalking",
-        "url": "https://rentmasseur.com/Gabrielwalking",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260804T155849Z-694/008_Gabrielwalking.png"
-      },
-      {
-        "name": "JakeyD",
-        "url": "https://rentmasseur.com/JakeyD",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260804T155849Z-694/009_JakeyD.png"
-      },
-      {
-        "name": "TallerNM",
-        "url": "https://rentmasseur.com/TallerNM",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260804T155849Z-694/010_TallerNM.png"
-      }
-    ]
-  },
-  {
     "id": "20260804T180012Z-672",
     "started_at": "2026-08-04T18:00:12+00:00",
     "finished_at": "2026-08-04T18:01:29+00:00",
@@ -39198,5 +39097,106 @@
     "verification": null,
     "video": "recordings/20260823T045117Z-801.webm",
     "visited": []
+  },
+  {
+    "id": "20260823T053558Z-779",
+    "started_at": "2026-08-23T05:35:58+00:00",
+    "finished_at": "2026-08-23T05:37:18+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "Daveesantee",
+        "Tarokalgou",
+        "Gtownhairguy",
+        "Crosmm",
+        "Wbutlerjr",
+        "Jbtomahawk",
+        "Statenisland",
+        "Nearertothee",
+        "Brooksfield",
+        "AshAddams"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260823T053558Z-779.webm",
+    "visited": [
+      {
+        "name": "Daveesantee",
+        "url": "https://rentmasseur.com/Daveesantee",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260823T053558Z-779/001_Daveesantee.png"
+      },
+      {
+        "name": "Tarokalgou",
+        "url": "https://rentmasseur.com/tarokalgou",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260823T053558Z-779/002_Tarokalgou.png"
+      },
+      {
+        "name": "Gtownhairguy",
+        "url": "https://rentmasseur.com/Gtownhairguy",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260823T053558Z-779/003_Gtownhairguy.png"
+      },
+      {
+        "name": "Crosmm",
+        "url": "https://rentmasseur.com/Crosmm",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260823T053558Z-779/004_Crosmm.png"
+      },
+      {
+        "name": "Wbutlerjr",
+        "url": "https://rentmasseur.com/wbutlerjr",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260823T053558Z-779/005_Wbutlerjr.png"
+      },
+      {
+        "name": "Jbtomahawk",
+        "url": "https://rentmasseur.com/Jbtomahawk",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260823T053558Z-779/006_Jbtomahawk.png"
+      },
+      {
+        "name": "Statenisland",
+        "url": "https://rentmasseur.com/Statenisland",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260823T053558Z-779/007_Statenisland.png"
+      },
+      {
+        "name": "Nearertothee",
+        "url": "https://rentmasseur.com/nearertothee",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260823T053558Z-779/008_Nearertothee.png"
+      },
+      {
+        "name": "Brooksfield",
+        "url": "https://rentmasseur.com/Brooksfield",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260823T053558Z-779/009_Brooksfield.png"
+      },
+      {
+        "name": "AshAddams",
+        "url": "https://rentmasseur.com/AshAddams",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260823T053558Z-779/010_AshAddams.png"
+      }
+    ]
   }
 ]
