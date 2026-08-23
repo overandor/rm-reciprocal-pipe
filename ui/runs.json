@@ -1,19 +1,5 @@
 [
   {
-    "id": "20260805T181453Z-264",
-    "started_at": "2026-08-05T18:14:53+00:00",
-    "finished_at": "2026-08-05T18:15:13+00:00",
-    "status": "login_failed",
-    "error": "could not log in",
-    "dry_run": false,
-    "viewers_found": 0,
-    "visited_count": 0,
-    "verified_count": 0,
-    "verification": null,
-    "video": "recordings/20260805T181453Z-264.webm",
-    "visited": []
-  },
-  {
     "id": "20260805T200011Z-971",
     "started_at": "2026-08-05T20:00:11+00:00",
     "finished_at": "2026-08-05T20:01:22+00:00",
@@ -39198,5 +39184,19 @@
         "screenshot": "recordings/screenshots/20260823T125429Z-196/010_Nearertothee.png"
       }
     ]
+  },
+  {
+    "id": "20260823T133806Z-388",
+    "started_at": "2026-08-23T13:38:06+00:00",
+    "finished_at": "2026-08-23T13:38:26+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260823T133806Z-388.webm",
+    "visited": []
   }
 ]
