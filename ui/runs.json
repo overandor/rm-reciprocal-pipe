@@ -1,106 +1,5 @@
 [
   {
-    "id": "20260807T003053Z-210",
-    "started_at": "2026-08-07T00:30:53+00:00",
-    "finished_at": "2026-08-07T00:32:10+00:00",
-    "status": "ok",
-    "error": "",
-    "dry_run": false,
-    "viewers_found": 10,
-    "visited_count": 10,
-    "verified_count": 10,
-    "verification": {
-      "saw_count": 10,
-      "expected_count": 10,
-      "matched": [
-        "Tauroracing",
-        "JohnJChristopher",
-        "ChuckW",
-        "Makingusquirt",
-        "Thelastemailmike",
-        "Laigood",
-        "Jmichael",
-        "IkkerHands",
-        "Nicholassss",
-        "Wowrenatoo"
-      ],
-      "missing": []
-    },
-    "video": "recordings/20260807T003053Z-210.webm",
-    "visited": [
-      {
-        "name": "Tauroracing",
-        "url": "https://rentmasseur.com/Tauroracing",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260807T003053Z-210/001_Tauroracing.png"
-      },
-      {
-        "name": "JohnJChristopher",
-        "url": "https://rentmasseur.com/JohnJChristopher",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260807T003053Z-210/002_JohnJChristopher.png"
-      },
-      {
-        "name": "ChuckW",
-        "url": "https://rentmasseur.com/ChuckW",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260807T003053Z-210/003_ChuckW.png"
-      },
-      {
-        "name": "Makingusquirt",
-        "url": "https://rentmasseur.com/makingusquirt",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260807T003053Z-210/004_Makingusquirt.png"
-      },
-      {
-        "name": "Thelastemailmike",
-        "url": "https://rentmasseur.com/thelastemailmike",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260807T003053Z-210/005_Thelastemailmike.png"
-      },
-      {
-        "name": "Laigood",
-        "url": "https://rentmasseur.com/Laigood",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260807T003053Z-210/006_Laigood.png"
-      },
-      {
-        "name": "Jmichael",
-        "url": "https://rentmasseur.com/jmichael",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260807T003053Z-210/007_Jmichael.png"
-      },
-      {
-        "name": "IkkerHands",
-        "url": "https://rentmasseur.com/IkkerHands",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260807T003053Z-210/008_IkkerHands.png"
-      },
-      {
-        "name": "Nicholassss",
-        "url": "https://rentmasseur.com/Nicholassss",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260807T003053Z-210/009_Nicholassss.png"
-      },
-      {
-        "name": "Wowrenatoo",
-        "url": "https://rentmasseur.com/wowrenatoo",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260807T003053Z-210/010_Wowrenatoo.png"
-      }
-    ]
-  },
-  {
     "id": "20260807T033832Z-392",
     "started_at": "2026-08-07T03:38:32+00:00",
     "finished_at": "2026-08-07T03:39:42+00:00",
@@ -39022,6 +38921,107 @@
         "visited": true,
         "error": "",
         "screenshot": "recordings/screenshots/20260823T184050Z-564/010_Gtownhairguy.png"
+      }
+    ]
+  },
+  {
+    "id": "20260823T191126Z-219",
+    "started_at": "2026-08-23T19:11:26+00:00",
+    "finished_at": "2026-08-23T19:12:48+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "ChristopherMI",
+        "ScotNYC",
+        "CJamesss",
+        "Mnmike",
+        "Anthonee",
+        "ProJimmy",
+        "Tbobos",
+        "Daveesantee",
+        "Tarokalgou",
+        "Gtownhairguy"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260823T191126Z-219.webm",
+    "visited": [
+      {
+        "name": "ChristopherMI",
+        "url": "https://rentmasseur.com/ChristopherMI",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260823T191126Z-219/001_ChristopherMI.png"
+      },
+      {
+        "name": "ScotNYC",
+        "url": "https://rentmasseur.com/ScotNYC",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260823T191126Z-219/002_ScotNYC.png"
+      },
+      {
+        "name": "CJamesss",
+        "url": "https://rentmasseur.com/CJamesss",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260823T191126Z-219/003_CJamesss.png"
+      },
+      {
+        "name": "Mnmike",
+        "url": "https://rentmasseur.com/Mnmike",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260823T191126Z-219/004_Mnmike.png"
+      },
+      {
+        "name": "Anthonee",
+        "url": "https://rentmasseur.com/Anthonee",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260823T191126Z-219/005_Anthonee.png"
+      },
+      {
+        "name": "ProJimmy",
+        "url": "https://rentmasseur.com/ProJimmy",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260823T191126Z-219/006_ProJimmy.png"
+      },
+      {
+        "name": "Tbobos",
+        "url": "https://rentmasseur.com/Tbobos",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260823T191126Z-219/007_Tbobos.png"
+      },
+      {
+        "name": "Daveesantee",
+        "url": "https://rentmasseur.com/Daveesantee",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260823T191126Z-219/008_Daveesantee.png"
+      },
+      {
+        "name": "Tarokalgou",
+        "url": "https://rentmasseur.com/tarokalgou",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260823T191126Z-219/009_Tarokalgou.png"
+      },
+      {
+        "name": "Gtownhairguy",
+        "url": "https://rentmasseur.com/Gtownhairguy",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260823T191126Z-219/010_Gtownhairguy.png"
       }
     ]
   }
