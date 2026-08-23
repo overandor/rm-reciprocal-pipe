@@ -1,106 +1,5 @@
 [
   {
-    "id": "20260807T101644Z-251",
-    "started_at": "2026-08-07T10:16:44+00:00",
-    "finished_at": "2026-08-07T10:17:56+00:00",
-    "status": "ok",
-    "error": "",
-    "dry_run": false,
-    "viewers_found": 10,
-    "visited_count": 10,
-    "verified_count": 10,
-    "verification": {
-      "saw_count": 10,
-      "expected_count": 10,
-      "matched": [
-        "Ooufoto",
-        "IkkerHands",
-        "PobRom",
-        "Jsaninetythree",
-        "Hidadenis",
-        "Tauroracing",
-        "JohnJChristopher",
-        "ChuckW",
-        "Makingusquirt",
-        "Thelastemailmike"
-      ],
-      "missing": []
-    },
-    "video": "recordings/20260807T101644Z-251.webm",
-    "visited": [
-      {
-        "name": "Ooufoto",
-        "url": "https://rentmasseur.com/ooufoto",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260807T101644Z-251/001_Ooufoto.png"
-      },
-      {
-        "name": "IkkerHands",
-        "url": "https://rentmasseur.com/IkkerHands",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260807T101644Z-251/002_IkkerHands.png"
-      },
-      {
-        "name": "PobRom",
-        "url": "https://rentmasseur.com/PobRom",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260807T101644Z-251/003_PobRom.png"
-      },
-      {
-        "name": "Jsaninetythree",
-        "url": "https://rentmasseur.com/Jsaninetythree",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260807T101644Z-251/004_Jsaninetythree.png"
-      },
-      {
-        "name": "Hidadenis",
-        "url": "https://rentmasseur.com/hidadenis",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260807T101644Z-251/005_Hidadenis.png"
-      },
-      {
-        "name": "Tauroracing",
-        "url": "https://rentmasseur.com/Tauroracing",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260807T101644Z-251/006_Tauroracing.png"
-      },
-      {
-        "name": "JohnJChristopher",
-        "url": "https://rentmasseur.com/JohnJChristopher",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260807T101644Z-251/007_JohnJChristopher.png"
-      },
-      {
-        "name": "ChuckW",
-        "url": "https://rentmasseur.com/ChuckW",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260807T101644Z-251/008_ChuckW.png"
-      },
-      {
-        "name": "Makingusquirt",
-        "url": "https://rentmasseur.com/makingusquirt",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260807T101644Z-251/009_Makingusquirt.png"
-      },
-      {
-        "name": "Thelastemailmike",
-        "url": "https://rentmasseur.com/thelastemailmike",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260807T101644Z-251/010_Thelastemailmike.png"
-      }
-    ]
-  },
-  {
     "id": "20260807T111310Z-100",
     "started_at": "2026-08-07T11:13:10+00:00",
     "finished_at": "2026-08-07T11:14:24+00:00",
@@ -39024,5 +38923,19 @@
         "screenshot": "recordings/screenshots/20260823T213126Z-208/010_Daveesantee.png"
       }
     ]
+  },
+  {
+    "id": "20260823T215702Z-949",
+    "started_at": "2026-08-23T21:57:02+00:00",
+    "finished_at": "2026-08-23T21:57:22+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260823T215702Z-949.webm",
+    "visited": []
   }
 ]
