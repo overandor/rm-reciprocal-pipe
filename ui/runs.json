@@ -1,106 +1,5 @@
 [
   {
-    "id": "20260804T132454Z-608",
-    "started_at": "2026-08-04T13:24:54+00:00",
-    "finished_at": "2026-08-04T13:26:11+00:00",
-    "status": "ok",
-    "error": "",
-    "dry_run": false,
-    "viewers_found": 10,
-    "visited_count": 10,
-    "verified_count": 10,
-    "verification": {
-      "saw_count": 10,
-      "expected_count": 10,
-      "matched": [
-        "Jeandre",
-        "Nycerik",
-        "Evanwantsmassage",
-        "Captainkock",
-        "Gabrielwalking",
-        "JakeyD",
-        "TallerNM",
-        "Boogiewugie",
-        "Conservativeguy",
-        "Chillshaun"
-      ],
-      "missing": []
-    },
-    "video": "recordings/20260804T132454Z-608.webm",
-    "visited": [
-      {
-        "name": "Jeandre",
-        "url": "https://rentmasseur.com/Jeandre",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260804T132454Z-608/001_Jeandre.png"
-      },
-      {
-        "name": "Nycerik",
-        "url": "https://rentmasseur.com/nycerik",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260804T132454Z-608/002_Nycerik.png"
-      },
-      {
-        "name": "Evanwantsmassage",
-        "url": "https://rentmasseur.com/Evanwantsmassage",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260804T132454Z-608/003_Evanwantsmassage.png"
-      },
-      {
-        "name": "Captainkock",
-        "url": "https://rentmasseur.com/Captainkock",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260804T132454Z-608/004_Captainkock.png"
-      },
-      {
-        "name": "Gabrielwalking",
-        "url": "https://rentmasseur.com/Gabrielwalking",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260804T132454Z-608/005_Gabrielwalking.png"
-      },
-      {
-        "name": "JakeyD",
-        "url": "https://rentmasseur.com/JakeyD",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260804T132454Z-608/006_JakeyD.png"
-      },
-      {
-        "name": "TallerNM",
-        "url": "https://rentmasseur.com/TallerNM",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260804T132454Z-608/007_TallerNM.png"
-      },
-      {
-        "name": "Boogiewugie",
-        "url": "https://rentmasseur.com/Boogiewugie",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260804T132454Z-608/008_Boogiewugie.png"
-      },
-      {
-        "name": "Conservativeguy",
-        "url": "https://rentmasseur.com/conservativeguy",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260804T132454Z-608/009_Conservativeguy.png"
-      },
-      {
-        "name": "Chillshaun",
-        "url": "https://rentmasseur.com/Chillshaun",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260804T132454Z-608/010_Chillshaun.png"
-      }
-    ]
-  },
-  {
     "id": "20260804T155849Z-694",
     "started_at": "2026-08-04T15:58:49+00:00",
     "finished_at": "2026-08-04T16:00:03+00:00",
@@ -39285,5 +39184,19 @@
         "screenshot": "recordings/screenshots/20260823T040332Z-898/010_Hazyarchive.png"
       }
     ]
+  },
+  {
+    "id": "20260823T045117Z-801",
+    "started_at": "2026-08-23T04:51:17+00:00",
+    "finished_at": "2026-08-23T04:51:37+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260823T045117Z-801.webm",
+    "visited": []
   }
 ]
