@@ -1,106 +1,5 @@
 [
   {
-    "id": "20260808T105647Z-790",
-    "started_at": "2026-08-08T10:56:47+00:00",
-    "finished_at": "2026-08-08T10:58:02+00:00",
-    "status": "ok",
-    "error": "",
-    "dry_run": false,
-    "viewers_found": 10,
-    "visited_count": 10,
-    "verified_count": 10,
-    "verification": {
-      "saw_count": 10,
-      "expected_count": 10,
-      "matched": [
-        "Necrosage",
-        "Operakev",
-        "Tomozade",
-        "Ligaymale",
-        "Queermatt",
-        "Puckey",
-        "Scottbtx",
-        "ShortandSweet",
-        "Stevelar",
-        "Rozata"
-      ],
-      "missing": []
-    },
-    "video": "recordings/20260808T105647Z-790.webm",
-    "visited": [
-      {
-        "name": "Necrosage",
-        "url": "https://rentmasseur.com/Necrosage",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260808T105647Z-790/001_Necrosage.png"
-      },
-      {
-        "name": "Operakev",
-        "url": "https://rentmasseur.com/Operakev",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260808T105647Z-790/002_Operakev.png"
-      },
-      {
-        "name": "Tomozade",
-        "url": "https://rentmasseur.com/tomozade",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260808T105647Z-790/003_Tomozade.png"
-      },
-      {
-        "name": "Ligaymale",
-        "url": "https://rentmasseur.com/Ligaymale",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260808T105647Z-790/004_Ligaymale.png"
-      },
-      {
-        "name": "Queermatt",
-        "url": "https://rentmasseur.com/Queermatt",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260808T105647Z-790/005_Queermatt.png"
-      },
-      {
-        "name": "Puckey",
-        "url": "https://rentmasseur.com/Puckey",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260808T105647Z-790/006_Puckey.png"
-      },
-      {
-        "name": "Scottbtx",
-        "url": "https://rentmasseur.com/Scottbtx",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260808T105647Z-790/007_Scottbtx.png"
-      },
-      {
-        "name": "ShortandSweet",
-        "url": "https://rentmasseur.com/ShortandSweet",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260808T105647Z-790/008_ShortandSweet.png"
-      },
-      {
-        "name": "Stevelar",
-        "url": "https://rentmasseur.com/Stevelar",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260808T105647Z-790/009_Stevelar.png"
-      },
-      {
-        "name": "Rozata",
-        "url": "https://rentmasseur.com/rozata",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260808T105647Z-790/010_Rozata.png"
-      }
-    ]
-  },
-  {
     "id": "20260808T113633Z-354",
     "started_at": "2026-08-08T11:36:33+00:00",
     "finished_at": "2026-08-08T11:37:54+00:00",
@@ -39198,5 +39097,19 @@
         "screenshot": "recordings/screenshots/20260824T180444Z-492/010_EricMasters.png"
       }
     ]
+  },
+  {
+    "id": "20260824T185824Z-737",
+    "started_at": "2026-08-24T18:58:24+00:00",
+    "finished_at": "2026-08-24T18:58:44+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260824T185824Z-737.webm",
+    "visited": []
   }
 ]
