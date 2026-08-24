@@ -1,19 +1,5 @@
 [
   {
-    "id": "20260808T050641Z-779",
-    "started_at": "2026-08-08T05:06:41+00:00",
-    "finished_at": "2026-08-08T05:07:01+00:00",
-    "status": "login_failed",
-    "error": "could not log in",
-    "dry_run": false,
-    "viewers_found": 0,
-    "visited_count": 0,
-    "verified_count": 0,
-    "verification": null,
-    "video": "recordings/20260808T050641Z-779.webm",
-    "visited": []
-  },
-  {
     "id": "20260808T055607Z-117",
     "started_at": "2026-08-08T05:56:07+00:00",
     "finished_at": "2026-08-08T05:57:28+00:00",
@@ -39022,6 +39008,107 @@
         "visited": true,
         "error": "",
         "screenshot": "recordings/screenshots/20260824T121735Z-826/010_RobertLIC.png"
+      }
+    ]
+  },
+  {
+    "id": "20260824T132655Z-306",
+    "started_at": "2026-08-24T13:26:55+00:00",
+    "finished_at": "2026-08-24T13:28:17+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "Rochenri",
+        "Hrdphila",
+        "DelrayDadforFun",
+        "Rwljcb",
+        "Mjkhigam",
+        "EricMasters",
+        "Jackromeo",
+        "Allennyc",
+        "Mikol",
+        "RobertLIC"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260824T132655Z-306.webm",
+    "visited": [
+      {
+        "name": "Rochenri",
+        "url": "https://rentmasseur.com/Rochenri",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260824T132655Z-306/001_Rochenri.png"
+      },
+      {
+        "name": "Hrdphila",
+        "url": "https://rentmasseur.com/Hrdphila",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260824T132655Z-306/002_Hrdphila.png"
+      },
+      {
+        "name": "DelrayDadforFun",
+        "url": "https://rentmasseur.com/DelrayDadforFun",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260824T132655Z-306/003_DelrayDadforFun.png"
+      },
+      {
+        "name": "Rwljcb",
+        "url": "https://rentmasseur.com/Rwljcb",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260824T132655Z-306/004_Rwljcb.png"
+      },
+      {
+        "name": "Mjkhigam",
+        "url": "https://rentmasseur.com/Mjkhigam",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260824T132655Z-306/005_Mjkhigam.png"
+      },
+      {
+        "name": "EricMasters",
+        "url": "https://rentmasseur.com/EricMasters",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260824T132655Z-306/006_EricMasters.png"
+      },
+      {
+        "name": "Jackromeo",
+        "url": "https://rentmasseur.com/Jackromeo",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260824T132655Z-306/007_Jackromeo.png"
+      },
+      {
+        "name": "Allennyc",
+        "url": "https://rentmasseur.com/Allennyc",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260824T132655Z-306/008_Allennyc.png"
+      },
+      {
+        "name": "Mikol",
+        "url": "https://rentmasseur.com/Mikol",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260824T132655Z-306/009_Mikol.png"
+      },
+      {
+        "name": "RobertLIC",
+        "url": "https://rentmasseur.com/RobertLIC",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260824T132655Z-306/010_RobertLIC.png"
       }
     ]
   }
