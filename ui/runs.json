@@ -1,106 +1,5 @@
 [
   {
-    "id": "20260807T182952Z-804",
-    "started_at": "2026-08-07T18:29:52+00:00",
-    "finished_at": "2026-08-07T18:31:12+00:00",
-    "status": "ok",
-    "error": "",
-    "dry_run": false,
-    "viewers_found": 10,
-    "visited_count": 10,
-    "verified_count": 10,
-    "verification": {
-      "saw_count": 10,
-      "expected_count": 10,
-      "matched": [
-        "Coaches",
-        "LondonmusicianUS",
-        "Jaydennis",
-        "Joshotay",
-        "Gazzamo",
-        "Natmrent",
-        "Oldernwisertoo",
-        "Ooufoto",
-        "IkkerHands",
-        "PobRom"
-      ],
-      "missing": []
-    },
-    "video": "recordings/20260807T182952Z-804.webm",
-    "visited": [
-      {
-        "name": "Coaches",
-        "url": "https://rentmasseur.com/Coaches",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260807T182952Z-804/001_Coaches.png"
-      },
-      {
-        "name": "LondonmusicianUS",
-        "url": "https://rentmasseur.com/londonmusicianUS",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260807T182952Z-804/002_LondonmusicianUS.png"
-      },
-      {
-        "name": "Jaydennis",
-        "url": "https://rentmasseur.com/Jaydennis",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260807T182952Z-804/003_Jaydennis.png"
-      },
-      {
-        "name": "Joshotay",
-        "url": "https://rentmasseur.com/Joshotay",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260807T182952Z-804/004_Joshotay.png"
-      },
-      {
-        "name": "Gazzamo",
-        "url": "https://rentmasseur.com/gazzamo",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260807T182952Z-804/005_Gazzamo.png"
-      },
-      {
-        "name": "Natmrent",
-        "url": "https://rentmasseur.com/Natmrent",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260807T182952Z-804/006_Natmrent.png"
-      },
-      {
-        "name": "Oldernwisertoo",
-        "url": "https://rentmasseur.com/oldernwisertoo",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260807T182952Z-804/007_Oldernwisertoo.png"
-      },
-      {
-        "name": "Ooufoto",
-        "url": "https://rentmasseur.com/ooufoto",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260807T182952Z-804/008_Ooufoto.png"
-      },
-      {
-        "name": "IkkerHands",
-        "url": "https://rentmasseur.com/IkkerHands",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260807T182952Z-804/009_IkkerHands.png"
-      },
-      {
-        "name": "PobRom",
-        "url": "https://rentmasseur.com/PobRom",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260807T182952Z-804/010_PobRom.png"
-      }
-    ]
-  },
-  {
     "id": "20260807T193625Z-368",
     "started_at": "2026-08-07T19:36:25+00:00",
     "finished_at": "2026-08-07T19:37:37+00:00",
@@ -38763,5 +38662,106 @@
     "verification": null,
     "video": "recordings/20260824T035955Z-211.webm",
     "visited": []
+  },
+  {
+    "id": "20260824T045659Z-957",
+    "started_at": "2026-08-24T04:56:59+00:00",
+    "finished_at": "2026-08-24T04:58:22+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "Jackromeo",
+        "Allennyc",
+        "Mikol",
+        "RobertLIC",
+        "Yonkguy",
+        "Carabin",
+        "Timeformassage",
+        "WillNYCUK",
+        "Uonnaoi",
+        "Ericrom"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260824T045659Z-957.webm",
+    "visited": [
+      {
+        "name": "Jackromeo",
+        "url": "https://rentmasseur.com/Jackromeo",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260824T045659Z-957/001_Jackromeo.png"
+      },
+      {
+        "name": "Allennyc",
+        "url": "https://rentmasseur.com/Allennyc",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260824T045659Z-957/002_Allennyc.png"
+      },
+      {
+        "name": "Mikol",
+        "url": "https://rentmasseur.com/Mikol",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260824T045659Z-957/003_Mikol.png"
+      },
+      {
+        "name": "RobertLIC",
+        "url": "https://rentmasseur.com/RobertLIC",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260824T045659Z-957/004_RobertLIC.png"
+      },
+      {
+        "name": "Yonkguy",
+        "url": "https://rentmasseur.com/Yonkguy",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260824T045659Z-957/005_Yonkguy.png"
+      },
+      {
+        "name": "Carabin",
+        "url": "https://rentmasseur.com/carabin",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260824T045659Z-957/006_Carabin.png"
+      },
+      {
+        "name": "Timeformassage",
+        "url": "https://rentmasseur.com/Timeformassage",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260824T045659Z-957/007_Timeformassage.png"
+      },
+      {
+        "name": "WillNYCUK",
+        "url": "https://rentmasseur.com/WillNYCUK",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260824T045659Z-957/008_WillNYCUK.png"
+      },
+      {
+        "name": "Uonnaoi",
+        "url": "https://rentmasseur.com/Uonnaoi",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260824T045659Z-957/009_Uonnaoi.png"
+      },
+      {
+        "name": "Ericrom",
+        "url": "https://rentmasseur.com/ericrom",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260824T045659Z-957/010_Ericrom.png"
+      }
+    ]
   }
 ]
