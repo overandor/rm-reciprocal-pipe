@@ -1,19 +1,5 @@
 [
   {
-    "id": "20260809T025153Z-341",
-    "started_at": "2026-08-09T02:51:53+00:00",
-    "finished_at": "2026-08-09T02:52:13+00:00",
-    "status": "login_failed",
-    "error": "could not log in",
-    "dry_run": false,
-    "viewers_found": 0,
-    "visited_count": 0,
-    "verified_count": 0,
-    "verification": null,
-    "video": "recordings/20260809T025153Z-341.webm",
-    "visited": []
-  },
-  {
     "id": "20260809T042350Z-458",
     "started_at": "2026-08-09T04:23:50+00:00",
     "finished_at": "2026-08-09T04:25:02+00:00",
@@ -39373,5 +39359,107 @@
     "verification": null,
     "video": "recordings/20260825T094250Z-334.webm",
     "visited": []
+  },
+  {
+    "id": "20260825T101654Z-284",
+    "started_at": "2026-08-25T10:16:54+00:00",
+    "finished_at": "2026-08-25T10:18:10+00:00",
+    "status": "verification_failed",
+    "error": "1 visit(s) did not register in 'Who Did I See'",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 9,
+    "verification": {
+      "saw_count": 9,
+      "expected_count": 10,
+      "matched": [
+        "Rsprsp",
+        "Rimbauddream",
+        "Danitz",
+        "Currivan",
+        "Niteboy",
+        "BlueBlue",
+        "Ugarun",
+        "Jackromeo",
+        "Rockyboybrooklyn"
+      ],
+      "missing": [
+        "Johnjuandoe"
+      ]
+    },
+    "video": "recordings/20260825T101654Z-284.webm",
+    "visited": [
+      {
+        "name": "Rsprsp",
+        "url": "https://rentmasseur.com/rsprsp",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260825T101654Z-284/001_Rsprsp.png"
+      },
+      {
+        "name": "Rimbauddream",
+        "url": "https://rentmasseur.com/rimbauddream",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260825T101654Z-284/002_Rimbauddream.png"
+      },
+      {
+        "name": "Danitz",
+        "url": "https://rentmasseur.com/Danitz",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260825T101654Z-284/003_Danitz.png"
+      },
+      {
+        "name": "Currivan",
+        "url": "https://rentmasseur.com/Currivan",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260825T101654Z-284/004_Currivan.png"
+      },
+      {
+        "name": "Niteboy",
+        "url": "https://rentmasseur.com/niteboy",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260825T101654Z-284/005_Niteboy.png"
+      },
+      {
+        "name": "BlueBlue",
+        "url": "https://rentmasseur.com/BlueBlue",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260825T101654Z-284/006_BlueBlue.png"
+      },
+      {
+        "name": "Johnjuandoe",
+        "url": "https://rentmasseur.com/Johnjuandoe",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260825T101654Z-284/007_Johnjuandoe.png"
+      },
+      {
+        "name": "Ugarun",
+        "url": "https://rentmasseur.com/Ugarun",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260825T101654Z-284/008_Ugarun.png"
+      },
+      {
+        "name": "Jackromeo",
+        "url": "https://rentmasseur.com/Jackromeo",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260825T101654Z-284/009_Jackromeo.png"
+      },
+      {
+        "name": "Rockyboybrooklyn",
+        "url": "https://rentmasseur.com/Rockyboybrooklyn",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260825T101654Z-284/010_Rockyboybrooklyn.png"
+      }
+    ]
   }
 ]
