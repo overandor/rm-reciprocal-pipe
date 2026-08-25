@@ -1,106 +1,5 @@
 [
   {
-    "id": "20260808T230508Z-282",
-    "started_at": "2026-08-08T23:05:08+00:00",
-    "finished_at": "2026-08-08T23:06:18+00:00",
-    "status": "ok",
-    "error": "",
-    "dry_run": false,
-    "viewers_found": 10,
-    "visited_count": 10,
-    "verified_count": 10,
-    "verification": {
-      "saw_count": 10,
-      "expected_count": 10,
-      "matched": [
-        "Frankweho",
-        "CocosDaddy",
-        "Huckfinn",
-        "Jiftnn",
-        "Coaches",
-        "AwakenWithDean",
-        "MarcoNapoli",
-        "Pershing",
-        "FlorinGG",
-        "JohnJChristopher"
-      ],
-      "missing": []
-    },
-    "video": "recordings/20260808T230508Z-282.webm",
-    "visited": [
-      {
-        "name": "Frankweho",
-        "url": "https://rentmasseur.com/frankweho",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260808T230508Z-282/001_Frankweho.png"
-      },
-      {
-        "name": "CocosDaddy",
-        "url": "https://rentmasseur.com/CocosDaddy",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260808T230508Z-282/002_CocosDaddy.png"
-      },
-      {
-        "name": "Huckfinn",
-        "url": "https://rentmasseur.com/Huckfinn",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260808T230508Z-282/003_Huckfinn.png"
-      },
-      {
-        "name": "Jiftnn",
-        "url": "https://rentmasseur.com/Jiftnn",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260808T230508Z-282/004_Jiftnn.png"
-      },
-      {
-        "name": "Coaches",
-        "url": "https://rentmasseur.com/Coaches",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260808T230508Z-282/005_Coaches.png"
-      },
-      {
-        "name": "AwakenWithDean",
-        "url": "https://rentmasseur.com/AwakenWithDean",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260808T230508Z-282/006_AwakenWithDean.png"
-      },
-      {
-        "name": "MarcoNapoli",
-        "url": "https://rentmasseur.com/MarcoNapoli",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260808T230508Z-282/007_MarcoNapoli.png"
-      },
-      {
-        "name": "Pershing",
-        "url": "https://rentmasseur.com/Pershing",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260808T230508Z-282/008_Pershing.png"
-      },
-      {
-        "name": "FlorinGG",
-        "url": "https://rentmasseur.com/FlorinGG",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260808T230508Z-282/009_FlorinGG.png"
-      },
-      {
-        "name": "JohnJChristopher",
-        "url": "https://rentmasseur.com/JohnJChristopher",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260808T230508Z-282/010_JohnJChristopher.png"
-      }
-    ]
-  },
-  {
     "id": "20260808T234412Z-304",
     "started_at": "2026-08-08T23:44:12+00:00",
     "finished_at": "2026-08-08T23:45:30+00:00",
@@ -39458,6 +39357,107 @@
         "visited": true,
         "error": "",
         "screenshot": "recordings/screenshots/20260825T070729Z-119/010_Davidz.png"
+      }
+    ]
+  },
+  {
+    "id": "20260825T075819Z-882",
+    "started_at": "2026-08-25T07:58:19+00:00",
+    "finished_at": "2026-08-25T07:59:36+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "Currivan",
+        "Niteboy",
+        "BlueBlue",
+        "Johnjuandoe",
+        "Ugarun",
+        "Jackromeo",
+        "Rockyboybrooklyn",
+        "Rbrezrbrezrbrezz",
+        "Jofong",
+        "Devopriyo"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260825T075819Z-882.webm",
+    "visited": [
+      {
+        "name": "Currivan",
+        "url": "https://rentmasseur.com/Currivan",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260825T075819Z-882/001_Currivan.png"
+      },
+      {
+        "name": "Niteboy",
+        "url": "https://rentmasseur.com/niteboy",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260825T075819Z-882/002_Niteboy.png"
+      },
+      {
+        "name": "BlueBlue",
+        "url": "https://rentmasseur.com/BlueBlue",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260825T075819Z-882/003_BlueBlue.png"
+      },
+      {
+        "name": "Johnjuandoe",
+        "url": "https://rentmasseur.com/Johnjuandoe",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260825T075819Z-882/004_Johnjuandoe.png"
+      },
+      {
+        "name": "Ugarun",
+        "url": "https://rentmasseur.com/Ugarun",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260825T075819Z-882/005_Ugarun.png"
+      },
+      {
+        "name": "Jackromeo",
+        "url": "https://rentmasseur.com/Jackromeo",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260825T075819Z-882/006_Jackromeo.png"
+      },
+      {
+        "name": "Rockyboybrooklyn",
+        "url": "https://rentmasseur.com/Rockyboybrooklyn",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260825T075819Z-882/007_Rockyboybrooklyn.png"
+      },
+      {
+        "name": "Rbrezrbrezrbrezz",
+        "url": "https://rentmasseur.com/rbrezrbrezrbrezz",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260825T075819Z-882/008_Rbrezrbrezrbrezz.png"
+      },
+      {
+        "name": "Jofong",
+        "url": "https://rentmasseur.com/Jofong",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260825T075819Z-882/009_Jofong.png"
+      },
+      {
+        "name": "Devopriyo",
+        "url": "https://rentmasseur.com/Devopriyo",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260825T075819Z-882/010_Devopriyo.png"
       }
     ]
   }
