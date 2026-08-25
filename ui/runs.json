@@ -1,19 +1,5 @@
 [
   {
-    "id": "20260809T145134Z-101",
-    "started_at": "2026-08-09T14:51:34+00:00",
-    "finished_at": "2026-08-09T14:51:54+00:00",
-    "status": "login_failed",
-    "error": "could not log in",
-    "dry_run": false,
-    "viewers_found": 0,
-    "visited_count": 0,
-    "verified_count": 0,
-    "verification": null,
-    "video": "recordings/20260809T145134Z-101.webm",
-    "visited": []
-  },
-  {
     "id": "20260809T153852Z-512",
     "started_at": "2026-08-09T15:38:52+00:00",
     "finished_at": "2026-08-09T15:40:07+00:00",
@@ -39546,6 +39532,107 @@
         "visited": true,
         "error": "",
         "screenshot": "recordings/screenshots/20260825T193759Z-762/010_NYCRJW.png"
+      }
+    ]
+  },
+  {
+    "id": "20260825T200200Z-593",
+    "started_at": "2026-08-25T20:02:00+00:00",
+    "finished_at": "2026-08-25T20:03:21+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "Rockyboybrooklyn",
+        "Pierrejms",
+        "Zorritofeliz",
+        "Anthonee",
+        "Davidbennett",
+        "Valulu",
+        "EthelredtheU",
+        "Alextrumbull",
+        "ChasinWM",
+        "Relaxedscientist"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260825T200200Z-593.webm",
+    "visited": [
+      {
+        "name": "Rockyboybrooklyn",
+        "url": "https://rentmasseur.com/Rockyboybrooklyn",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260825T200200Z-593/001_Rockyboybrooklyn.png"
+      },
+      {
+        "name": "Pierrejms",
+        "url": "https://rentmasseur.com/pierrejms",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260825T200200Z-593/002_Pierrejms.png"
+      },
+      {
+        "name": "Zorritofeliz",
+        "url": "https://rentmasseur.com/Zorritofeliz",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260825T200200Z-593/003_Zorritofeliz.png"
+      },
+      {
+        "name": "Anthonee",
+        "url": "https://rentmasseur.com/Anthonee",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260825T200200Z-593/004_Anthonee.png"
+      },
+      {
+        "name": "Davidbennett",
+        "url": "https://rentmasseur.com/Davidbennett",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260825T200200Z-593/005_Davidbennett.png"
+      },
+      {
+        "name": "Valulu",
+        "url": "https://rentmasseur.com/Valulu",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260825T200200Z-593/006_Valulu.png"
+      },
+      {
+        "name": "EthelredtheU",
+        "url": "https://rentmasseur.com/EthelredtheU",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260825T200200Z-593/007_EthelredtheU.png"
+      },
+      {
+        "name": "Alextrumbull",
+        "url": "https://rentmasseur.com/alextrumbull",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260825T200200Z-593/008_Alextrumbull.png"
+      },
+      {
+        "name": "ChasinWM",
+        "url": "https://rentmasseur.com/ChasinWM",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260825T200200Z-593/009_ChasinWM.png"
+      },
+      {
+        "name": "Relaxedscientist",
+        "url": "https://rentmasseur.com/Relaxedscientist",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260825T200200Z-593/010_Relaxedscientist.png"
       }
     ]
   }
