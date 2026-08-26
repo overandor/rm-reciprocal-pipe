@@ -1,106 +1,5 @@
 [
   {
-    "id": "20260810T041758Z-517",
-    "started_at": "2026-08-10T04:17:58+00:00",
-    "finished_at": "2026-08-10T04:19:10+00:00",
-    "status": "ok",
-    "error": "",
-    "dry_run": false,
-    "viewers_found": 10,
-    "visited_count": 10,
-    "verified_count": 10,
-    "verification": {
-      "saw_count": 10,
-      "expected_count": 10,
-      "matched": [
-        "Kohmasse",
-        "Robertosept",
-        "HeightsBear",
-        "MassageMuscleFan",
-        "Creathguillot",
-        "AstrologyGuy",
-        "InManhattan",
-        "PJBaretta",
-        "Ericerich",
-        "Taylorcao"
-      ],
-      "missing": []
-    },
-    "video": "recordings/20260810T041758Z-517.webm",
-    "visited": [
-      {
-        "name": "Kohmasse",
-        "url": "https://rentmasseur.com/Kohmasse",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260810T041758Z-517/001_Kohmasse.png"
-      },
-      {
-        "name": "Robertosept",
-        "url": "https://rentmasseur.com/Robertosept",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260810T041758Z-517/002_Robertosept.png"
-      },
-      {
-        "name": "HeightsBear",
-        "url": "https://rentmasseur.com/HeightsBear",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260810T041758Z-517/003_HeightsBear.png"
-      },
-      {
-        "name": "MassageMuscleFan",
-        "url": "https://rentmasseur.com/MassageMuscleFan",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260810T041758Z-517/004_MassageMuscleFan.png"
-      },
-      {
-        "name": "Creathguillot",
-        "url": "https://rentmasseur.com/creathguillot",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260810T041758Z-517/005_Creathguillot.png"
-      },
-      {
-        "name": "AstrologyGuy",
-        "url": "https://rentmasseur.com/AstrologyGuy",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260810T041758Z-517/006_AstrologyGuy.png"
-      },
-      {
-        "name": "InManhattan",
-        "url": "https://rentmasseur.com/InManhattan",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260810T041758Z-517/007_InManhattan.png"
-      },
-      {
-        "name": "PJBaretta",
-        "url": "https://rentmasseur.com/PJBaretta",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260810T041758Z-517/008_PJBaretta.png"
-      },
-      {
-        "name": "Ericerich",
-        "url": "https://rentmasseur.com/ericerich",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260810T041758Z-517/009_Ericerich.png"
-      },
-      {
-        "name": "Taylorcao",
-        "url": "https://rentmasseur.com/Taylorcao",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260810T041758Z-517/010_Taylorcao.png"
-      }
-    ]
-  },
-  {
     "id": "20260810T055223Z-978",
     "started_at": "2026-08-10T05:52:23+00:00",
     "finished_at": "2026-08-10T05:53:34+00:00",
@@ -39540,6 +39439,20 @@
     "verified_count": 0,
     "verification": null,
     "video": "recordings/20260826T073149Z-312.webm",
+    "visited": []
+  },
+  {
+    "id": "20260826T082332Z-265",
+    "started_at": "2026-08-26T08:23:32+00:00",
+    "finished_at": "2026-08-26T08:23:51+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260826T082332Z-265.webm",
     "visited": []
   }
 ]
