@@ -1,19 +1,5 @@
 [
   {
-    "id": "20260810T115409Z-639",
-    "started_at": "2026-08-10T11:54:09+00:00",
-    "finished_at": "2026-08-10T11:54:29+00:00",
-    "status": "login_failed",
-    "error": "could not log in",
-    "dry_run": false,
-    "viewers_found": 0,
-    "visited_count": 0,
-    "verified_count": 0,
-    "verification": null,
-    "video": "recordings/20260810T115409Z-639.webm",
-    "visited": []
-  },
-  {
     "id": "20260810T132600Z-286",
     "started_at": "2026-08-10T13:26:00+00:00",
     "finished_at": "2026-08-10T13:26:20+00:00",
@@ -39452,6 +39438,107 @@
         "visited": true,
         "error": "",
         "screenshot": "recordings/screenshots/20260826T113642Z-424/010_Icnorlo.png"
+      }
+    ]
+  },
+  {
+    "id": "20260826T120254Z-217",
+    "started_at": "2026-08-26T12:02:54+00:00",
+    "finished_at": "2026-08-26T12:04:14+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "Atlnow",
+        "LAASDMAN",
+        "Pierrejms",
+        "Deeptissuect",
+        "Danitz",
+        "SeaGuythirtythre",
+        "MikeTwentyOne",
+        "Frostkier",
+        "Urbanlegend",
+        "KennethFK"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260826T120254Z-217.webm",
+    "visited": [
+      {
+        "name": "Atlnow",
+        "url": "https://rentmasseur.com/Atlnow",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260826T120254Z-217/001_Atlnow.png"
+      },
+      {
+        "name": "LAASDMAN",
+        "url": "https://rentmasseur.com/LAASDMAN",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260826T120254Z-217/002_LAASDMAN.png"
+      },
+      {
+        "name": "Pierrejms",
+        "url": "https://rentmasseur.com/pierrejms",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260826T120254Z-217/003_Pierrejms.png"
+      },
+      {
+        "name": "Deeptissuect",
+        "url": "https://rentmasseur.com/deeptissuect",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260826T120254Z-217/004_Deeptissuect.png"
+      },
+      {
+        "name": "Danitz",
+        "url": "https://rentmasseur.com/Danitz",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260826T120254Z-217/005_Danitz.png"
+      },
+      {
+        "name": "SeaGuythirtythre",
+        "url": "https://rentmasseur.com/SeaGuythirtythre",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260826T120254Z-217/006_SeaGuythirtythre.png"
+      },
+      {
+        "name": "MikeTwentyOne",
+        "url": "https://rentmasseur.com/MikeTwentyOne",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260826T120254Z-217/007_MikeTwentyOne.png"
+      },
+      {
+        "name": "Frostkier",
+        "url": "https://rentmasseur.com/Frostkier",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260826T120254Z-217/008_Frostkier.png"
+      },
+      {
+        "name": "Urbanlegend",
+        "url": "https://rentmasseur.com/Urbanlegend",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260826T120254Z-217/009_Urbanlegend.png"
+      },
+      {
+        "name": "KennethFK",
+        "url": "https://rentmasseur.com/KennethFK",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260826T120254Z-217/010_KennethFK.png"
       }
     ]
   }
