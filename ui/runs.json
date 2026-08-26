@@ -1,106 +1,5 @@
 [
   {
-    "id": "20260810T143911Z-548",
-    "started_at": "2026-08-10T14:39:11+00:00",
-    "finished_at": "2026-08-10T14:40:22+00:00",
-    "status": "ok",
-    "error": "",
-    "dry_run": false,
-    "viewers_found": 10,
-    "visited_count": 10,
-    "verified_count": 10,
-    "verification": {
-      "saw_count": 10,
-      "expected_count": 10,
-      "matched": [
-        "DaddyJackOff",
-        "Coaches",
-        "Otlelual",
-        "Cheesecakes",
-        "TeddyATX",
-        "Kennedy_gregg",
-        "Robertosept",
-        "Lazzzz",
-        "LeoAperol",
-        "Kohmasse"
-      ],
-      "missing": []
-    },
-    "video": "recordings/20260810T143911Z-548.webm",
-    "visited": [
-      {
-        "name": "DaddyJackOff",
-        "url": "https://rentmasseur.com/DaddyJackOff",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260810T143911Z-548/001_DaddyJackOff.png"
-      },
-      {
-        "name": "Coaches",
-        "url": "https://rentmasseur.com/Coaches",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260810T143911Z-548/002_Coaches.png"
-      },
-      {
-        "name": "Otlelual",
-        "url": "https://rentmasseur.com/Otlelual",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260810T143911Z-548/003_Otlelual.png"
-      },
-      {
-        "name": "Cheesecakes",
-        "url": "https://rentmasseur.com/Cheesecakes",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260810T143911Z-548/004_Cheesecakes.png"
-      },
-      {
-        "name": "TeddyATX",
-        "url": "https://rentmasseur.com/TeddyATX",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260810T143911Z-548/005_TeddyATX.png"
-      },
-      {
-        "name": "Kennedy_gregg",
-        "url": "https://rentmasseur.com/Kennedy_gregg",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260810T143911Z-548/006_Kennedy_gregg.png"
-      },
-      {
-        "name": "Robertosept",
-        "url": "https://rentmasseur.com/Robertosept",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260810T143911Z-548/007_Robertosept.png"
-      },
-      {
-        "name": "Lazzzz",
-        "url": "https://rentmasseur.com/Lazzzz",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260810T143911Z-548/008_Lazzzz.png"
-      },
-      {
-        "name": "LeoAperol",
-        "url": "https://rentmasseur.com/LeoAperol",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260810T143911Z-548/009_LeoAperol.png"
-      },
-      {
-        "name": "Kohmasse",
-        "url": "https://rentmasseur.com/Kohmasse",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260810T143911Z-548/010_Kohmasse.png"
-      }
-    ]
-  },
-  {
     "id": "20260810T153954Z-792",
     "started_at": "2026-08-10T15:39:54+00:00",
     "finished_at": "2026-08-10T15:41:02+00:00",
@@ -39628,5 +39527,19 @@
         "screenshot": "recordings/screenshots/20260826T131508Z-173/010_KennethFK.png"
       }
     ]
+  },
+  {
+    "id": "20260826T140852Z-666",
+    "started_at": "2026-08-26T14:08:52+00:00",
+    "finished_at": "2026-08-26T14:09:12+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260826T140852Z-666.webm",
+    "visited": []
   }
 ]
