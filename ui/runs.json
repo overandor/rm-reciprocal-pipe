@@ -1,19 +1,5 @@
 [
   {
-    "id": "20260810T194119Z-519",
-    "started_at": "2026-08-10T19:41:19+00:00",
-    "finished_at": "2026-08-10T19:41:39+00:00",
-    "status": "login_failed",
-    "error": "could not log in",
-    "dry_run": false,
-    "viewers_found": 0,
-    "visited_count": 0,
-    "verified_count": 0,
-    "verification": null,
-    "video": "recordings/20260810T194119Z-519.webm",
-    "visited": []
-  },
-  {
     "id": "20260810T202710Z-191",
     "started_at": "2026-08-10T20:27:10+00:00",
     "finished_at": "2026-08-10T20:28:26+00:00",
@@ -39626,6 +39612,107 @@
         "visited": true,
         "error": "",
         "screenshot": "recordings/screenshots/20260826T222038Z-855/010_SeaGuythirtythre.png"
+      }
+    ]
+  },
+  {
+    "id": "20260827T033024Z-499",
+    "started_at": "2026-08-27T03:30:24+00:00",
+    "finished_at": "2026-08-27T03:31:46+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "GAwootv",
+        "Deeptissuect",
+        "Dilferest",
+        "Anthonee",
+        "Danitz",
+        "Davidisakov",
+        "Smwdurham",
+        "MassageloverNYC",
+        "Atlnow",
+        "LAASDMAN"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260827T033024Z-499.webm",
+    "visited": [
+      {
+        "name": "GAwootv",
+        "url": "https://rentmasseur.com/GAwootv",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260827T033024Z-499/001_GAwootv.png"
+      },
+      {
+        "name": "Deeptissuect",
+        "url": "https://rentmasseur.com/deeptissuect",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260827T033024Z-499/002_Deeptissuect.png"
+      },
+      {
+        "name": "Dilferest",
+        "url": "https://rentmasseur.com/Dilferest",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260827T033024Z-499/003_Dilferest.png"
+      },
+      {
+        "name": "Anthonee",
+        "url": "https://rentmasseur.com/Anthonee",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260827T033024Z-499/004_Anthonee.png"
+      },
+      {
+        "name": "Danitz",
+        "url": "https://rentmasseur.com/Danitz",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260827T033024Z-499/005_Danitz.png"
+      },
+      {
+        "name": "Davidisakov",
+        "url": "https://rentmasseur.com/davidisakov",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260827T033024Z-499/006_Davidisakov.png"
+      },
+      {
+        "name": "Smwdurham",
+        "url": "https://rentmasseur.com/smwdurham",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260827T033024Z-499/007_Smwdurham.png"
+      },
+      {
+        "name": "MassageloverNYC",
+        "url": "https://rentmasseur.com/MassageloverNYC",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260827T033024Z-499/008_MassageloverNYC.png"
+      },
+      {
+        "name": "Atlnow",
+        "url": "https://rentmasseur.com/Atlnow",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260827T033024Z-499/009_Atlnow.png"
+      },
+      {
+        "name": "LAASDMAN",
+        "url": "https://rentmasseur.com/LAASDMAN",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260827T033024Z-499/010_LAASDMAN.png"
       }
     ]
   }
