@@ -1,106 +1,5 @@
 [
   {
-    "id": "20260810T212222Z-754",
-    "started_at": "2026-08-10T21:22:22+00:00",
-    "finished_at": "2026-08-10T21:23:31+00:00",
-    "status": "ok",
-    "error": "",
-    "dry_run": false,
-    "viewers_found": 10,
-    "visited_count": 10,
-    "verified_count": 10,
-    "verification": {
-      "saw_count": 10,
-      "expected_count": 10,
-      "matched": [
-        "Jjjjjmailinator",
-        "Benlong",
-        "Montoewellmax",
-        "Bicoast",
-        "Nakedrunner",
-        "TeddyATX",
-        "JARDINBH",
-        "DaddyJackOff",
-        "Coaches",
-        "Otlelual"
-      ],
-      "missing": []
-    },
-    "video": "recordings/20260810T212222Z-754.webm",
-    "visited": [
-      {
-        "name": "Jjjjjmailinator",
-        "url": "https://rentmasseur.com/jjjjjmailinator",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260810T212222Z-754/001_Jjjjjmailinator.png"
-      },
-      {
-        "name": "Benlong",
-        "url": "https://rentmasseur.com/Benlong",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260810T212222Z-754/002_Benlong.png"
-      },
-      {
-        "name": "Montoewellmax",
-        "url": "https://rentmasseur.com/montoewellmax",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260810T212222Z-754/003_Montoewellmax.png"
-      },
-      {
-        "name": "Bicoast",
-        "url": "https://rentmasseur.com/bicoast",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260810T212222Z-754/004_Bicoast.png"
-      },
-      {
-        "name": "Nakedrunner",
-        "url": "https://rentmasseur.com/Nakedrunner",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260810T212222Z-754/005_Nakedrunner.png"
-      },
-      {
-        "name": "TeddyATX",
-        "url": "https://rentmasseur.com/TeddyATX",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260810T212222Z-754/006_TeddyATX.png"
-      },
-      {
-        "name": "JARDINBH",
-        "url": "https://rentmasseur.com/JARDINBH",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260810T212222Z-754/007_JARDINBH.png"
-      },
-      {
-        "name": "DaddyJackOff",
-        "url": "https://rentmasseur.com/DaddyJackOff",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260810T212222Z-754/008_DaddyJackOff.png"
-      },
-      {
-        "name": "Coaches",
-        "url": "https://rentmasseur.com/Coaches",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260810T212222Z-754/009_Coaches.png"
-      },
-      {
-        "name": "Otlelual",
-        "url": "https://rentmasseur.com/Otlelual",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260810T212222Z-754/010_Otlelual.png"
-      }
-    ]
-  },
-  {
     "id": "20260810T220932Z-367",
     "started_at": "2026-08-10T22:09:32+00:00",
     "finished_at": "2026-08-10T22:09:52+00:00",
@@ -39715,5 +39614,19 @@
         "screenshot": "recordings/screenshots/20260827T143634Z-577/010_MassageloverNYC.png"
       }
     ]
+  },
+  {
+    "id": "20260828T000001Z-693",
+    "started_at": "2026-08-28T00:00:01+00:00",
+    "finished_at": "2026-08-28T00:00:21+00:00",
+    "status": "login_failed",
+    "error": "could not log in",
+    "dry_run": false,
+    "viewers_found": 0,
+    "visited_count": 0,
+    "verified_count": 0,
+    "verification": null,
+    "video": "recordings/20260828T000001Z-693.webm",
+    "visited": []
   }
 ]
