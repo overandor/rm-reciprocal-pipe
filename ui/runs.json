@@ -1,19 +1,5 @@
 [
   {
-    "id": "20260810T225742Z-786",
-    "started_at": "2026-08-10T22:57:42+00:00",
-    "finished_at": "2026-08-10T22:58:02+00:00",
-    "status": "login_failed",
-    "error": "could not log in",
-    "dry_run": false,
-    "viewers_found": 0,
-    "visited_count": 0,
-    "verified_count": 0,
-    "verification": null,
-    "video": "recordings/20260810T225742Z-786.webm",
-    "visited": []
-  },
-  {
     "id": "20260810T234549Z-230",
     "started_at": "2026-08-10T23:45:49+00:00",
     "finished_at": "2026-08-10T23:47:05+00:00",
@@ -39628,5 +39614,106 @@
     "verification": null,
     "video": "recordings/20260828T111618Z-956.webm",
     "visited": []
+  },
+  {
+    "id": "20260828T212745Z-591",
+    "started_at": "2026-08-28T21:27:45+00:00",
+    "finished_at": "2026-08-28T21:29:04+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "PatrickJakeway",
+        "LatinoPapiNyc",
+        "JLNYCC",
+        "Drakemakes",
+        "Kohmasse",
+        "Federiico",
+        "Ontheroadagain",
+        "CRSLCY",
+        "Rockyd",
+        "Pedromontrelax"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260828T212745Z-591.webm",
+    "visited": [
+      {
+        "name": "PatrickJakeway",
+        "url": "https://rentmasseur.com/PatrickJakeway",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260828T212745Z-591/001_PatrickJakeway.png"
+      },
+      {
+        "name": "LatinoPapiNyc",
+        "url": "https://rentmasseur.com/LatinoPapiNyc",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260828T212745Z-591/002_LatinoPapiNyc.png"
+      },
+      {
+        "name": "JLNYCC",
+        "url": "https://rentmasseur.com/JLNYCC",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260828T212745Z-591/003_JLNYCC.png"
+      },
+      {
+        "name": "Drakemakes",
+        "url": "https://rentmasseur.com/Drakemakes",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260828T212745Z-591/004_Drakemakes.png"
+      },
+      {
+        "name": "Kohmasse",
+        "url": "https://rentmasseur.com/Kohmasse",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260828T212745Z-591/005_Kohmasse.png"
+      },
+      {
+        "name": "Federiico",
+        "url": "https://rentmasseur.com/Federiico",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260828T212745Z-591/006_Federiico.png"
+      },
+      {
+        "name": "Ontheroadagain",
+        "url": "https://rentmasseur.com/Ontheroadagain",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260828T212745Z-591/007_Ontheroadagain.png"
+      },
+      {
+        "name": "CRSLCY",
+        "url": "https://rentmasseur.com/CRSLCY",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260828T212745Z-591/008_CRSLCY.png"
+      },
+      {
+        "name": "Rockyd",
+        "url": "https://rentmasseur.com/Rockyd",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260828T212745Z-591/009_Rockyd.png"
+      },
+      {
+        "name": "Pedromontrelax",
+        "url": "https://rentmasseur.com/Pedromontrelax",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260828T212745Z-591/010_Pedromontrelax.png"
+      }
+    ]
   }
 ]
