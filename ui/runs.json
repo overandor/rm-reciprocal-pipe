@@ -1,19 +1,5 @@
 [
   {
-    "id": "20260811T025347Z-486",
-    "started_at": "2026-08-11T02:53:47+00:00",
-    "finished_at": "2026-08-11T02:54:07+00:00",
-    "status": "login_failed",
-    "error": "could not log in",
-    "dry_run": false,
-    "viewers_found": 0,
-    "visited_count": 0,
-    "verified_count": 0,
-    "verification": null,
-    "video": "recordings/20260811T025347Z-486.webm",
-    "visited": []
-  },
-  {
     "id": "20260811T042623Z-557",
     "started_at": "2026-08-11T04:26:23+00:00",
     "finished_at": "2026-08-11T04:27:37+00:00",
@@ -39713,6 +39699,107 @@
         "visited": true,
         "error": "",
         "screenshot": "recordings/screenshots/20260829T101708Z-642/010_CRSLCY.png"
+      }
+    ]
+  },
+  {
+    "id": "20260829T150816Z-935",
+    "started_at": "2026-08-29T15:08:16+00:00",
+    "finished_at": "2026-08-29T15:09:39+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "Danitz",
+        "NJretired",
+        "Allinthefamily",
+        "ActualCMT",
+        "ARobert",
+        "PatrickJakeway",
+        "LatinoPapiNyc",
+        "JLNYCC",
+        "Drakemakes",
+        "Kohmasse"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260829T150816Z-935.webm",
+    "visited": [
+      {
+        "name": "Danitz",
+        "url": "https://rentmasseur.com/Danitz",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260829T150816Z-935/001_Danitz.png"
+      },
+      {
+        "name": "NJretired",
+        "url": "https://rentmasseur.com/NJretired",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260829T150816Z-935/002_NJretired.png"
+      },
+      {
+        "name": "Allinthefamily",
+        "url": "https://rentmasseur.com/allinthefamily",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260829T150816Z-935/003_Allinthefamily.png"
+      },
+      {
+        "name": "ActualCMT",
+        "url": "https://rentmasseur.com/ActualCMT",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260829T150816Z-935/004_ActualCMT.png"
+      },
+      {
+        "name": "ARobert",
+        "url": "https://rentmasseur.com/aRobert",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260829T150816Z-935/005_ARobert.png"
+      },
+      {
+        "name": "PatrickJakeway",
+        "url": "https://rentmasseur.com/PatrickJakeway",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260829T150816Z-935/006_PatrickJakeway.png"
+      },
+      {
+        "name": "LatinoPapiNyc",
+        "url": "https://rentmasseur.com/LatinoPapiNyc",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260829T150816Z-935/007_LatinoPapiNyc.png"
+      },
+      {
+        "name": "JLNYCC",
+        "url": "https://rentmasseur.com/JLNYCC",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260829T150816Z-935/008_JLNYCC.png"
+      },
+      {
+        "name": "Drakemakes",
+        "url": "https://rentmasseur.com/Drakemakes",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260829T150816Z-935/009_Drakemakes.png"
+      },
+      {
+        "name": "Kohmasse",
+        "url": "https://rentmasseur.com/Kohmasse",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260829T150816Z-935/010_Kohmasse.png"
       }
     ]
   }
