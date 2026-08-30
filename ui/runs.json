@@ -1,19 +1,5 @@
 [
   {
-    "id": "20260811T090820Z-765",
-    "started_at": "2026-08-11T09:08:20+00:00",
-    "finished_at": "2026-08-11T09:08:39+00:00",
-    "status": "login_failed",
-    "error": "could not log in",
-    "dry_run": false,
-    "viewers_found": 0,
-    "visited_count": 0,
-    "verified_count": 0,
-    "verification": null,
-    "video": "recordings/20260811T090820Z-765.webm",
-    "visited": []
-  },
-  {
     "id": "20260811T101114Z-515",
     "started_at": "2026-08-11T10:11:14+00:00",
     "finished_at": "2026-08-11T10:12:24+00:00",
@@ -39713,6 +39699,107 @@
         "visited": true,
         "error": "",
         "screenshot": "recordings/screenshots/20260830T013526Z-983/010_Macltmaclt.png"
+      }
+    ]
+  },
+  {
+    "id": "20260830T072440Z-512",
+    "started_at": "2026-08-30T07:24:40+00:00",
+    "finished_at": "2026-08-30T07:25:58+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "ActualCMT",
+        "DancingWater",
+        "Jeffreyrcoates",
+        "ScoobyM",
+        "Boyboyyy",
+        "JBmusclewest",
+        "Jarvaa",
+        "Anthonee",
+        "HARDLY",
+        "Gayguysb"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260830T072440Z-512.webm",
+    "visited": [
+      {
+        "name": "ActualCMT",
+        "url": "https://rentmasseur.com/ActualCMT",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260830T072440Z-512/001_ActualCMT.png"
+      },
+      {
+        "name": "DancingWater",
+        "url": "https://rentmasseur.com/DancingWater",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260830T072440Z-512/002_DancingWater.png"
+      },
+      {
+        "name": "Jeffreyrcoates",
+        "url": "https://rentmasseur.com/jeffreyrcoates",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260830T072440Z-512/003_Jeffreyrcoates.png"
+      },
+      {
+        "name": "ScoobyM",
+        "url": "https://rentmasseur.com/ScoobyM",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260830T072440Z-512/004_ScoobyM.png"
+      },
+      {
+        "name": "Boyboyyy",
+        "url": "https://rentmasseur.com/Boyboyyy",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260830T072440Z-512/005_Boyboyyy.png"
+      },
+      {
+        "name": "JBmusclewest",
+        "url": "https://rentmasseur.com/JBmusclewest",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260830T072440Z-512/006_JBmusclewest.png"
+      },
+      {
+        "name": "Jarvaa",
+        "url": "https://rentmasseur.com/jarvaa",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260830T072440Z-512/007_Jarvaa.png"
+      },
+      {
+        "name": "Anthonee",
+        "url": "https://rentmasseur.com/Anthonee",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260830T072440Z-512/008_Anthonee.png"
+      },
+      {
+        "name": "HARDLY",
+        "url": "https://rentmasseur.com/HARDLY",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260830T072440Z-512/009_HARDLY.png"
+      },
+      {
+        "name": "Gayguysb",
+        "url": "https://rentmasseur.com/gayguysb",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260830T072440Z-512/010_Gayguysb.png"
       }
     ]
   }
