@@ -1,106 +1,5 @@
 [
   {
-    "id": "20260811T164134Z-863",
-    "started_at": "2026-08-11T16:41:34+00:00",
-    "finished_at": "2026-08-11T16:42:52+00:00",
-    "status": "ok",
-    "error": "",
-    "dry_run": false,
-    "viewers_found": 10,
-    "visited_count": 10,
-    "verified_count": 10,
-    "verification": {
-      "saw_count": 10,
-      "expected_count": 10,
-      "matched": [
-        "Gtownhairguy",
-        "AquaticGuy",
-        "AlexUWS",
-        "FriendHenry",
-        "TeddyATX",
-        "Llkkbbc",
-        "Crosmm",
-        "Biobaselex",
-        "Kohmasse",
-        "Scottinohio"
-      ],
-      "missing": []
-    },
-    "video": "recordings/20260811T164134Z-863.webm",
-    "visited": [
-      {
-        "name": "Gtownhairguy",
-        "url": "https://rentmasseur.com/Gtownhairguy",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260811T164134Z-863/001_Gtownhairguy.png"
-      },
-      {
-        "name": "AquaticGuy",
-        "url": "https://rentmasseur.com/AquaticGuy",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260811T164134Z-863/002_AquaticGuy.png"
-      },
-      {
-        "name": "AlexUWS",
-        "url": "https://rentmasseur.com/AlexUWS",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260811T164134Z-863/003_AlexUWS.png"
-      },
-      {
-        "name": "FriendHenry",
-        "url": "https://rentmasseur.com/FriendHenry",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260811T164134Z-863/004_FriendHenry.png"
-      },
-      {
-        "name": "TeddyATX",
-        "url": "https://rentmasseur.com/TeddyATX",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260811T164134Z-863/005_TeddyATX.png"
-      },
-      {
-        "name": "Llkkbbc",
-        "url": "https://rentmasseur.com/llkkbbc",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260811T164134Z-863/006_Llkkbbc.png"
-      },
-      {
-        "name": "Crosmm",
-        "url": "https://rentmasseur.com/Crosmm",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260811T164134Z-863/007_Crosmm.png"
-      },
-      {
-        "name": "Biobaselex",
-        "url": "https://rentmasseur.com/biobaselex",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260811T164134Z-863/008_Biobaselex.png"
-      },
-      {
-        "name": "Kohmasse",
-        "url": "https://rentmasseur.com/Kohmasse",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260811T164134Z-863/009_Kohmasse.png"
-      },
-      {
-        "name": "Scottinohio",
-        "url": "https://rentmasseur.com/Scottinohio",
-        "visited": true,
-        "error": "",
-        "screenshot": "recordings/screenshots/20260811T164134Z-863/010_Scottinohio.png"
-      }
-    ]
-  },
-  {
     "id": "20260811T174506Z-582",
     "started_at": "2026-08-11T17:45:06+00:00",
     "finished_at": "2026-08-11T17:46:21+00:00",
@@ -39713,6 +39612,107 @@
         "visited": true,
         "error": "",
         "screenshot": "recordings/screenshots/20260831T065537Z-675/010_EGMG.png"
+      }
+    ]
+  },
+  {
+    "id": "20260831T150031Z-608",
+    "started_at": "2026-08-31T15:00:31+00:00",
+    "finished_at": "2026-08-31T15:01:57+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "NJretired",
+        "MitchinSC",
+        "LifeTheUniverseS",
+        "Junkinsf",
+        "Ganytx",
+        "GrammarLad",
+        "Fabbakerboi",
+        "BenClib",
+        "Sginju",
+        "Seawest"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260831T150031Z-608.webm",
+    "visited": [
+      {
+        "name": "NJretired",
+        "url": "https://rentmasseur.com/NJretired",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260831T150031Z-608/001_NJretired.png"
+      },
+      {
+        "name": "MitchinSC",
+        "url": "https://rentmasseur.com/MitchinSC",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260831T150031Z-608/002_MitchinSC.png"
+      },
+      {
+        "name": "LifeTheUniverseS",
+        "url": "https://rentmasseur.com/LifeTheUniverseS",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260831T150031Z-608/003_LifeTheUniverseS.png"
+      },
+      {
+        "name": "Junkinsf",
+        "url": "https://rentmasseur.com/junkinsf",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260831T150031Z-608/004_Junkinsf.png"
+      },
+      {
+        "name": "Ganytx",
+        "url": "https://rentmasseur.com/Ganytx",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260831T150031Z-608/005_Ganytx.png"
+      },
+      {
+        "name": "GrammarLad",
+        "url": "https://rentmasseur.com/GrammarLad",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260831T150031Z-608/006_GrammarLad.png"
+      },
+      {
+        "name": "Fabbakerboi",
+        "url": "https://rentmasseur.com/fabbakerboi",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260831T150031Z-608/007_Fabbakerboi.png"
+      },
+      {
+        "name": "BenClib",
+        "url": "https://rentmasseur.com/BenClib",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260831T150031Z-608/008_BenClib.png"
+      },
+      {
+        "name": "Sginju",
+        "url": "https://rentmasseur.com/sginju",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260831T150031Z-608/009_Sginju.png"
+      },
+      {
+        "name": "Seawest",
+        "url": "https://rentmasseur.com/seawest",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260831T150031Z-608/010_Seawest.png"
       }
     ]
   }
