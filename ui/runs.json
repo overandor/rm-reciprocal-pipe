@@ -1,19 +1,5 @@
 [
   {
-    "id": "20260812T042715Z-777",
-    "started_at": "2026-08-12T04:27:15+00:00",
-    "finished_at": "2026-08-12T04:27:35+00:00",
-    "status": "login_failed",
-    "error": "could not log in",
-    "dry_run": false,
-    "viewers_found": 0,
-    "visited_count": 0,
-    "verified_count": 0,
-    "verification": null,
-    "video": "recordings/20260812T042715Z-777.webm",
-    "visited": []
-  },
-  {
     "id": "20260812T060115Z-180",
     "started_at": "2026-08-12T06:01:15+00:00",
     "finished_at": "2026-08-12T06:02:30+00:00",
@@ -39626,6 +39612,107 @@
         "visited": true,
         "error": "",
         "screenshot": "recordings/screenshots/20260901T232342Z-374/010_HFrank.png"
+      }
+    ]
+  },
+  {
+    "id": "20260902T011758Z-687",
+    "started_at": "2026-09-02T01:17:58+00:00",
+    "finished_at": "2026-09-02T01:19:12+00:00",
+    "status": "ok",
+    "error": "",
+    "dry_run": false,
+    "viewers_found": 10,
+    "visited_count": 10,
+    "verified_count": 10,
+    "verification": {
+      "saw_count": 10,
+      "expected_count": 10,
+      "matched": [
+        "Dabpsla",
+        "Solussto",
+        "Svendaring",
+        "Wiregrass",
+        "NJretired",
+        "Eastonli",
+        "Jakestick",
+        "Manlyman",
+        "Pierrejms",
+        "Mraldj"
+      ],
+      "missing": []
+    },
+    "video": "recordings/20260902T011758Z-687.webm",
+    "visited": [
+      {
+        "name": "Dabpsla",
+        "url": "https://rentmasseur.com/dabpsla",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260902T011758Z-687/001_Dabpsla.png"
+      },
+      {
+        "name": "Solussto",
+        "url": "https://rentmasseur.com/Solussto",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260902T011758Z-687/002_Solussto.png"
+      },
+      {
+        "name": "Svendaring",
+        "url": "https://rentmasseur.com/svendaring",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260902T011758Z-687/003_Svendaring.png"
+      },
+      {
+        "name": "Wiregrass",
+        "url": "https://rentmasseur.com/Wiregrass",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260902T011758Z-687/004_Wiregrass.png"
+      },
+      {
+        "name": "NJretired",
+        "url": "https://rentmasseur.com/NJretired",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260902T011758Z-687/005_NJretired.png"
+      },
+      {
+        "name": "Eastonli",
+        "url": "https://rentmasseur.com/eastonli",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260902T011758Z-687/006_Eastonli.png"
+      },
+      {
+        "name": "Jakestick",
+        "url": "https://rentmasseur.com/Jakestick",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260902T011758Z-687/007_Jakestick.png"
+      },
+      {
+        "name": "Manlyman",
+        "url": "https://rentmasseur.com/Manlyman",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260902T011758Z-687/008_Manlyman.png"
+      },
+      {
+        "name": "Pierrejms",
+        "url": "https://rentmasseur.com/pierrejms",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260902T011758Z-687/009_Pierrejms.png"
+      },
+      {
+        "name": "Mraldj",
+        "url": "https://rentmasseur.com/mraldj",
+        "visited": true,
+        "error": "",
+        "screenshot": "recordings/screenshots/20260902T011758Z-687/010_Mraldj.png"
       }
     ]
   }
